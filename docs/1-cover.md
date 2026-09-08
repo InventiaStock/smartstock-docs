@@ -10,9 +10,7 @@ Frente a esta problemática surge **InventiaStock**, una startup orientada al de
 
 Como parte de esta propuesta, desarrollamos **SmartStock**, una plataforma web que utiliza sensores de peso conectados a dispositivos IoT para obtener información sobre la cantidad física disponible de determinados productos. El sistema permite comparar estos datos con el stock registrado, detectar diferencias o niveles bajos de inventario y generar alertas para apoyar la reposición de productos.
 
-Además, SmartStock busca mejorar el proceso de reposición al facilitar la coordinación entre los responsables de los establecimientos y sus proveedores. A partir de las alertas generadas por la plataforma, los propietarios y administradores podrán identificar los productos que requieren abastecimiento y comunicar oportunamente dichas necesidades a sus proveedores.
-
-De esta manera, la solución busca contribuir a una gestión de inventarios más eficiente, reducir pérdidas económicas y mejorar la disponibilidad de productos para los clientes.
+Además, SmartStock busca mejorar el proceso de reposición mediante alertas automáticas y notificaciones. A partir de las alertas generadas por la plataforma, los propietarios y administradores podrán identificar los productos que requieren abastecimiento y recibir un aviso oportuno (por correo o WhatsApp) para coordinar externamente la reposición con sus proveedores.
 
 ---
 
