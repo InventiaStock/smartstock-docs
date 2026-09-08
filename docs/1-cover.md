@@ -188,6 +188,9 @@ De acuerdo con los supuestos definidos previamente, planteamos las siguientes hi
 
 </div>
 
+**Link:** 
+https://cdn.phototourl.com/free/2026-09-08-d660dc5a-3d44-49dd-b0be-72bf9878d110.jpg
+
 ## 1.3. Segmentos objetivo
 
 ### Propietarios y administradores de minimarkets
