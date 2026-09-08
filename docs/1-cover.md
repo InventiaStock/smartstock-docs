@@ -36,28 +36,11 @@ A continuación, se presentan la misión, visión y valores que guían a nuestra
 
 ## 1.1.2. Perfiles de integrantes del equipo
 
-### Lopez Rimachi, Sebastian Leonardo (U20241F946)
+![Sebastian Leonardo Lopez Rimachi](../assets/images/team-photos/leonardo-photo.png)
 
-Estudiante de Ingeniería de Software comprometido con su formación profesional y con una mentalidad de crecimiento constante. Soy responsable, humilde y me esfuerzo por mantener un ambiente de trabajo positivo con mis compañeros. Me interesan tanto la ciberseguridad como el desarrollo de videojuegos, por lo que busco mantenerme abierto a nuevas áreas de conocimiento. Creo firmemente que la perseverancia, la honestidad y el respeto son valores fundamentales para crecer como profesional y como persona.
+![Lorena Ariana Montañez Salinas](../assets/images/team-photos/lorena-photo.png)
 
-<!-- Reemplaza el nombre del archivo por el que uses en GitHub -->
-![Perfil de Sebastian Lopez Rimachi](../assets/images/team-photos/sebastian-lopez.png)
-
-### Montañez Salinas, Lorena Ariana (U202421125)
-
-Estudiante de Ingeniería de Software que está comenzando en el mundo del desarrollo web. Tengo conocimientos básicos de C++ y Python. Soy una persona respetuosa, puntual y comprometida con lo que hago. Me gusta trabajar en equipo y colaborar con mis compañeros siempre que sea necesario, ya sea explicando algo que entiendo o ayudando a organizar las tareas. Trato de mantener una actitud positiva y escuchar las ideas de los demás. Me motiva aprender cosas nuevas cada día y mejorar poco a poco tanto en lo técnico como en lo personal.
-
-<!-- Reemplaza el nombre del archivo por el que uses en GitHub -->
-![Perfil de Lorena Montañez Salinas](../assets/images/team-photos/lorena-montanez.png)
-
-### Vizcarra Mamani, Candy Milagros (U20241F205)
-
-Estudiante de Ingeniería de Software enfocada en fortalecer mis habilidades en desarrollo informático. Manejo conocimientos fundamentales en C++ y Python, combinados con un enfoque de trabajo organizado, responsable y enfocado en la resolución analítica de problemas. Disfruto colaborar activamente en equipo, aportando a la organización de tareas, escuchando distintas ideas y apoyando a mis compañeros cuando lo necesitan. Busco mantenerme en aprendizaje constante para crecer tanto a nivel técnico como personal.
-
-<!-- Reemplaza el nombre del archivo por el que uses en GitHub -->
-![Perfil de Candy Vizcarra Mamani](../assets/images/team-photos/candy-vizcarra.png)
-
----
+![Candy Milagros Vizcarra Mamani](../assets/images/team-photos/candy-photo.png)
 
 ## 1.2. Solution Profile
 
