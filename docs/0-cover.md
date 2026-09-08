@@ -73,9 +73,119 @@ Nombre del producto
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-| --- | --- | --- | --- |
-| 1 | 06/09/2026 | • Lopez Rimachi, Sebastian Leonardo<br>• Montañez Salinas, Lorena Ariana<br>• Sanchez Osorio, Ruth Yanira<br>• Suarez Chinga, Geraldine<br>• Vizcarra Mamani, Candy Milagros | Adición de secciones:<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>**Capítulo I: Introducción**<br>1.1. Startup Profile<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1. Antecedentes y problemática<br>1.2.2 Lean UX Process<br>1.2.2.1. Lean UX Problem Statements<br>1.2.2.2. Lean UX Assumptions<br>1.2.2.3. Lean UX Hypothesis Statements<br>1.2.2.4. Lean UX Canvas<br>1.3. Segmentos objetivo<br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores<br>2.1.1. Análisis competitivo<br>2.1.2. Estrategias y tácticas frente a competidores<br>2.2. Entrevistas<br>2.2.1. Diseño de entrevistas<br>2.2.2. Registro de entrevistas<br>2.2.3. Análisis de entrevistas<br>2.3. Needfinding<br>2.3.1. User Personas<br>2.3.2. User Task Matrix<br>2.3.3. User Journey Mapping<br>2.3.4. Empathy Mapping<br>2.4. Big Picture Event Storming<br>2.5. Ubiquitous Language<br>**Capítulo III: Requirements Specification**<br>3.1. User Stories<br>3.2. Impact Mapping<br>3.3. Product Backlog<br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines<br>4.1.1. General Style Guidelines<br>4.1.2. Web Style Guidelines<br>4.2. Information Architecture<br>4.2.1. Organization Systems<br>4.2.2. Labeling Systems<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems<br>4.2.5. Navigation Systems<br>4.3. Landing Page UI Design<br>4.3.1. Landing Page Wireframe<br>4.3.2. Landing Page Mock-up<br>4.4. Web Applications UX/UI Design<br>4.4.1. Web Applications Wireframes<br>4.4.2. Web Applications Wireflow Diagrams<br>4.4.2. Web Applications Mock-ups<br>4.4.3. Web Applications User Flow Diagrams<br>4.5. Web Applications Prototyping<br>4.6. Domain-Driven Software Architecture<br>4.6.1. Design-Level Event Storming<br>4.6.2. Software Architecture Context Diagram<br>4.6.3. Software Architecture Container Diagrams<br>4.6.4. Software Architecture Components Diagrams<br>4.7. Software Object-Oriented Design<br>4.7.1. Class Diagrams<br>4.8. Database Design<br>4.8.1. Database Diagrams<br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration<br>5.1.2. Source Code Management<br>5.1.3. Source Code Style Guide & Conventions<br>5.1.4. Software Deployment Configuration<br>5.2. Landing Page, Services & Applications Implementation<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1<br>5.2.1.2. Aspect Leaders and Collaborators<br>5.2.1.3. Sprint Backlog 1<br>5.2.1.4. Development Evidence for Sprint Review<br>5.2.1.5. Execution Evidence for Sprint Review<br>5.2.1.6. Services Documentation Evidence for Sprint Review<br>5.2.1.7. Software Deployment Evidence for Sprint Review<br>5.2.1.8. Team Collaboration Insights during Sprint<br>Conclusiones<br>Bibliografía<br>Anexos |
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">1</td>
+      <td valign="top">06/09/2026</td>
+      <td valign="top">
+        • Lopez Rimachi, Sebastian Leonardo<br>
+        • Montañez Salinas, Lorena Ariana<br>
+        • Sanchez Osorio, Ruth Yanira<br>
+        • Suarez Chinga, Geraldine<br>
+        • Vizcarra Mamani, Candy Milagros
+      </td>
+      <td valign="top">
+        Adición de secciones:<br>
+        Project Report Collaboration Insights<br>
+        Contenido<br>
+        Student Outcome<br><br>
+
+        <strong>Capítulo I: Introducción</strong><br>
+        1.1. Startup Profile<br>
+        1.1.1. Descripción de la Startup<br>
+        1.1.2. Perfiles de integrantes del equipo<br>
+        1.2. Solution Profile<br>
+        1.2.1. Antecedentes y problemática<br>
+        1.2.2. Lean UX Process<br>
+        1.2.2.1. Lean UX Problem Statements<br>
+        1.2.2.2. Lean UX Assumptions<br>
+        1.2.2.3. Lean UX Hypothesis Statements<br>
+        1.2.2.4. Lean UX Canvas<br>
+        1.3. Segmentos objetivo<br><br>
+
+        <strong>Capítulo II: Requirements Elicitation & Analysis</strong><br>
+        2.1. Competidores<br>
+        2.1.1. Análisis competitivo<br>
+        2.1.2. Estrategias y tácticas frente a competidores<br>
+        2.2. Entrevistas<br>
+        2.2.1. Diseño de entrevistas<br>
+        2.2.2. Registro de entrevistas<br>
+        2.2.3. Análisis de entrevistas<br>
+        2.3. Needfinding<br>
+        2.3.1. User Personas<br>
+        2.3.2. User Task Matrix<br>
+        2.3.3. User Journey Mapping<br>
+        2.3.4. Empathy Mapping<br>
+        2.4. Big Picture Event Storming<br>
+        2.5. Ubiquitous Language<br><br>
+
+        <strong>Capítulo III: Requirements Specification</strong><br>
+        3.1. User Stories<br>
+        3.2. Impact Mapping<br>
+        3.3. Product Backlog<br><br>
+
+        <strong>Capítulo IV: Product Design</strong><br>
+        4.1. Style Guidelines<br>
+        4.1.1. General Style Guidelines<br>
+        4.1.2. Web Style Guidelines<br>
+        4.2. Information Architecture<br>
+        4.2.1. Organization Systems<br>
+        4.2.2. Labeling Systems<br>
+        4.2.3. SEO Tags and Meta Tags<br>
+        4.2.4. Searching Systems<br>
+        4.2.5. Navigation Systems<br>
+        4.3. Landing Page UI Design<br>
+        4.3.1. Landing Page Wireframe<br>
+        4.3.2. Landing Page Mock-up<br>
+        4.4. Web Applications UX/UI Design<br>
+        4.4.1. Web Applications Wireframes<br>
+        4.4.2. Web Applications Wireflow Diagrams<br>
+        4.4.2. Web Applications Mock-ups<br>
+        4.4.3. Web Applications User Flow Diagrams<br>
+        4.5. Web Applications Prototyping<br>
+        4.6. Domain-Driven Software Architecture<br>
+        4.6.1. Design-Level Event Storming<br>
+        4.6.2. Software Architecture Context Diagram<br>
+        4.6.3. Software Architecture Container Diagrams<br>
+        4.6.4. Software Architecture Components Diagrams<br>
+        4.7. Software Object-Oriented Design<br>
+        4.7.1. Class Diagrams<br>
+        4.8. Database Design<br>
+        4.8.1. Database Diagrams<br><br>
+
+        <strong>Capítulo V: Product Implementation, Validation & Deployment</strong><br>
+        5.1. Software Configuration Management<br>
+        5.1.1. Software Development Environment Configuration<br>
+        5.1.2. Source Code Management<br>
+        5.1.3. Source Code Style Guide & Conventions<br>
+        5.1.4. Software Deployment Configuration<br>
+        5.2. Landing Page, Services & Applications Implementation<br>
+        5.2.1. Sprint 1<br>
+        5.2.1.1. Sprint Planning 1<br>
+        5.2.1.2. Aspect Leaders and Collaborators<br>
+        5.2.1.3. Sprint Backlog 1<br>
+        5.2.1.4. Development Evidence for Sprint Review<br>
+        5.2.1.5. Execution Evidence for Sprint Review<br>
+        5.2.1.6. Services Documentation Evidence for Sprint Review<br>
+        5.2.1.7. Software Deployment Evidence for Sprint Review<br>
+        5.2.1.8. Team Collaboration Insights during Sprint<br><br>
+
+        Conclusiones<br>
+        Bibliografía<br>
+        Anexos
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # Project Report Collaboration Insights
 
