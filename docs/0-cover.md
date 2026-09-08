@@ -79,7 +79,7 @@ Nombre del producto
 
 # Project Report Collaboration Insights
 
-**Repositorio de documentación del proyecto: https://github.com/NexoStock/smartstock-docs**  
+**Repositorio de documentación del proyecto: https://github.com/InventiaStock/smartstock-docs**  
 
 A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
 
