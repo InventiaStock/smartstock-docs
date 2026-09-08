@@ -150,6 +150,10 @@ La solución propuesta, SmartStock, plantea utilizar sensores de peso conectados
 
 La falta de un control adecuado del inventario puede generar pérdidas por quiebres de stock, compras innecesarias, exceso de existencias y tiempo empleado en verificaciones manuales. En cuanto a la solución, el costo dependerá de la escala de implementación, cantidad de sensores y alcance del servicio; sin embargo, su propósito es reducir costos operativos y mejorar la disponibilidad de productos.
 
+![Gráfico 5. The 5 W’s y 2H’s sobre la problemática de la gestión de inventarios](../assets/images/figures/grafico5.png)
+
+*Gráfico 5. Equipo InventiaStock. The 5 W’s y 2H’s sobre la problemática de la gestión de inventarios en bodegas y minimarkets. (2026). Elaboración propia.*
+
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
