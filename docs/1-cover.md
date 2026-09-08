@@ -108,7 +108,7 @@ En conjunto, ambos gráficos evidencian que los problemas de disponibilidad de p
 
 El flujo del problema puede describirse de la siguiente manera: durante la operación diaria se producen ventas y salidas de productos, pero si no existe un mecanismo de monitoreo automático del stock físico, las diferencias entre lo registrado y lo realmente disponible pueden pasar desapercibidas. Esto lleva a revisiones tardías, quiebres de stock y una reposición demorada. El siguiente diagrama resume este ciclo e indica el punto en el que SmartStock interviene.
 
-![Gráfico 4. Diagrama de flujo sobre el ciclo de detección tardía y reposición del inventario](../assets/images/figures/grafico4.png)
+![Gráfico 4. Diagrama de flujo sobre el ciclo de detección tardía y reposición del inventario](../assets/images/figures/grafico4.jpeg)
 
 *Gráfico 4. Diagrama de flujo sobre el ciclo de detección tardía y reposición del inventario en bodegas y minimarkets. (2026). Elaboración propia.*
 
