@@ -184,7 +184,7 @@ De acuerdo con los supuestos definidos previamente, planteamos las siguientes hi
 
 <div align="center">
 
-<img src="../assets/images/others/leanuxcanvas.png" alt="Lean UX Canvas de SmartStock" width="900">
+<img src="../assets/images/figures/canvas.png" alt="Lean UX Canvas de SmartStock" width="900">
 
 </div>
 
