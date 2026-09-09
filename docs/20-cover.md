@@ -158,38 +158,114 @@ Esta información permitirá complementar el monitoreo en tiempo real con datos 
 
 ### 2.2.1. Diseño de entrevistas
 
-#### Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
+Las guías de entrevista para ambos segmentos combinan preguntas demográficas con preguntas sobre gestión del  inventario y comportamiento del negocio, orientadas a sustentar la construcción de los User Persona.
 
-1. ¿Cómo realiza actualmente el control del inventario de los productos de su minimarket?
-2. ¿Con qué frecuencia revisa físicamente las existencias disponibles?
-3. ¿Qué dificultades encuentra al mantener actualizado el inventario?
-4. ¿Con qué frecuencia encuentra diferencias entre el stock registrado y la cantidad física disponible?
-5. ¿Qué problemas se presentan cuando un producto se agota sin ser detectado a tiempo?
-6. ¿Cómo determina cuándo debe realizar una reposición de productos?
-7. ¿Qué productos o categorías son más difíciles de controlar por su rotación?
-8. ¿Cómo se comunica actualmente con sus proveedores para solicitar reposiciones?
-9. ¿Qué herramientas o sistemas utiliza actualmente para gestionar el inventario?
-10. ¿Qué limitaciones encuentra en esas herramientas o métodos?
-11. ¿Qué información considera más importante visualizar al revisar el inventario?
-12. ¿Qué tipo de alertas le resultarían útiles para detectar productos con bajo stock?
-13. ¿Qué importancia tendría para usted saber en todo momento si existen diferencias entre lo que su sistema registra y lo que realmente tiene en tienda?
-14. ¿Qué le gustaría que una herramienta de inventario le resuelva o facilite, sin importar la tecnología que use?
-15. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
+# Primer Segmento Objetivo  
+## Propietarios y administradores de minimarkets
 
-#### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
+### Preguntas demográficas
 
-1. ¿Cómo controla actualmente los productos disponibles en su bodega?
-2. ¿Utiliza cuaderno, Excel, sistema digital u otro método para registrar su inventario?
-3. ¿Con qué frecuencia realiza conteos o revisiones manuales de sus productos?
-4. ¿Qué dificultades tiene para saber qué productos están por agotarse?
-5. ¿Le ha ocurrido que el stock registrado no coincida con la cantidad real disponible? ¿Con qué frecuencia?
-6. ¿Qué problemas genera en su negocio quedarse sin un producto de alta demanda?
-7. ¿Cómo decide qué productos debe reponer y en qué momento?
-8. ¿Cómo realiza actualmente sus pedidos a proveedores?
-9. ¿Qué parte del control de inventario le toma más tiempo o le resulta más complicada?
-10. ¿Qué tan cómodo se siente utilizando aplicaciones o plataformas web para gestionar su negocio?
-11. ¿Qué información le gustaría ver en una pantalla para conocer rápidamente el estado de sus productos?
-12. ¿Qué tipo de alerta le sería útil cuando un producto está por agotarse?
-13. ¿Qué tan importante sería para usted enterarse automáticamente cuando un producto está por agotarse, sin tener que revisarlo usted mismo?
-14. ¿Qué beneficio tendría que ofrecer una herramienta de inventario para que usted la use de manera frecuente?
-15. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
+1. ¿Cuál es su nombre completo?
+
+2. ¿Qué edad tiene?
+
+3. ¿En qué distrito reside?
+
+4. ¿Cuál es su estado civil?
+
+5. ¿A qué se dedica usted (ocupación) y qué rol cumple en el negocio (dueño, administrador, etc.)?
+
+6. ¿Hace cuánto tiempo tiene o administra el negocio?
+
+7. ¿Qué dispositivo usa con más frecuencia para temas del negocio (celular, laptop, computadora de escritorio)?
+
+8. ¿Qué aplicaciones o redes sociales usa habitualmente?
+
+---
+
+### Preguntas sobre gestión del inventario / comportamiento del negocio
+
+9. ¿Cómo realiza actualmente el control del inventario de los productos de su minimarket?
+
+10. ¿Con qué frecuencia revisa físicamente las existencias disponibles?
+
+11. ¿Qué dificultades encuentra al mantener actualizado el inventario?
+
+12. ¿Con qué frecuencia encuentra diferencias entre el stock registrado y la cantidad física disponible?
+
+13. ¿Qué problemas se presentan cuando un producto se agota sin ser detectado a tiempo?
+
+14. ¿Cómo determina cuándo debe realizar una reposición de productos?
+
+15. ¿Qué productos o categorías son más difíciles de controlar por su rotación?
+
+16. ¿Cómo se comunica actualmente con sus proveedores para solicitar reposiciones?
+
+17. ¿Qué herramientas o sistemas utiliza actualmente para gestionar el inventario?
+
+18. ¿Qué limitaciones encuentra en esas herramientas o métodos?
+
+19. ¿Qué información considera más importante visualizar al revisar el inventario?
+
+20. ¿Qué tipo de alertas le resultarían útiles para detectar productos con bajo stock?
+
+21. ¿Qué importancia tendría para usted saber en todo momento si existen diferencias entre lo que su sistema registra y lo que realmente tiene en tienda?
+
+22. ¿Qué le gustaría que una herramienta de inventario le resuelva o facilite, sin importar la tecnología que use?
+
+23. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
+
+# Segundo Segmento Objetivo  
+## Propietarios y administradores de bodegas de barrio
+
+### Preguntas demográficas
+
+1. ¿Cuál es su nombre completo?
+
+2. ¿Qué edad tiene?
+
+3. ¿En qué distrito reside?
+
+4. ¿Cuál es su estado civil?
+
+5. ¿A qué se dedica usted (ocupación) y qué rol cumple en el negocio (dueño, administrador, etc.)?
+
+6. ¿Hace cuánto tiempo tiene o administra el negocio?
+
+7. ¿Qué dispositivo usa con más frecuencia para temas del negocio (celular, laptop, computadora de escritorio)?
+
+8. ¿Qué aplicaciones o redes sociales usa habitualmente?
+
+---
+
+### Preguntas sobre gestión del inventario / comportamiento del negocio
+
+9. ¿Cómo controla actualmente los productos disponibles en su bodega?
+
+10. ¿Utiliza cuaderno, Excel, sistema digital u otro método para registrar su inventario?
+
+11. ¿Con qué frecuencia realiza conteos o revisiones manuales de sus productos?
+
+12. ¿Qué dificultades tiene para saber qué productos están por agotarse?
+
+13. ¿Le ha ocurrido que el stock registrado no coincida con la cantidad real disponible? ¿Con qué frecuencia?
+
+14. ¿Qué problemas genera en su negocio quedarse sin un producto de alta demanda?
+
+15. ¿Cómo decide qué productos debe reponer y en qué momento?
+
+16. ¿Cómo realiza actualmente sus pedidos a proveedores?
+
+17. ¿Qué parte del control de inventario le toma más tiempo o le resulta más complicada?
+
+18. ¿Qué tan cómodo se siente utilizando aplicaciones o plataformas web para gestionar su negocio?
+
+19. ¿Qué información le gustaría ver en una pantalla para conocer rápidamente el estado de sus productos?
+
+20. ¿Qué tipo de alerta le sería útil cuando un producto está por agotarse?
+
+21. ¿Qué tan importante sería para usted enterarse automáticamente cuando un producto está por agotarse, sin tener que revisarlo usted mismo?
+
+22. ¿Qué beneficio tendría que ofrecer una herramienta de inventario para que usted la use de manera frecuente?
+
+23. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
