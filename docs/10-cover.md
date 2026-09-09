@@ -38,6 +38,8 @@ A continuación, se presentan la misión, visión y valores que guían a nuestra
 
 ![Lorena Ariana Montañez Salinas](../assets/images/team-photos/lorena-photo.png)
 
+![Ruth Sanchez Osorio](../assets/images/team-photos/ruth-photo.png)
+
 ![Geraldine Suarez Chinga](../assets/images/team-photos/geraldine-photo.png)
 
 ![Candy Milagros Vizcarra Mamani](../assets/images/team-photos/candy-photo.png)
