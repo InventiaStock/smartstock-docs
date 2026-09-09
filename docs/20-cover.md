@@ -106,16 +106,16 @@ Mientras que varios competidores están orientados principalmente a grandes cade
 
 Este enfoque busca reducir las barreras tecnológicas y económicas para la adopción de la solución en pequeños comercios.
 
-### 3. Coordinación eficiente del proceso de reposición
+### 3. Notificaciones oportunas para la gestión de la reposición
 
 SmartStock permitirá que los propietarios y administradores de minimarkets y bodegas de barrio utilicen la información de inventario para gestionar oportunamente sus necesidades de abastecimiento. La plataforma permitirá:
 
 - Identificar productos que requieren reposición.
 - Registrar necesidades de abastecimiento.
 - Generar alertas relacionadas con faltantes.
-- Utilizar la información del sistema para coordinar pedidos con proveedores externos.
+- Enviar notificaciones automáticas por correo electrónico o WhatsApp, mediante un servicio de terceros, cuando el stock de un producto alcance un nivel crítico.
 
-Esto permite mantener a los proveedores como actores del abastecimiento sin convertirlos en un segmento objetivo o usuario principal de la plataforma.
+De esta manera, la coordinación directa con los proveedores la sigue realizando el usuario fuera de la plataforma; SmartStock actúa como el sistema que le avisa oportunamente cuándo hacerlo, manteniendo a los proveedores como actores externos del abastecimiento sin convertirlos en un segmento objetivo o usuario de la plataforma.
 
 ### 4. Experiencia de usuario centrada en información inmediata
 
