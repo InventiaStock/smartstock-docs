@@ -274,15 +274,9 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 ![Entrevista 1](../assets/images/interviews/needfinding/entrevista-portada.png)
 
-## 2.2.2. Registro de entrevistas
-
-**Needfinding Interviews Link:** [upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](COLOCAR_LINK_MICROSOFT_STREAM)
-
-![Needfinding Interviews](../assets/images/interviews/needfinding/portada-video.png)
-
 ---
 
-# Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
+## Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
 
 ## Entrevista 1
 
@@ -326,7 +320,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 ---
 
-# Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
+## Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
 
 ## Entrevista 1
 
