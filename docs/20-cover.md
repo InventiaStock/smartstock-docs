@@ -160,8 +160,7 @@ Esta información permitirá complementar el monitoreo en tiempo real con datos 
 
 Las guías de entrevista para ambos segmentos combinan preguntas demográficas con preguntas sobre gestión del  inventario y comportamiento del negocio, orientadas a sustentar la construcción de los User Persona.
 
-# Primer Segmento Objetivo  
-## Propietarios y administradores de minimarkets
+## Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
 
 ### Preguntas demográficas
 
@@ -214,9 +213,8 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 22. ¿Qué le gustaría que una herramienta de inventario le resuelva o facilite, sin importar la tecnología que use?
 
 23. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
-
-# Segundo Segmento Objetivo  
-## Propietarios y administradores de bodegas de barrio
+ 
+## Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
 
 ### Preguntas demográficas
 
