@@ -267,3 +267,9 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 22. ¿Qué beneficio tendría que ofrecer una herramienta de inventario para que usted la use de manera frecuente?
 
 23. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
+
+## 2.2.2. Registro de entrevistas
+
+**Needfinding Interviews Link:** [upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](PEGAR_URL_DE_MICROSOFT_STREAM)
+
+![Entrevista 1](../assets/images/interviews/needfinding/entrevista-portada.png)
