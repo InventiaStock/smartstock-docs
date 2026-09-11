@@ -270,6 +270,6 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 ## 2.2.2. Registro de entrevistas
 
-**Needfinding Interviews Link:** [upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](PEGAR_URL_DE_MICROSOFT_STREAM)
+**Needfinding Interviews Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?e=oXMxGf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjkzNC41fX0%3D
 
 ![Entrevista 1](../assets/images/interviews/needfinding/entrevista-portada.png)
