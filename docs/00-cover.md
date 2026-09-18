@@ -1,198 +1,81 @@
 <div align="center">
 
-<img src="../assets/images/others/upc-logo.png" alt="UPC Logo" width="150px">  
+<img src="../assets/cover/logoupc.png" alt="Logo UPC" width="120">
 
-Universidad Peruana de Ciencias Aplicadas
+<br><br>
 
-Facultad de Ingeniería
+<p>Universidad Peruana de Ciencias Aplicadas</p>
 
-Carrera de Ingeniería de Software
+<br>
 
-**Ciclo: 5to**
+<p>Carrera de Ingeniería de Software</p>
 
-**1ASI0730 - Aplicaciones Web**
+<br>
 
-**NRC: 8168**
+<p>Ciclo: 5to</p>
 
-Docente
+<br>
 
-**Sanchez Ponce, Alex Humberto**
+<p>1ASI0730 - Aplicaciones Web</p>
 
-# Informe de Trabajo Final
+<br>
 
-Nombre del startup
+<p>NRC: 8168</p>
 
-**InventiaStock**
+<br>
 
-Nombre del producto
+<p>
+  Docente<br>
+  Sanchez Ponce, Alex Humberto
+</p>
 
-**SmartStock**
+<br><br>
 
-**Integrantes**
+<h2>Informe de Trabajo Final</h2>
 
-</div>
+<br>
 
-<div align="center">
+<p>Nombre del startup: InventiaStock</p>
 
-<table>
+<p>Nombre del producto: SmartStock</p>
+
+<br>
+
+<h3>Integrantes</h3>
+
+<table align="center">
   <thead>
     <tr>
-      <th>Código</th>
-      <th>Apellidos y Nombres</th>
+      <th align="center">Código</th>
+      <th align="center">Apellidos y Nombres</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>U20241F946</td>
+      <td align="center">U20241F946</td>
       <td>Lopez Rimachi, Sebastian Leonardo</td>
     </tr>
     <tr>
-      <td>U202421125</td>
+      <td align="center">U202421125</td>
       <td>Montañez Salinas, Lorena Ariana</td>
     </tr>
     <tr>
-      <td>U20241C626</td>
+      <td align="center">U20241C626</td>
       <td>Sanchez Osorio, Ruth Yanira</td>
     </tr>
     <tr>
-      <td>U20241C804</td>
+      <td align="center">U20241C804</td>
       <td>Suarez Chinga, Geraldine</td>
     </tr>
     <tr>
-      <td>U20241F205</td>
+      <td align="center">U20241F205</td>
       <td>Vizcarra Mamani, Candy Milagros</td>
     </tr>
   </tbody>
 </table>
 
-**Setiembre, 2026**
+<br><br>
+
+<p>Setiembre, 2026</p>
 
 </div>
-
----
-
-# Registro de Versiones del Informe
-
-| Versión | Fecha | Autor | Descripción de modificación |
-| --- | --- | --- | --- |
-| 1 | 06/09/2026 | • Lopez Rimachi, Sebastian Leonardo<br>• Montañez Salinas, Lorena Ariana<br>• Sanchez Osorio, Ruth Yanira<br>• Suarez Chinga, Geraldine<br>• Vizcarra Mamani, Candy Milagros | Adición de secciones:<br>Project Report Collaboration Insights<br>Contenido<br>Student Outcome<br>**Capítulo I: Introducción**<br>1.1. Startup Profile<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1. Antecedentes y problemática<br>1.2.2 Lean UX Process<br>1.2.2.1. Lean UX Problem Statements<br>1.2.2.2. Lean UX Assumptions<br>1.2.2.3. Lean UX Hypothesis Statements<br>1.2.2.4. Lean UX Canvas<br>1.3. Segmentos objetivo<br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores<br>2.1.1. Análisis competitivo<br>2.1.2. Estrategias y tácticas frente a competidores<br>2.2. Entrevistas<br>2.2.1. Diseño de entrevistas<br>2.2.2. Registro de entrevistas<br>2.2.3. Análisis de entrevistas<br>2.3. Needfinding<br>2.3.1. User Personas<br>2.3.2. User Task Matrix<br>2.3.3. User Journey Mapping<br>2.3.4. Empathy Mapping<br>2.4. Big Picture Event Storming<br>2.5. Ubiquitous Language<br>**Capítulo III: Requirements Specification**<br>3.1. User Stories<br>3.2. Impact Mapping<br>3.3. Product Backlog<br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines<br>4.1.1. General Style Guidelines<br>4.1.2. Web Style Guidelines<br>4.2. Information Architecture<br>4.2.1. Organization Systems<br>4.2.2. Labeling Systems<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems<br>4.2.5. Navigation Systems<br>4.3. Landing Page UI Design<br>4.3.1. Landing Page Wireframe<br>4.3.2. Landing Page Mock-up<br>4.4. Web Applications UX/UI Design<br>4.4.1. Web Applications Wireframes<br>4.4.2. Web Applications Wireflow Diagrams<br>4.4.2. Web Applications Mock-ups<br>4.4.3. Web Applications User Flow Diagrams<br>4.5. Web Applications Prototyping<br>4.6. Domain-Driven Software Architecture<br>4.6.1. Design-Level Event Storming<br>4.6.2. Software Architecture Context Diagram<br>4.6.3. Software Architecture Container Diagrams<br>4.6.4. Software Architecture Components Diagrams<br>4.7. Software Object-Oriented Design<br>4.7.1. Class Diagrams<br>4.8. Database Design<br>4.8.1. Database Diagrams<br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration<br>5.1.2. Source Code Management<br>5.1.3. Source Code Style Guide & Conventions<br>5.1.4. Software Deployment Configuration<br>5.2. Landing Page, Services & Applications Implementation<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1<br>5.2.1.2. Aspect Leaders and Collaborators<br>5.2.1.3. Sprint Backlog 1<br>5.2.1.4. Development Evidence for Sprint Review<br>5.2.1.5. Execution Evidence for Sprint Review<br>5.2.1.6. Services Documentation Evidence for Sprint Review<br>5.2.1.7. Software Deployment Evidence for Sprint Review<br>5.2.1.8. Team Collaboration Insights during Sprint<br>Conclusiones<br>Bibliografía<br>Anexos |
-
-# Project Report Collaboration Insights
-
-**Repositorio de documentación del proyecto: https://github.com/InventiaStock/smartstock-docs**  
-
-A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
-
-**AV1**
-
-*Report Insights AV1*
-
-# Tabla de contenidos
-
-**Registro de Versiones del Informe**
-
-**Project Report Collaboration Insights**
-
-**Tabla de contenidos**
-
-**Student Outcome**
-
-[**Capítulo I: Introducción**](10-chap-1.md)
-
-1.1. Startup Profile  
-1.1.1. Descripción de la Startup  
-1.1.2. Perfiles de integrantes del equipo  
-1.2. Solution Profile  
-1.2.1. Antecedentes y problemática  
-1.2.2. Lean UX Process  
-1.2.2.1. Lean UX Problem Statements  
-1.2.2.2. Lean UX Assumptions  
-1.2.2.3. Lean UX Hypothesis Statements  
-1.2.2.4. Lean UX Canvas  
-1.3. Segmentos objetivo  
-
-[**Capítulo II: Requirements Elicitation & Analysis**](20-chap-2.md)
-
-2.1. Competidores  
-2.1.1. Análisis competitivo  
-2.1.2. Estrategias y tácticas frente a competidores  
-2.2. Entrevistas  
-2.2.1. Diseño de entrevistas  
-2.2.2. Registro de entrevistas  
-2.2.3. Análisis de entrevistas  
-2.3. Needfinding  
-2.3.1. User Personas  
-2.3.2. User Task Matrix  
-2.3.3. User Journey Mapping  
-2.3.4. Empathy Mapping  
-2.4. Big Picture Event Storming  
-2.5. Ubiquitous Language  
-
-[**Capítulo III: Requirements Specification**](30-chap-3.md)
-
-3.1. User Stories  
-3.2. Impact Mapping  
-3.3. Product Backlog  
-
-[**Capítulo IV: Product Design**](40-chap-4.md)
-
-4.1. Style Guidelines  
-4.1.1. General Style Guidelines  
-4.1.2. Web Style Guidelines  
-4.2. Information Architecture  
-4.2.1. Organization Systems  
-4.2.2. Labeling Systems  
-4.2.3. SEO Tags and Meta Tags  
-4.2.4. Searching Systems  
-4.2.5. Navigation Systems  
-4.3. Landing Page UI Design  
-4.3.1. Landing Page Wireframe  
-4.3.2. Landing Page Mock-up  
-4.4. Web Applications UX/UI Design  
-4.4.1. Web Applications Wireframes  
-4.4.2. Web Applications Wireflow Diagrams  
-4.4.2. Web Applications Mock-ups  
-4.4.3. Web Applications User Flow Diagrams  
-4.5. Web Applications Prototyping  
-4.6. Domain-Driven Software Architecture  
-4.6.1. Design-Level Event Storming  
-4.6.2. Software Architecture Context Diagram  
-4.6.3. Software Architecture Container Diagrams  
-4.6.4. Software Architecture Components Diagrams  
-4.7. Software Object-Oriented Design  
-4.7.1. Class Diagrams  
-4.8. Database Design  
-4.8.1. Database Diagrams  
-
-[**Capítulo V: Product Implementation, Validation & Deployment**](50-chap-5.md)
-
-5.1. Software Configuration Management  
-5.1.1. Software Development Environment Configuration  
-5.1.2. Source Code Management  
-5.1.3. Source Code Style Guide & Conventions  
-5.1.4. Software Deployment Configuration  
-5.2. Landing Page, Services & Applications Implementation  
-
-[**5.2.1. Sprint 1**](51-sprint-1.md)
-
-5.2.1.1. Sprint Planning 1  
-5.2.1.2. Aspect Leaders and Collaborators  
-5.2.1.3. Sprint Backlog 1  
-5.2.1.4. Development Evidence for Sprint Review  
-5.2.1.5. Execution Evidence for Sprint Review  
-5.2.1.6. Services Documentation Evidence for Sprint Review  
-5.2.1.7. Software Deployment Evidence for Sprint Review  
-5.2.1.8. Team Collaboration Insights during Sprint  
-
-[**Conclusiones**](80-conclusions.md)  
-
-[**Bibliografía**](90-bibliography.md)  
-
-[**Anexos**](99-annexes.md)  
-
-# Student Outcome
-
-| Criterio específico | Acciones realizadas | Conclusiones |
-| --- | --- | --- |
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta.** | **Lopez Rimachi, Sebastian Leonardo (U20241F946)**<br>**AV1:** Pendiente de completar con la actividad real realizada por el integrante.<br><br>**Montañez Salinas, Lorena Ariana (U202421125)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante.<br><br>**Sanchez Osorio, Ruth Yanira (U20241C626)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante.<br><br>**Suarez Chinga, Geraldine (U20241C804)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante.<br><br>**Vizcarra Mamani, Candy Milagros (U20241F205)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante. | **AV1:** Pendiente de redactar la conclusión grupal en función de las actividades realmente realizadas. |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **Lopez Rimachi, Sebastian Leonardo (U20241F946)**<br>**AV1:** Pendiente de completar con la actividad real realizada por el integrante.<br><br>**Montañez Salinas, Lorena Ariana (U202421125)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante.<br><br>**Sanchez Osorio, Ruth Yanira (U20241C626)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante.<br><br>**Suarez Chinga, Geraldine (U20241C804)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante.<br><br>**Vizcarra Mamani, Candy Milagros (U20241F205)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante. | **AV1:** Pendiente de redactar la conclusión grupal en función de las actividades realmente realizadas. |
