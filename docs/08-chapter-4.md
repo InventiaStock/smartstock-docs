@@ -600,3 +600,115 @@ El wireframe de SmartStock organiza de forma clara la página de inicio, mostran
 > *Nota.* Wireframe de la estructura del menú de navegación de SmartStock adaptado para dispositivos móviles.
 
 ---
+
+### 4.3.2. Landing Page Mock-up
+
+El mock-up de la página de inicio de SmartStock actúa como un mapa visual que organiza la estructura y el flujo de la información, mientras cada sección conduce al usuario desde la identificación del problema hasta la presentación de las funcionalidades y beneficios de la plataforma.
+
+**Figura 33. Interfaz principal de inicio del landing page de SmartStock en versión de escritorio.**
+
+![Figura 33. Interfaz principal de inicio del landing page de SmartStock en versión de escritorio.](../assets/chapter-4/mockup-escritorio1.png)
+
+> *Nota.* Mockup de la interfaz principal de inicio del landing page de SmartStock en versión de escritorio.
+
+**Figura 34. Interfaz de problemas y beneficios de SmartStock en versión de escritorio.**
+
+![Figura 34. Interfaz de problemas y beneficios de SmartStock en versión de escritorio.](../assets/chapter-4/mockup-escritorio2.png)
+
+> *Nota.* Mockup de la interfaz de problemas y beneficios de SmartStock en versión de escritorio.
+
+**Figura 35. Interfaz de casos de uso de SmartStock en versión de escritorio.**
+
+![Figura 35. Interfaz de casos de uso de SmartStock en versión de escritorio.](../assets/chapter-4/mockup-escritorio3.png)
+
+> *Nota.* Mockup de la interfaz de casos de uso de SmartStock en versión de escritorio.
+
+**Figura 36. Interfaz de planes de SmartStock en versión de escritorio.**
+
+![Figura 36. Interfaz de planes de SmartStock en versión de escritorio.](../assets/chapter-4/mockup-escritorio4.png)
+
+> *Nota.* Mockup de la interfaz de planes de SmartStock en versión de escritorio.
+
+**Figura 37. Interfaz principal de bienvenida del landing page de SmartStock.**
+
+![Figura 37. Interfaz principal de bienvenida del landing page de SmartStock.](../assets/chapter-4/mockup-escritorio5.png)
+
+> *Nota.* Imagen de la interfaz principal de bienvenida del landing page de SmartStock.
+
+**Figura 38. Interfaz de testimonios de SmartStock en versión de escritorio.**
+
+![Figura 38. Interfaz de testimonios de SmartStock en versión de escritorio.](../assets/chapter-4/mockup-escritorio6.png)
+
+> *Nota.* Mockup de la interfaz de testimonios de SmartStock en versión de escritorio.
+
+**Figura 39. Interfaz de preguntas frecuentes de SmartStock en versión de escritorio.**
+
+![Figura 39. Interfaz de preguntas frecuentes de SmartStock en versión de escritorio.](../assets/chapter-4/mockup-escritorio7.png)
+
+> *Nota.* Mockup de la interfaz de preguntas frecuentes de SmartStock en versión de escritorio.
+
+**Figura 40. Interfaz del formulario de demostración de SmartStock en versión de escritorio.**
+
+![Figura 40. Interfaz del formulario de demostración de SmartStock en versión de escritorio.](../assets/chapter-4/mockup-escritorio8.png)
+
+> *Nota.* Mockup de la interfaz del formulario de demostración de SmartStock en versión de escritorio.
+
+**Figura 41. Pie de página de la versión de escritorio de SmartStock.**
+
+![Figura 41. Pie de página de la versión de escritorio de SmartStock.](../assets/chapter-4/mockup-escritorio9.png)
+
+> *Nota.* Mockup del pie de página de SmartStock.
+
+**Figura 42. Interfaz principal de inicio del landing page de SmartStock en versión móvil.**
+
+![Figura 42. Interfaz principal de inicio del landing page de SmartStock en versión móvil.](../assets/chapter-4/mockup-mobile1.png)
+
+> *Nota.* Mockup de la interfaz principal de inicio del landing page de SmartStock adaptada para dispositivos móviles.
+
+**Figura 43. Interfaz de problemas y beneficios de SmartStock en versión móvil.**
+
+![Figura 43. Interfaz de problemas y beneficios de SmartStock en versión móvil.](../assets/chapter-4/mockup-mobile2.png)
+
+> *Nota.* Mockup de la interfaz de problemas y beneficios de SmartStock adaptada para dispositivos móviles.
+
+**Figura 44. Interfaz de casos de uso de SmartStock en versión móvil.**
+
+![Figura 44. Interfaz de casos de uso de SmartStock en versión móvil.](../assets/chapter-4/mockup-mobile3.png)
+
+> *Nota.* Mockup de la interfaz de casos de uso de SmartStock adaptada para dispositivos móviles.
+
+**Figura 45. Interfaz comparativa de SmartStock en versión móvil.**
+
+![Figura 45. Interfaz comparativa de SmartStock en versión móvil.](../assets/chapter-4/mockup-mobile4.png)
+
+> *Nota.* Mockup de la interfaz comparativa de SmartStock en versión móvil.
+
+**Figura 46. Interfaz de planes de SmartStock en versión móvil.**
+
+![Figura 46. Interfaz de planes de SmartStock en versión móvil.](../assets/chapter-4/mockup-mobile5.png)
+
+> *Nota.* Mockup de la interfaz de planes de SmartStock en versión móvil.
+
+**Figura 47. Interfaz de testimonios de SmartStock en versión móvil.**
+
+![Figura 47. Interfaz de testimonios de SmartStock en versión móvil.](../assets/chapter-4/mockup-mobile6.png)
+
+> *Nota.* Mockup de la interfaz de testimonios de SmartStock adaptada para dispositivos móviles.
+
+**Figura 48. Interfaz de preguntas frecuentes de SmartStock en versión móvil.**
+
+![Figura 48. Interfaz de preguntas frecuentes de SmartStock en versión móvil.](../assets/chapter-4/mockup-mobile7.png)
+
+> *Nota.* Mockup de la interfaz de preguntas frecuentes de SmartStock adaptada para dispositivos móviles.
+
+**Figura 49. Interfaz del formulario de demostración de SmartStock en versión móvil.**
+
+![Figura 49. Interfaz del formulario de demostración de SmartStock en versión móvil.](../assets/chapter-4/mockup-mobile8.png)
+
+> *Nota.* Mockup de la interfaz del formulario de demostración de SmartStock adaptada para dispositivos móviles.
+
+**Figura 50. Interfaz del menú de navegación de SmartStock en versión móvil.**
+
+![Figura 50. Interfaz del menú de navegación de SmartStock en versión móvil.](../assets/chapter-4/mockup-mobile9.png)
+
+> *Nota.* Mockup del menú de navegación del landing page de SmartStock adaptado para dispositivos móviles.
