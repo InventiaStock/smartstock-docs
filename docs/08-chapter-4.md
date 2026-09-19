@@ -82,3 +82,249 @@ El tono de comunicación definido es cercano, práctico y directo, priorizando l
 - **Reduced motion:** se respeta la configuración `prefers-reduced-motion: reduce`, desactivando las transiciones y animaciones para los usuarios que tienen activada esta preferencia en su sistema, como parte del compromiso de accesibilidad e inclusión declarado en el propio sitio (sección 6 de Términos y Condiciones).
 
 ---
+
+## 4.2. Information Architecture
+
+La arquitectura de información de SmartStock integra tanto el Landing Page como la Web Application dentro de una misma estructura, debido a que ambos productos comparten una lógica de navegación coherente, una misma preferencia de idioma almacenada en el navegador y un lenguaje visual y de interacción consistente.
+
+Ambos productos utilizan la misma preferencia de idioma mediante `localStorage`, utilizando la clave `smartstock.lang`, lo cual permite mantener el idioma seleccionado por el usuario al navegar entre ambos sistemas.
+
+### Mapa de Arquitectura de Información
+El mapa de arquitectura de información representa la organización de ambos productos y muestra también las conexiones existentes entre ellos. Asimismo, permite identificar visualmente la navegación que ya se encuentra implementada y aquella integración que todavía se encuentra pendiente.
+
+### 4.2.1. Organization Systems
+
+Para la organización visual del contenido, SmartStock utiliza diferentes esquemas dependiendo del tipo de información y del flujo que realiza el usuario.
+
+#### Organización jerárquica
+
+La organización jerárquica se utiliza principalmente en la Web Application.
+
+El Dashboard funciona como el punto central de navegación y, desde ahí, el usuario puede acceder a las principales funcionalidades del sistema.
+
+Dentro de la sección de productos existe una jerarquía más profunda:
+
+**Dashboard → Productos → Detalle de producto → Vincular sensor**
+
+Esto permite que el usuario avance desde una sección general hacia información cada vez más específica.
+
+Además, dentro del sidebar, las funcionalidades principales se muestran primero, mientras que opciones secundarias como Configuración y Cerrar sesión se encuentran ubicadas al final del menú.
+
+**IMAGEN**
+
+#### Organización secuencial
+
+La organización secuencial se utiliza en los procesos que requieren que el usuario complete una serie de pasos en un orden determinado.
+
+Por ejemplo, durante el proceso de incorporación del usuario se sigue el siguiente flujo:
+
+**Registro → Elección de segmento → Inicio de sesión → Registro del primer producto**
+
+De esta manera, el usuario es guiado paso a paso hasta comenzar a utilizar el sistema.
+
+Este mismo principio también se aplica en el Landing Page, cuya información está organizada para ser recorrida de arriba hacia abajo:
+
+**Hero → Casos de uso → Comparación → Planes → FAQ → Contacto**
+
+#### Organización matricial
+
+La organización matricial se utiliza principalmente en las tablas de Productos y Comparación.
+
+En la sección Productos, cada producto se relaciona con diferentes atributos como:
+
+- Categoría.
+- Estado.
+- Stock.
+- Umbral.
+- Sensor.
+
+En la sección Comparación, cada producto se relaciona principalmente con:
+
+- Stock físico.
+- Stock registrado.
+- Diferencia entre ambos valores.
+
+Este tipo de organización permite visualizar diferentes atributos de un mismo producto dentro de una sola fila y aplicar filtros sin perder el contexto de la información.
+
+#### Organización por audiencia
+
+La organización por audiencia representa una de las decisiones más importantes dentro de SmartStock.
+
+**IMAGEN**
+
+Las funcionalidades disponibles se organizan dependiendo del segmento seleccionado por el usuario durante el registro.
+
+Los segmentos utilizados son:
+
+- Bodega de barrio.
+- Minimarket.
+
+Esta diferenciación se aplica tanto en el menú lateral como en las rutas disponibles dentro de la aplicación.
+
+De esta manera, cada tipo de usuario visualiza únicamente las funcionalidades correspondientes a las necesidades de su negocio.
+
+#### Organización por tópicos
+
+El Landing Page utiliza una organización por tópicos.
+
+Cada sección presenta un tema específico dentro de la página, por ejemplo:
+
+- Casos de uso.
+- Comparación.
+- Planes.
+- FAQ.
+
+Estas secciones pueden ser accedidas directamente desde el menú mediante enlaces internos.
+
+#### Organización cronológica
+
+La organización cronológica se utiliza en la sección de Alertas.
+
+Los eventos más recientes aparecen primero mediante referencias de tiempo como:
+
+- Hace 4 min.
+- Hace 12 min.
+- Hace 30 min.
+
+Esto permite que el usuario pueda identificar primero los eventos más recientes y atender rápidamente las situaciones que puedan requerir su atención.
+
+#### Organización alfabética
+
+Actualmente no se utiliza una organización alfabética dentro del producto.
+
+Debido a que los catálogos manejados durante el alcance actual del proyecto son relativamente pequeños, se priorizó la organización basada en el estado de los productos.
+
+Por ejemplo, los productos con stock bajo pueden mostrarse antes que los productos con niveles normales, ya que esta información resulta más relevante para la gestión del inventario.
+
+#### Limitación actual de integración
+
+Actualmente existe una limitación de integración entre el Landing Page y la Web Application.
+
+Desde la Web Application, el usuario puede regresar hacia el Landing Page utilizando el logo de SmartStock o mediante el enlace:
+
+**"← Volver al sitio SmartStock"**
+
+Sin embargo, actualmente el Landing Page todavía no redirige hacia la Web Application.
+
+Los siguientes botones continúan utilizando enlaces temporales `href="#"`:
+
+- Regístrate.
+- Prueba gratis.
+- Crear mi cuenta de bodega.
+- Crear mi cuenta de minimarket.
+- Elegir Starter.
+- Elegir Growth.
+
+Por este motivo, esta funcionalidad se considera una limitación conocida del alcance actual del proyecto y no una integración completamente implementada.
+
+### 4.2.2. Labeling Systems
+
+Las etiquetas utilizadas en SmartStock fueron diseñadas buscando mantener textos simples, cortos y fáciles de comprender.
+
+#### Landing Page
+
+En el Landing Page, las etiquetas del menú corresponden directamente con los títulos de las diferentes secciones.
+
+Por ejemplo:
+
+- Casos de uso.
+- Comparación.
+- Planes.
+- FAQ.
+
+Estas etiquetas utilizan una o dos palabras y funcionan al mismo tiempo como enlaces internos hacia las secciones correspondientes.
+
+Esto evita inconsistencias entre el nombre mostrado en el menú y el contenido al cual dirige cada opción.
+
+#### Web Application
+En la Web Application, los elementos del sidebar combinan un ícono con una etiqueta corta.
+
+Entre las principales etiquetas se encuentran:
+
+- Dashboard.
+- Productos.
+- Sensores.
+- Alertas.
+- Comparación.
+- Reportes.
+
+Los íconos ayudan a complementar visualmente el significado de cada opción, permitiendo mantener textos cortos sin perder claridad.
+
+**IMAGENES**
+
+Además, tanto el Landing Page como la Web Application se encuentran disponibles en inglés y español.
+
+Ambos productos comparten la misma preferencia de idioma mediante:
+
+`localStorage`
+
+Clave utilizada:
+
+`smartstock.lang`
+
+Esto permite que el idioma seleccionado por el usuario permanezca activo al desplazarse entre ambos productos.
+
+#### Diferencia de etiquetado según el segmento
+
+Existe una diferencia intencional en la etiqueta utilizada para la ruta interna `#dashboard`.
+
+Para usuarios del segmento **Bodega de barrio**, esta sección se denomina:
+
+**Inicio**
+
+Mientras que para los usuarios del segmento **Minimarket**, la misma sección se denomina:
+
+**Dashboard**
+
+Esta diferencia fue implementada de manera intencional para utilizar una terminología más sencilla en el segmento de negocio más pequeño.
+
+### 4.2.3. SEO Tags and Meta Tags
+
+#### Landing Page
+
+El Landing Page incluye las principales etiquetas SEO y Meta Tags solicitadas.
+
+Tanto `index.html` como `terms-of-service.html` cuentan con:
+
+- `<title>`
+- `<meta name="description">`
+- `<meta name="keywords">`
+- `<meta name="author">`
+
+La etiqueta `<title>` contiene un título descriptivo de la página.
+
+La etiqueta `<meta name="description">` contiene una descripción del contenido y puede mostrarse de acuerdo con el idioma seleccionado.
+
+La etiqueta `<meta name="keywords">` contiene términos relacionados con el proyecto como:
+
+- minimarket.
+- corner store.
+- SmartStock.
+- NexoStock.
+
+Finalmente, la etiqueta de autor utiliza:
+
+```html
+<meta name="author" content="NexoStock">
+
+#### Web Application
+
+Actualmente, la Web Application cuenta únicamente con la etiqueta `<title>`. Por ello, se identificó la necesidad de incorporar las etiquetas de descripción, palabras clave y autor para completar la configuración de SEO y Meta Tags.
+
+Se propone agregar las siguientes etiquetas:
+
+```html
+<meta name="description" content="SmartStock Web Application — gestiona tu inventario monitoreado por sensores IoT, alertas y comparaciones de stock.">
+<meta name="keywords" content="SmartStock, NexoStock, gestión de inventario, sensores IoT, monitoreo de stock">
+<meta name="author" content="NexoStock">
+```
+
+De manera opcional, también puede utilizarse:
+
+```html
+<meta name="robots" content="noindex">
+```
+
+Esta etiqueta puede emplearse para indicar que la Web Application, al tratarse de un sistema protegido o autenticado, no está destinada a ser indexada por los motores de búsqueda.
+
+---
