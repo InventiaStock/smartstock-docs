@@ -328,3 +328,131 @@ De manera opcional, también puede utilizarse:
 Esta etiqueta puede emplearse para indicar que la Web Application, al tratarse de un sistema protegido o autenticado, no está destinada a ser indexada por los motores de búsqueda.
 
 ---
+
+### 4.2.4. Searching Systems
+
+El sistema de búsqueda de SmartStock se encuentra implementado principalmente dentro de la Web Application, mientras que el Landing Page no requiere un mecanismo de búsqueda debido a su estructura de navegación por secciones.
+
+#### Landing Page
+
+El Landing Page no incorpora un sistema de búsqueda, debido a que presenta una estructura de una sola página con secciones claramente diferenciadas y un menú superior que permite acceder directamente a cada una de ellas.
+
+#### Web Application
+
+La Web Application incorpora sistemas de búsqueda y filtrado en las secciones de **Productos**, **Comparación** y **Alertas**, permitiendo al usuario localizar información específica de manera más rápida.
+
+##### Productos
+
+La sección Productos permite realizar una búsqueda en tiempo real utilizando los siguientes criterios:
+
+- Nombre del producto.
+- Categoría.
+
+También cuenta con filtros según el estado del producto:
+
+- Todos los estados.
+- Stock bajo.
+- Normal.
+- Sin sensor.
+
+Cuando el usuario realiza una búsqueda o aplica un filtro, las filas que no coinciden con los criterios establecidos son ocultadas. Las filas que coinciden mantienen la información correspondiente a:
+
+- Imagen.
+- Categoría.
+- Stock.
+- Umbral.
+- Sensor.
+- Estado.
+
+##### Comparación
+
+La sección Comparación incorpora un sistema de búsqueda por prefijo y filtros que permiten organizar los productos según su situación.
+
+Los filtros disponibles son:
+
+- Todos.
+- Con discrepancia.
+- Sin discrepancia.
+
+El sistema actualiza el número de productos visibles y permite identificar aquellos que presentan una diferencia superior al **10 %** entre el stock registrado y el stock físico.
+
+##### Alertas
+
+La sección Alertas permite organizar las notificaciones mediante diferentes categorías:
+
+- Todas.
+- Stock bajo.
+- Discrepancias.
+- Sensores.
+
+Los contadores de cada categoría se actualizan según las alertas disponibles. Cada alerta conserva información relevante como:
+
+- Icono.
+- Mensaje.
+- Tiempo relativo desde su generación.
+
+---
+
+### 4.2.5. Navigation Systems
+
+SmartStock utiliza diferentes sistemas de navegación para facilitar el desplazamiento del usuario tanto dentro del Landing Page como dentro de la Web Application.
+
+#### Landing Page
+
+El Landing Page utiliza un menú superior persistente como sistema de navegación global. Este menú permite acceder directamente a las diferentes secciones de la página mediante enlaces internos.
+
+También se cuenta con un pie de página que incorpora navegación contextual mediante enlaces legales, información secundaria y enlaces a redes sociales.
+
+La navegación mediante anclas permite acceder directamente a secciones como:
+
+- Casos de uso.
+- Comparación.
+- Planes.
+- FAQ.
+- Contacto.
+
+#### Web Application
+
+La Web Application utiliza una barra lateral persistente como sistema de navegación global.
+
+Las opciones disponibles dependen del segmento seleccionado por el usuario. En pantallas pequeñas, la barra lateral se adapta mediante un menú tipo hamburguesa.
+
+La barra superior incorpora diferentes elementos de navegación e información:
+
+- Selector de idioma.
+- Campana de notificaciones.
+- Contador de notificaciones no leídas.
+- Nombre y tipo de negocio.
+- Avatar con las iniciales del usuario.
+
+La campana de notificaciones permite acceder a la sección de **Alertas**.
+
+La información del negocio permite identificar el contexto en el que se encuentra trabajando el usuario.
+
+En el detalle de un producto se utiliza una navegación tipo breadcrumb:
+
+**Productos / Categoría**
+
+Esto permite identificar la ubicación actual dentro de la aplicación y regresar hacia niveles anteriores.
+
+#### Navegación entre el Landing Page y la Web Application
+
+Actualmente, la Web Application permite regresar al Landing Page mediante:
+
+- El logotipo de SmartStock.
+- La opción **← Volver al sitio SmartStock**.
+
+Sin embargo, la navegación desde el Landing Page hacia la Web Application todavía no se encuentra completamente implementada.
+
+Las llamadas a la acción mantienen temporalmente enlaces como `href="#"` en elementos como:
+
+- Regístrate.
+- Prueba gratis.
+- Crear mi cuenta de bodega.
+- Crear mi cuenta de minimarket.
+- Elegir Starter.
+- Elegir Growth.
+
+Esta integración pendiente constituye una limitación actual del alcance implementado.
+
+---
