@@ -231,10 +231,7 @@ Durante el Sprint 1 se implementó la primera versión del sitio web estático (
 | smartstock-landing-page | chore/script-cleanup | eb3dc3c | fix(landing): set English as default locale | Se forzó inglés como idioma por defecto según requisito del curso. | 16/09/2026 |
 | smartstock-landing-page | develop | bb44d80 | docs: add project README | Se documenta el propósito del proyecto, el stack utilizado y la estructura de archivos del landing page. | 16/09/2026 |
 
-![Historial de commits del repositorio smartstock-landing-page (parte 1)](../assets/chapter-5/sprint1commits1.png)
-![Historial de commits del repositorio smartstock-landing-page (parte 2)](../assets/chapter-5/sprint1commits2.png)
-![Historial de commits del repositorio smartstock-landing-page (parte 3)](../assets/chapter-5/sprint1commits3.png)
-<!-- PENDIENTE: confirmar a cuál(es) captura(s) de commits corresponde cada imagen; se listan las 3 disponibles en el repositorio de assets. -->
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -335,5 +332,8 @@ La vista de contribuyentes evidencia la participación de los cinco integrantes 
 **Historial de ramas del repositorio**
 
 El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature nacen de develop, se integran nuevamente a ella y la rama main recibe únicamente las versiones publicadas.
+![Historial de commits del repositorio smartstock-landing-page (parte 1)](../assets/chapter-5/sprint1commits1.png)
+![Historial de commits del repositorio smartstock-landing-page (parte 2)](../assets/chapter-5/sprint1commits2.png)
+![Historial de commits del repositorio smartstock-landing-page (parte 3)](../assets/chapter-5/sprint1commits3.png)
 
 *Nota: Comparación de commits entre la primera rama de trabajo y main, mostrando la autoría real de cada commit (autor original y quien lo integró).*
