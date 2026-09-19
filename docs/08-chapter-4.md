@@ -659,6 +659,8 @@ El mock-up de la página de inicio de SmartStock actúa como un mapa visual que 
 
 > *Nota.* Mockup del pie de página de SmartStock.
 
+### Mobile:
+
 **Figura 42. Interfaz principal de inicio del landing page de SmartStock en versión móvil.**
 
 ![Figura 42. Interfaz principal de inicio del landing page de SmartStock en versión móvil.](../assets/chapter-4/mockup-mobile1.png)
