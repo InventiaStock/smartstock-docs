@@ -539,7 +539,7 @@ El wireframe de SmartStock organiza de forma clara la página de inicio, mostran
 
 **Figura 23. Pie de página del landing page de SmartStock.**
 
-![Figura 23. Pie de página del landing page de SmartStock.](../assets/chapter-4/wireframe-escritorio9)
+![Figura 23. Pie de página del landing page de SmartStock.](../assets/chapter-4/wireframe-escritorio9.png)
 
 > *Nota.* Wireframe del pie de página del landing page de SmartStock.
 
