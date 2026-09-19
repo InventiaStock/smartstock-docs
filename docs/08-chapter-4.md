@@ -8,7 +8,7 @@ En este apartado estableceremos los criterios visuales y de comunicación que se
 
 #### Branding
 
-SmartStock es operado por NexoStock. El logo se usa como ícono de 42 x 42px junto al nombre de marca en la cabecera (reducido a 34 x 34px en pantallas móviles menores a 720px), manteniendo consistencia en todas las vistas.
+SmartStock es operado por Inventia. El logo se usa como ícono de 42 x 42px junto al nombre de marca en la cabecera (reducido a 34 x 34px en pantallas móviles menores a 720px), manteniendo consistencia en todas las vistas.
 
 #### Typography
 
@@ -40,9 +40,7 @@ El blanco (`#ffffff`) es el fondo dominante, reforzando una identidad limpia y c
 
 Estas decisiones se sustentan en los principios de claridad, confianza y accesibilidad: el azul marino como color dominante transmite seriedad y profesionalismo sin resultar frío; los acentos cian y verde menta se reservan para elementos puntuales de refuerzo visual (etiquetas, indicadores de interacción), evitando sobrecargar la interfaz; y el uso del blanco como fondo dominante prioriza la legibilidad de los datos de inventario que el producto presenta al usuario.
 
-<p align="center">
-  <img src="../assets/chapter-4/paleta-colores.png" alt="Figura 1. paleta de colores de SmartStock.">
-</p>
+![Figura 1. paleta de colores de SmartStock.](../assets/chapter-4/paleta-colores.png)
 
 #### Spacing
 
@@ -75,19 +73,13 @@ El tono de comunicación definido es cercano, práctico y directo, priorizando l
 
 - **Botones:** se definieron tres variantes: `.btn` como botón primario, con relleno en degradado de navy y estado hover con elevación (desplazamiento sutil hacia arriba) y sombra reforzada; `.btn.ghost` como botón secundario, con borde y sin relleno; y `.btn.block` como botón de ancho completo, utilizado en las tarjetas de planes. Las tres variantes cuentan con un estado hover definido.
 
-<p align="center">
-  <img src="../assets/chapter-4/boton-1.png" alt="Figura 2. botones del landing page de SmartStock.">
-</p>
+![Figura 2. botones del landing page de SmartStock.](../assets/chapter-4/boton-1.png)
 
-<p align="center">
-  <img src="../assets/chapter-4/boton-2.png" alt="Figura 3. botones del landing page de SmartStock.">
-</p>
+![Figura 3. botones del landing page de SmartStock.](../assets/chapter-4/boton-2.png)
 
 - **Formularios:** los campos de entrada utilizan un borde de 1px y un radio de 8px. El estado de error se identifica mediante `aria-invalid="true"`, acompañado de un borde rojo `#c0392b` y un mensaje de error asociado mediante `aria-describedby`. La validación se ejecuta en el evento blur, en lugar de realizarse mientras el usuario escribe, evitando marcar como inválido un campo que aún se encuentra en proceso de completarse.
 
-<p align="center">
-  <img src="../assets/chapter-4/formulario.png" alt="Figura 4. formulario del landing page de SmartStock.">
-</p>
+![Figura 4. formulario del landing page de SmartStock.](../assets/chapter-4/formulario.png)
 
 - **Foco visible:** se define `:focus-visible` con un outline azul de 2px en toda la interfaz, facilitando la navegación mediante teclado como parte de los criterios de accesibilidad.
 
@@ -107,9 +99,7 @@ Ambos productos utilizan la misma preferencia de idioma mediante `localStorage`,
 
 ### Mapa de Arquitectura de Información
 
-<p align="center">
-  <img src="../assets/chapter-4/arquitectura.png" alt="Figura 5. arquitectura de SmartStock.">
-</p>
+![Figura 5. arquitectura de SmartStock.](../assets/chapter-4/arquitectura.png)
 
 El mapa de arquitectura de información representa la organización de ambos productos y muestra también las conexiones existentes entre ellos. Asimismo, permite identificar visualmente la navegación que ya se encuentra implementada y aquella integración que todavía se encuentra pendiente.
 
@@ -131,13 +121,9 @@ Esto permite que el usuario avance desde una sección general hacia información
 
 Además, dentro del sidebar, las funcionalidades principales se muestran primero, mientras que opciones secundarias como Configuración y Cerrar sesión se encuentran ubicadas al final del menú.
 
-<p align="center">
-  <img src="../assets/chapter-4/organizacion-1.png" alt="Figura 6. dashboard de SmartStock.">
-</p>
+![Figura 6. dashboard de SmartStock.](../assets/chapter-4/organizacion-1.png)
 
-<p align="center">
-  <img src="../assets/chapter-4/organizacion-2.png" alt="Figura 7. dashboard de SmartStock.">
-</p>
+![Figura 7. dashboard de SmartStock.](../assets/chapter-4/organizacion-2.png)
 
 #### Organización secuencial
 
@@ -177,9 +163,7 @@ Este tipo de organización permite visualizar diferentes atributos de un mismo p
 
 La organización por audiencia representa una de las decisiones más importantes dentro de SmartStock.
 
-<p align="center">
-  <img src="../assets/chapter-4/organizacion-3.png" alt="Figura 8. dashboard de SmartStock.">
-</p>
+![Figura 8. dashboard de SmartStock.](../assets/chapter-4/organizacion-3.png)
 
 Las funcionalidades disponibles se organizan dependiendo del segmento seleccionado por el usuario durante el registro.
 
@@ -279,10 +263,7 @@ Entre las principales etiquetas se encuentran:
 
 Los íconos ayudan a complementar visualmente el significado de cada opción, permitiendo mantener textos cortos sin perder claridad.
 
-<p align="center">
-  <img src="../assets/chapter-4/organizacion-4.png" alt="Figura 9. dashboard de SmartStock.">
-</p>
-
+![Figura 9. dashboard de SmartStock.](../assets/chapter-4/organizacion-4.png)
 Además, tanto el Landing Page como la Web Application se encuentran disponibles en inglés y español.
 
 Ambos productos comparten la misma preferencia de idioma mediante:
@@ -331,12 +312,13 @@ La etiqueta `<meta name="keywords">` contiene términos relacionados con el proy
 - minimarket.
 - corner store.
 - SmartStock.
-- NexoStock.
+- Inventia.
 
 Finalmente, la etiqueta de autor utiliza:
 
 ```html
-<meta name="author" content="NexoStock">
+<meta name="author" content="Inventia">
+```
 
 #### Web Application
 
@@ -346,8 +328,8 @@ Se propone agregar las siguientes etiquetas:
 
 ```html
 <meta name="description" content="SmartStock Web Application — gestiona tu inventario monitoreado por sensores IoT, alertas y comparaciones de stock.">
-<meta name="keywords" content="SmartStock, NexoStock, gestión de inventario, sensores IoT, monitoreo de stock">
-<meta name="author" content="NexoStock">
+<meta name="keywords" content="SmartStock, Inventia, gestión de inventario, sensores IoT, monitoreo de stock">
+<meta name="author" content="Inventia">
 ```
 
 De manera opcional, también puede utilizarse:
@@ -386,9 +368,7 @@ También cuenta con filtros según el estado del producto:
 - Normal.
 - Sin sensor.
 
-<p align="center">
-  <img src="../assets/chapter-4/organizacion-5.png" alt="Figura 10. dashboard de SmartStock.">
-</p>
+![Figura 10. dashboard de SmartStock.](../assets/chapter-4/organizacion-5.png)
 
 Cuando el usuario realiza una búsqueda o aplica un filtro, las filas que no coinciden con los criterios establecidos son ocultadas. Las filas que coinciden mantienen la información correspondiente a:
 
@@ -411,9 +391,7 @@ Los filtros disponibles son:
 
 El sistema actualiza el número de productos visibles y permite identificar aquellos que presentan una diferencia superior al **10 %** entre el stock registrado y el stock físico.
 
-<p align="center">
-  <img src="../assets/chapter-4/organización-6.png" alt="Figura 11. dashboard de SmartStock.">
-</p>
+![Figura 11. dashboard de SmartStock.](../assets/chapter-4/organización-6.png)
 
 ##### Alertas
 
@@ -430,9 +408,7 @@ Los contadores de cada categoría se actualizan según las alertas disponibles. 
 - Mensaje.
 - Tiempo relativo desde su generación.
 
-<p align="center">
-  <img src="../assets/chapter-4/organizacion-7.png" alt="Figura 12. dashboard de SmartStock.">
-</p>
+![Figura 12. dashboard de SmartStock.](../assets/chapter-4/organizacion-7.png)
 
 ---
 
@@ -474,9 +450,7 @@ El bloque que contiene la información del negocio funciona además como un indi
 
 Dentro del Detalle de producto también se proporciona contexto adicional mediante una navegación similar a un breadcrumb:
 
-<p align="center">
-  <img src="../assets/chapter-4/organizacion-8.png" alt="Figura 13. dashboard de SmartStock.">
-</p>
+![Figura 13. dashboard de SmartStock.](../assets/chapter-4/organizacion-8.png)
 
 **Productos / Categoría**
 
@@ -489,9 +463,7 @@ Actualmente, la Web Application permite regresar al Landing Page mediante:
 - El logotipo de SmartStock.
 - La opción **← Volver al sitio SmartStock**.
 
-<p align="center">
-  <img src="../assets/chapter-4/organizacion-9.png" alt="Figura 14. dashboard de SmartStock.">
-</p>
+![Figura 14. dashboard de SmartStock.](../assets/chapter-4/organizacion-9.png)
 
 Sin embargo, la navegación desde el Landing Page hacia la Web Application todavía no se encuentra completamente implementada.
 
@@ -520,298 +492,420 @@ El wireframe de SmartStock organiza de forma clara la página de inicio, mostran
 
 **Figura 15. Interfaz principal de bienvenida del landing page de SmartStock.**
 
-<p align="center">
-  <img src="../assets/chapter-4/wireframe-escritorio1.png" alt="Figura 15. Interfaz principal de bienvenida del landing page de SmartStock.">
-</p>
+![Figura 15. Interfaz principal de bienvenida del landing page de SmartStock.](../assets/chapter-4/wireframe-escritorio1.png)
 
 > *Nota.* Wireframe de la estructura principal de inicio del landing page de SmartStock en versión de escritorio.
 
 **Figura 16. Interfaz sección de problemas y beneficios de SmartStock en versión de escritorio.**
 
-<p align="center">
-  <img src="../assets/chapter-4/wireframe-escritorio2.png" alt="Figura 16. Interfaz sección de problemas y beneficios de SmartStock en versión de escritorio.">
-</p>
+![Figura 16. Interfaz sección de problemas y beneficios de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio2.png)
 
 > *Nota.* Wireframe de la estructura de la sección de problemas y beneficios de SmartStock en versión de escritorio.
 
 **Figura 17. Interfaz de la sección de casos de uso de SmartStock en versión de escritorio.**
 
-<p align="center">
-  <img src="../assets/chapter-4/wireframe-escritorio3.png" alt="Figura 17. Interfaz de la sección de casos de uso de SmartStock en versión de escritorio.">
-</p>
+![Figura 17. Interfaz de la sección de casos de uso de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio3.png)
 
 > *Nota.* Wireframe de la estructura de la sección de casos de uso de SmartStock en versión de escritorio.
 
 **Figura 18. Interfaz de la sección comparativa de SmartStock en versión de escritorio.**
 
-<p align="center">
-  <img src="../assets/chapter-4/wireframe-escritorio4.png" alt="Figura 18. Interfaz de la sección comparativa de SmartStock en versión de escritorio.">
-</p>
+![Figura 18. Interfaz de la sección comparativa de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio4.png)
 
 > *Nota.* Wireframe de la estructura de la sección comparativa de SmartStock en versión de escritorio.
 
 **Figura 19. Interfaz de la sección de planes de SmartStock en versión de escritorio.**
 
-<p align="center">
-  <img src="../assets/chapter-4/wireframe-escritorio5.png" alt="Figura 19. Interfaz de la sección de planes de SmartStock en versión de escritorio.">
-</p>
+![Figura 19. Interfaz de la sección de planes de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio5.png)
 
 > *Nota.* Wireframe de la estructura de la sección de planes de SmartStock en versión de escritorio.
 
 **Figura 20. Interfaz de la sección de testimonios de SmartStock en versión de escritorio.**
 
-<p align="center">
-  <img src="../assets/chapter-4/wireframe-escritorio6.png" alt="Figura 20. Interfaz de la sección de testimonios de SmartStock en versión de escritorio.">
-</p>
+![Figura 20. Interfaz de la sección de testimonios de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio6.png)
 
 > *Nota.* Wireframe de la estructura de la sección de testimonios de SmartStock en versión de escritorio.
 
 **Figura 21. Interfaz de la sección de preguntas frecuentes de SmartStock en versión de escritorio.**
 
-<p align="center">
-  <img src="../assets/chapter-4/wireframe-escritorio7.png" alt="Figura 21. Interfaz de la sección de preguntas frecuentes de SmartStock en versión de escritorio.">
-</p>
+![Figura 21. Interfaz de la sección de preguntas frecuentes de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio7.png)
 
 > *Nota.* Wireframe de la estructura de la sección de preguntas frecuentes de SmartStock en versión de escritorio.
 
 **Figura 22. Interfaz del formulario de demostración de SmartStock en versión de escritorio.**
 
-<p align="center">
-  <img src="../assets/chapter-4/wireframe-escritorio8.png" alt="Figura 22. Interfaz del formulario de demostración de SmartStock en versión de escritorio.">
-</p>
+![Figura 22. Interfaz del formulario de demostración de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio8.png)
 
 > *Nota.* Wireframe de la estructura del formulario de demostración de SmartStock en versión de escritorio.
-> 
-> **Figura 23. Pie de página del landing page de SmartStock.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/wireframe-escritorio9.png" alt="Figura 23. Pie de página del landing page de SmartStock.">
-> </p>
-> 
-> > *Nota.* Wireframe del pie de página del landing page de SmartStock.
-> 
-> ### Mobile:
-> 
-> **Figura 24. Interfaz de la interfaz principal de inicio de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/wireframe-mobile1.png" alt="Figura 24. Interfaz principal de inicio de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Wireframe de la estructura principal de inicio del landing page de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 25. Interfaz de la sección de problemas y beneficios de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/wireframe-mobile2.png" alt="Figura 25. Interfaz de la sección de problemas y beneficios de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Wireframe de la estructura de la sección de problemas y beneficios de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 26. Interfaz de la sección de casos de uso de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/wireframe-mobile3.png" alt="Figura 26. Interfaz de la sección de casos de uso de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Wireframe de la estructura de la sección de casos de uso de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 27. Interfaz de la sección comparativa de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/wireframe-mobile4.png" alt="Figura 27. Interfaz de la sección comparativa de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Wireframe de la estructura de la sección comparativa de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 28. Interfaz de la sección de planes de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/wireframe-mobile5.png" alt="Figura 28. Interfaz de la sección de planes de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Wireframe de la estructura de la sección de planes de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 29. Interfaz de la sección de testimonios de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/wireframe-mobile6.png" alt="Figura 29. Interfaz de la sección de testimonios de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Wireframe de la estructura de la sección de testimonios de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 30. Interfaz de la sección de preguntas frecuentes de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/wireframe-mobile7.png" alt="Figura 30. Interfaz de la sección de preguntas frecuentes de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Wireframe de la estructura de la sección de preguntas frecuentes de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 31. Interfaz del formulario de demostración de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/wireframe-mobile8.png" alt="Figura 31. Interfaz del formulario de demostración de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Wireframe de la estructura del formulario de demostración de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 32. Interfaz del menú de navegación de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/wireframe-mobile9.png" alt="Figura 32. Interfaz del menú de navegación de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Wireframe de la estructura del menú de navegación de SmartStock adaptado para dispositivos móviles.
-> 
-> ---
-> 
-> ### 4.3.2. Landing Page Mock-up
-> 
-> El mock-up de la página de inicio de SmartStock actúa como un mapa visual que organiza la estructura y el flujo de la información, mientras cada sección conduce al usuario desde la identificación del problema hasta la presentación de las funcionalidades y beneficios de la plataforma.
-> 
-> **Figura 33. Interfaz principal de inicio del landing page de SmartStock en versión de escritorio.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-escritorio1.png" alt="Figura 33. Interfaz principal de inicio del landing page de SmartStock en versión de escritorio.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz principal de inicio del landing page de SmartStock en versión de escritorio.
-> 
-> **Figura 34. Interfaz de problemas y beneficios de SmartStock en versión de escritorio.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-escritorio2.png" alt="Figura 34. Interfaz de problemas y beneficios de SmartStock en versión de escritorio.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz de problemas y beneficios de SmartStock en versión de escritorio.
-> 
-> **Figura 35. Interfaz de casos de uso de SmartStock en versión de escritorio.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-escritorio3.png" alt="Figura 35. Interfaz de casos de uso de SmartStock en versión de escritorio.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz de casos de uso de SmartStock en versión de escritorio.
-> 
-> **Figura 36. Interfaz de planes de SmartStock en versión de escritorio.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-escritorio4.png" alt="Figura 36. Interfaz de planes de SmartStock en versión de escritorio.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz de planes de SmartStock en versión de escritorio.
-> 
-> **Figura 37. Interfaz principal de bienvenida del landing page de SmartStock.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-escritorio5.png" alt="Figura 37. Interfaz principal de bienvenida del landing page de SmartStock.">
-> </p>
-> 
-> > *Nota.* Imagen de la interfaz principal de bienvenida del landing page de SmartStock.
-> 
-> **Figura 38. Interfaz de testimonios de SmartStock en versión de escritorio.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-escritorio6.png" alt="Figura 38. Interfaz de testimonios de SmartStock en versión de escritorio.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz de testimonios de SmartStock en versión de escritorio.
-> 
-> **Figura 39. Interfaz de preguntas frecuentes de SmartStock en versión de escritorio.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-escritorio7.png" alt="Figura 39. Interfaz de preguntas frecuentes de SmartStock en versión de escritorio.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz de preguntas frecuentes de SmartStock en versión de escritorio.
-> 
-> **Figura 40. Interfaz del formulario de demostración de SmartStock en versión de escritorio.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-escritorio8.png" alt="Figura 40. Interfaz del formulario de demostración de SmartStock en versión de escritorio.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz del formulario de demostración de SmartStock en versión de escritorio.
-> 
-> **Figura 41. Pie de página de la versión de escritorio de SmartStock.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-escritorio9.png" alt="Figura 41. Pie de página de la versión de escritorio de SmartStock.">
-> </p>
-> 
-> > *Nota.* Mockup del pie de página de SmartStock.
-> 
-> ### Mobile:
-> 
-> **Figura 42. Interfaz principal de inicio del landing page de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-mobile1.png" alt="Figura 42. Interfaz principal de inicio del landing page de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz principal de inicio del landing page de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 43. Interfaz de problemas y beneficios de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-mobile2.png" alt="Figura 43. Interfaz de problemas y beneficios de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz de problemas y beneficios de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 44. Interfaz de casos de uso de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-mobile3.png" alt="Figura 44. Interfaz de casos de uso de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz de casos de uso de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 45. Interfaz comparativa de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-mobile4.png" alt="Figura 45. Interfaz comparativa de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz comparativa de SmartStock en versión móvil.
-> 
-> **Figura 46. Interfaz de planes de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-mobile5.png" alt="Figura 46. Interfaz de planes de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz de planes de SmartStock en versión móvil.
-> 
-> **Figura 47. Interfaz de testimonios de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-mobile6.png" alt="Figura 47. Interfaz de testimonios de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz de testimonios de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 48. Interfaz de preguntas frecuentes de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-mobile7.png" alt="Figura 48. Interfaz de preguntas frecuentes de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz de preguntas frecuentes de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 49. Interfaz del formulario de demostración de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-mobile8.png" alt="Figura 49. Interfaz del formulario de demostración de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Mockup de la interfaz del formulario de demostración de SmartStock adaptada para dispositivos móviles.
-> 
-> **Figura 50. Interfaz del menú de navegación de SmartStock en versión móvil.**
-> 
-> <p align="center">
->   <img src="../assets/chapter-4/mockup-mobile9.png" alt="Figura 50. Interfaz del menú de navegación de SmartStock en versión móvil.">
-> </p>
-> 
-> > *Nota.* Mockup del menú de navegación del landing page de SmartStock adaptado para dispositivos móviles.
+
+**Figura 23. Pie de página del landing page de SmartStock.**
+
+![Figura 23. Pie de página del landing page de SmartStock.](../assets/chapter-4/wireframe-escritorio9.png)
+
+> *Nota.* Wireframe del pie de página del landing page de SmartStock.
+
+### Mobile:
+
+**Figura 24. Interfaz de la interfaz principal de inicio de SmartStock en versión móvil.**
+
+![Figura 24. Interfaz de la interfaz principal de inicio de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile1.png)
+
+> *Nota.* Wireframe de la estructura principal de inicio del landing page de SmartStock adaptada para dispositivos móviles.
+
+**Figura 25. Interfaz de la sección de problemas y beneficios de SmartStock en versión móvil.**
+
+![Figura 25. Interfaz de la sección de problemas y beneficios de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile2.png)
+
+> *Nota.* Wireframe de la estructura de la sección de problemas y beneficios de SmartStock adaptada para dispositivos móviles.
+
+**Figura 26. Interfaz de la sección de casos de uso de SmartStock en versión móvil.**
+
+![Figura 26. Interfaz de la sección de casos de uso de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile3.png)
+
+> *Nota.* Wireframe de la estructura de la sección de casos de uso de SmartStock adaptada para dispositivos móviles.
+
+**Figura 27. Interfaz de la sección comparativa de SmartStock en versión móvil.**
+
+![Figura 27. Interfaz de la sección comparativa de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile4.png)
+
+> *Nota.* Wireframe de la estructura de la sección comparativa de SmartStock adaptada para dispositivos móviles.
+
+**Figura 28. Interfaz de la sección de planes de SmartStock en versión móvil.**
+
+![Figura 28. Interfaz de la sección de planes de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile5.png)
+
+> *Nota.* Wireframe de la estructura de la sección de planes de SmartStock adaptada para dispositivos móviles.
+
+**Figura 29. Interfaz de la sección de testimonios de SmartStock en versión móvil.**
+
+![Figura 29. Interfaz de la sección de testimonios de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile6.png)
+
+> *Nota.* Wireframe de la estructura de la sección de testimonios de SmartStock adaptada para dispositivos móviles.
+
+**Figura 30. Interfaz de la sección de preguntas frecuentes de SmartStock en versión móvil.**
+
+![Figura 30. Interfaz de la sección de preguntas frecuentes de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile7.png)
+
+> *Nota.* Wireframe de la estructura de la sección de preguntas frecuentes de SmartStock adaptada para dispositivos móviles.
+
+**Figura 31. Interfaz del formulario de demostración de SmartStock en versión móvil.**
+
+![Figura 31. Interfaz del formulario de demostración de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile8.png)
+
+> *Nota.* Wireframe de la estructura del formulario de demostración de SmartStock adaptada para dispositivos móviles.
+
+**Figura 32. Interfaz del menú de navegación de SmartStock en versión móvil.**
+
+![Figura 32. Interfaz del menú de navegación de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile9.png)
+
+> *Nota.* Wireframe de la estructura del menú de navegación de SmartStock adaptado para dispositivos móviles.
+
+---
+
+### 4.3.2. Landing Page Mock-up
+
+Los mock-ups muestran la propuesta visual de alta fidelidad del Landing Page, tanto para escritorio como para dispositivos móviles.
+
+#### Desktop
+
+![Mock-up del landing page en escritorio 1.](../assets/chapter-4/mockup-escritorio1.png)
+![Mock-up del landing page en escritorio 2.](../assets/chapter-4/mockup-escritorio2.png)
+![Mock-up del landing page en escritorio 3.](../assets/chapter-4/mockup-escritorio3.png)
+![Mock-up del landing page en escritorio 4.](../assets/chapter-4/mockup-escritorio4.png)
+![Mock-up del landing page en escritorio 5.](../assets/chapter-4/mockup-escritorio5.png)
+![Mock-up del landing page en escritorio 6.](../assets/chapter-4/mockup-escritorio6.png)
+![Mock-up del landing page en escritorio 7.](../assets/chapter-4/mockup-escritorio7.png)
+![Mock-up del landing page en escritorio 8.](../assets/chapter-4/mockup-escritorio8.png)
+![Mock-up del landing page en escritorio 9.](../assets/chapter-4/mockup-escritorio9.png)
+
+#### Mobile
+
+![Mock-up del landing page en móvil 1.](../assets/chapter-4/mockup-mobile1.png)
+![Mock-up del landing page en móvil 2.](../assets/chapter-4/mockup-mobile2.png)
+![Mock-up del landing page en móvil 3.](../assets/chapter-4/mockup-mobile3.png)
+![Mock-up del landing page en móvil 4.](../assets/chapter-4/mockup-mobile4.png)
+![Mock-up del landing page en móvil 5.](../assets/chapter-4/mockup-mobile5.png)
+![Mock-up del landing page en móvil 6.](../assets/chapter-4/mockup-mobile6.png)
+![Mock-up del landing page en móvil 7.](../assets/chapter-4/mockup-mobile7.png)
+![Mock-up del landing page en móvil 8.](../assets/chapter-4/mockup-mobile8.png)
+![Mock-up del menú de navegación del landing page en móvil.](../assets/chapter-4/mockup-mobile9.png)
+
+> *Nota.* Mock-ups del Landing Page de SmartStock adaptados para versiones de escritorio y dispositivos móviles.
+
+---
+
+## 4.4. Web Applications UX/UI Design
+
+En esta sección se presentan los wireframes, wireflows, mock-ups y diagramas de flujo de usuario desarrollados para los dos segmentos objetivo de SmartStock: propietarios y administradores de minimarkets, y propietarios y administradores de bodegas de barrio.
+
+### 4.4.1. Web Applications Wireframes
+
+#### Owners and Managers of Mini-markets
+
+![Wireframe de la aplicación web para minimarkets 1.](../assets/chapter-4/webapplicationwireframes1.1.png)
+![Wireframe de la aplicación web para minimarkets 2.](../assets/chapter-4/webapplicationwireframes1.2.png)
+![Wireframe de la aplicación web para minimarkets 3.](../assets/chapter-4/webapplicationwireframes1.3.png)
+![Wireframe de la aplicación web para minimarkets 4.](../assets/chapter-4/webapplicationwireframes1.4.png)
+![Wireframe de la aplicación web para minimarkets 5.](../assets/chapter-4/webapplicationwireframes1.5.png)
+![Wireframe de la aplicación web para minimarkets 6.](../assets/chapter-4/webapplicationwireframes1.6.png)
+![Wireframe de la aplicación web para minimarkets 7.](../assets/chapter-4/webapplicationwireframes1.7.png)
+![Wireframe de la aplicación web para minimarkets 8.](../assets/chapter-4/webapplicationwireframes1.8.png)
+![Wireframe de la aplicación web para minimarkets 9.](../assets/chapter-4/webapplicationwireframes1.9.png)
+![Wireframe de la aplicación web para minimarkets 10.](../assets/chapter-4/webapplicationwireframes1.10.png)
+![Wireframe de la aplicación web para minimarkets 11.](../assets/chapter-4/webapplicationwireframes1.11.png)
+![Wireframe de la aplicación web para minimarkets 12.](../assets/chapter-4/webapplicationwireframes1.12.png)
+![Wireframe de la aplicación web para minimarkets 13.](../assets/chapter-4/webapplicationwireframes1.13.png)
+![Wireframe de la aplicación web para minimarkets 14.](../assets/chapter-4/webapplicationwireframes1.14.png)
+![Wireframe de la aplicación web para minimarkets 15.](../assets/chapter-4/webapplicationwireframes1.15.png)
+![Wireframe de la aplicación web para minimarkets 16.](../assets/chapter-4/webapplicationwireframes1.16.png)
+![Wireframe de la aplicación web para minimarkets 17.](../assets/chapter-4/webapplicationwireframes1.17.png)
+![Wireframe de la aplicación web para minimarkets 18.](../assets/chapter-4/webapplicationwireframes1.18.png)
+![Wireframe de la aplicación web para minimarkets 19.](../assets/chapter-4/webapplicationwireframes1.19.png)
+
+#### Owners and Managers of Corner Stores
+
+![Wireframe de la aplicación web para bodegas 1.](../assets/chapter-4/webapplicationwireframes2.1.png)
+![Wireframe de la aplicación web para bodegas 2.](../assets/chapter-4/webapplicationwireframes2.2.png)
+![Wireframe de la aplicación web para bodegas 3.](../assets/chapter-4/webapplicationwireframes2.3.png)
+![Wireframe de la aplicación web para bodegas 4.](../assets/chapter-4/webapplicationwireframes2.4.png)
+![Wireframe de la aplicación web para bodegas 5.](../assets/chapter-4/webapplicationwireframes2.5.png)
+![Wireframe de la aplicación web para bodegas 6.](../assets/chapter-4/webapplicationwireframes2.6.png)
+![Wireframe de la aplicación web para bodegas 7.](../assets/chapter-4/webapplicationwireframes2.7.png)
+![Wireframe de la aplicación web para bodegas 8.](../assets/chapter-4/webapplicationwireframes2.8.png)
+![Wireframe de la aplicación web para bodegas 9.](../assets/chapter-4/webapplicationwireframes2.9.png)
+![Wireframe de la aplicación web para bodegas 10.](../assets/chapter-4/webapplicationwireframes2.10.png)
+![Wireframe de la aplicación web para bodegas 11.](../assets/chapter-4/webapplicationwireframes2.11.png)
+![Wireframe de la aplicación web para bodegas 12.](../assets/chapter-4/webapplicationwireframes2.12.png)
+![Wireframe de la aplicación web para bodegas 13.](../assets/chapter-4/webapplicationwireframes2.13.png)
+![Wireframe de la aplicación web para bodegas 14.](../assets/chapter-4/webapplicationwireframes2.14.png)
+![Wireframe de la aplicación web para bodegas 15.](../assets/chapter-4/webapplicationwireframes2.15.png)
+![Wireframe de la aplicación web para bodegas 16.](../assets/chapter-4/webapplicationwireframes2.16.png)
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+Los wireflows muestran las rutas que siguen los usuarios entre las diferentes pantallas de la aplicación según su segmento.
+
+[Ver tablero completo de wireflows en Figma](https://www.figma.com/board/Tdon4igryTEOc1wl7f5I15/Wireflow-diagrams-SmartStock?node-id=0-1&t=ik1xWHtOIA29fNXh-1)
+
+#### Owners and Managers of Mini-markets
+
+![Wireflow para minimarkets 1.](../assets/chapter-4/minimarketswireflows1.png)
+![Wireflow para minimarkets 2.](../assets/chapter-4/minimarketswireflows2.png)
+![Wireflow para minimarkets 3.](../assets/chapter-4/minimarketswireflows3.png)
+![Wireflow para minimarkets 4.](../assets/chapter-4/minimarketswireflows4.png)
+![Wireflow para minimarkets 5.](../assets/chapter-4/minimarketswireflows5.png)
+![Wireflow para minimarkets 6.](../assets/chapter-4/minimarketswireflows6.png)
+![Wireflow para minimarkets 7.](../assets/chapter-4/minimarketswireflows7.png)
+![Wireflow para minimarkets 8.](../assets/chapter-4/minimarketswireflows8.png)
+![Wireflow para minimarkets 9.](../assets/chapter-4/minimarketswireflows9.png)
+![Wireflow para minimarkets 10.](../assets/chapter-4/minimarketswireflows10.png)
+![Wireflow para minimarkets 11.](../assets/chapter-4/minimarketswireflows11.png)
+![Wireflow para minimarkets 12.](../assets/chapter-4/minimarketswireflows12.png)
+![Wireflow para minimarkets 13.](../assets/chapter-4/minimarketswireflows13.png)
+
+#### Owners and Managers of Corner Stores
+
+![Wireflow para bodegas 1.](../assets/chapter-4/cornerstorewireflows1.png)
+![Wireflow para bodegas 2.](../assets/chapter-4/cornerstorewireflows2.png)
+![Wireflow para bodegas 3.](../assets/chapter-4/cornerstorewireflows3.png)
+![Wireflow para bodegas 4.](../assets/chapter-4/cornerstorewireflows4.png)
+![Wireflow para bodegas 5.](../assets/chapter-4/cornerstorewireflows5.png)
+![Wireflow para bodegas 6.](../assets/chapter-4/cornerstorewireflows6.png)
+![Wireflow para bodegas 7.](../assets/chapter-4/cornerstorewireflows7.png)
+![Wireflow para bodegas 8.](../assets/chapter-4/cornerstorewireflows8.png)
+![Wireflow para bodegas 9.](../assets/chapter-4/cornerstorewireflows9.png)
+![Wireflow para bodegas 10.](../assets/chapter-4/cornerstorewireflows10.png)
+![Wireflow para bodegas 11.](../assets/chapter-4/cornerstorewireflows11.png)
+
+### 4.4.3. Web Applications Mock-ups
+
+#### Owners and Managers of Mini-markets
+
+![Mock-up de la aplicación web para minimarkets 1.](../assets/chapter-4/webapplicationsmockup1.1.png)
+![Mock-up de la aplicación web para minimarkets 2.](../assets/chapter-4/webapplicationsmockup1.2.png)
+![Mock-up de la aplicación web para minimarkets 3.](../assets/chapter-4/webapplicationsmockup1.3.png)
+![Mock-up de la aplicación web para minimarkets 4.](../assets/chapter-4/webapplicationsmockup1.4.png)
+![Mock-up de la aplicación web para minimarkets 5.](../assets/chapter-4/webapplicationsmockup1.5.png)
+![Mock-up de la aplicación web para minimarkets 6.](../assets/chapter-4/webapplicationsmockup1.6.png)
+![Mock-up de la aplicación web para minimarkets 7.](../assets/chapter-4/webapplicationsmockup1.7.png)
+![Mock-up de la aplicación web para minimarkets 8.](../assets/chapter-4/webapplicationsmockup1.8.png)
+![Mock-up de la aplicación web para minimarkets 9.](../assets/chapter-4/webapplicationsmockup1.9.png)
+![Mock-up de la aplicación web para minimarkets 10.](../assets/chapter-4/webapplicationsmockup1.10.png)
+![Mock-up de la aplicación web para minimarkets 11.](../assets/chapter-4/webapplicationsmockup1.11.png)
+![Mock-up de la aplicación web para minimarkets 12.](../assets/chapter-4/webapplicationsmockup1.12.png)
+![Mock-up de la aplicación web para minimarkets 13.](../assets/chapter-4/webapplicationsmockup1.13.png)
+![Mock-up de la aplicación web para minimarkets 14.](../assets/chapter-4/webapplicationsmockup1.14.png)
+![Mock-up de la aplicación web para minimarkets 15.](../assets/chapter-4/webapplicationsmockup1.15.png)
+![Mock-up de la aplicación web para minimarkets 16.](../assets/chapter-4/webapplicationsmockup1.16.png)
+![Mock-up de la aplicación web para minimarkets 17.](../assets/chapter-4/webapplicationsmockup1.17.png)
+![Mock-up de la aplicación web para minimarkets 18.](../assets/chapter-4/webapplicationsmockup1.18.png)
+![Mock-up de la aplicación web para minimarkets 19.](../assets/chapter-4/webapplicationsmockup1.19.png)
+
+#### Owners and Managers of Corner Stores
+
+![Mock-up de la aplicación web para bodegas 1.](../assets/chapter-4/webapplicationsmockup2.1.png)
+![Mock-up de la aplicación web para bodegas 2.](../assets/chapter-4/webapplicationsmockup2.2.png)
+![Mock-up de la aplicación web para bodegas 3.](../assets/chapter-4/webapplicationsmockup2.3.png)
+![Mock-up de la aplicación web para bodegas 4.](../assets/chapter-4/webapplicationsmockup2.4.png)
+![Mock-up de la aplicación web para bodegas 5.](../assets/chapter-4/webapplicationsmockup2.5.png)
+![Mock-up de la aplicación web para bodegas 6.](../assets/chapter-4/webapplicationsmockup2.6.png)
+![Mock-up de la aplicación web para bodegas 7.](../assets/chapter-4/webapplicationsmockup2.7.png)
+![Mock-up de la aplicación web para bodegas 8.](../assets/chapter-4/webapplicationsmockup2.8.png)
+![Mock-up de la aplicación web para bodegas 9.](../assets/chapter-4/webapplicationsmockup2.9.png)
+![Mock-up de la aplicación web para bodegas 10.](../assets/chapter-4/webapplicationsmockup2.10.png)
+![Mock-up de la aplicación web para bodegas 11.](../assets/chapter-4/webapplicationsmockup2.11.png)
+![Mock-up de la aplicación web para bodegas 12.](../assets/chapter-4/webapplicationsmockup2.12.png)
+![Mock-up de la aplicación web para bodegas 13.](../assets/chapter-4/webapplicationsmockup2.13.png)
+![Mock-up de la aplicación web para bodegas 14.](../assets/chapter-4/webapplicationsmockup2.14.png)
+![Mock-up de la aplicación web para bodegas 15.](../assets/chapter-4/webapplicationsmockup2.15.png)
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+Los diagramas de flujo de usuario representan las acciones necesarias para completar las principales tareas de SmartStock.
+
+[Ver tablero completo de user flows en Figma](https://www.figma.com/board/Q4SExEhBOi9wb1iWULW9ce/User-Flow-diagrams-SmartStock?node-id=0-1&t=GD9ioBq6MAOymx5J-1)
+
+#### Owners and Managers of Mini-markets
+
+![User flow para minimarkets 1.](../assets/chapter-4/userflowdiagrams1.1.png)
+![User flow para minimarkets 2.](../assets/chapter-4/userflowdiagrams1.2.png)
+![User flow para minimarkets 3.](../assets/chapter-4/userflowdiagrams1.3.png)
+![User flow para minimarkets 4.](../assets/chapter-4/userflowdiagrams1.4.png)
+![User flow para minimarkets 5.](../assets/chapter-4/userflowdiagrams1.5.png)
+![User flow para minimarkets 6.](../assets/chapter-4/userflowdiagrams1.6.png)
+![User flow para minimarkets 7.](../assets/chapter-4/userflowdiagrams1.7.png)
+![User flow para minimarkets 8.](../assets/chapter-4/userflowdiagrams1.8.png)
+![User flow para minimarkets 9.](../assets/chapter-4/userflowdiagrams1.9.png)
+![User flow para minimarkets 10.](../assets/chapter-4/userflowdiagrams1.10.png)
+![User flow para minimarkets 11.](../assets/chapter-4/userflowdiagrams1.11.png)
+![User flow para minimarkets 12.](../assets/chapter-4/userflowdiagrams1.12.png)
+![User flow para minimarkets 13.](../assets/chapter-4/userflowdiagrams1.13.png)
+
+#### Owners and Managers of Corner Stores
+
+![User flow para bodegas 1.](../assets/chapter-4/userflowdiagrams2.1.png)
+![User flow para bodegas 2.](../assets/chapter-4/userflowdiagrams2.2.png)
+![User flow para bodegas 3.](../assets/chapter-4/userflowdiagrams2.3.png)
+![User flow para bodegas 4.](../assets/chapter-4/userflowdiagrams2.4.png)
+![User flow para bodegas 5.](../assets/chapter-4/userflowdiagrams2.5.png)
+![User flow para bodegas 6.](../assets/chapter-4/userflowdiagrams2.6.png)
+![User flow para bodegas 7.](../assets/chapter-4/userflowdiagrams2.7.png)
+![User flow para bodegas 8.](../assets/chapter-4/userflowdiagrams2.8.png)
+![User flow para bodegas 9.](../assets/chapter-4/userflowdiagrams2.9.png)
+![User flow para bodegas 10.](../assets/chapter-4/userflowdiagrams2.10.png)
+![User flow para bodegas 11.](../assets/chapter-4/userflowdiagrams2.11.png)
+
+---
+
+## 4.5. Web Applications Prototyping
+
+Los prototipos interactivos permiten validar la navegación y las principales tareas para cada segmento objetivo.
+
+- **Propietarios y administradores de minimarkets:** [Abrir prototipo en Figma](https://www.figma.com/proto/UmhwfXcaFyV0VVuE27ASL8/NexoStock-SmartStock-Open-Source?node-id=67-2322&t=AVcSMMYJ210vCUeU-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A2&starting-point-node-id=67%3A2322)
+- **Propietarios y administradores de bodegas de barrio:** [Abrir prototipo en Figma](https://www.figma.com/proto/UmhwfXcaFyV0VVuE27ASL8/NexoStock-SmartStock-Open-Source?node-id=294-757&t=xqYqzXGZf9cDlHhC-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A3)
+
+> **Nota:** Se conserva `NexoStock` únicamente dentro de las direcciones URL originales de Figma para evitar que los enlaces de los prototipos dejen de funcionar. La marca utilizada en el informe es Inventia.
+
+---
+
+## 4.6. Domain-Driven Software Architecture
+
+### 4.6.1. Design-Level Event Storming
+
+Se utilizó la guía de Philippe Bourgau, proporcionada en la rúbrica del Final Problem Statement, para desarrollar el proceso de Design-Level Event Storming e identificar los Bounded Contexts. Se siguieron las siguientes etapas:
+
+- Unstructured Exploration.
+- Timelines.
+- Pain Points.
+- Pivotal Points.
+- Commands.
+- Policies.
+- Read Models.
+- External Systems.
+- Aggregates.
+- Bounded Contexts.
+
+[Ver tablero de Design-Level Event Storming en Miro](https://miro.com/welcomeonboard/WXlEQy9hRngvZnRPQkVlR3pJMDN5M25TTmpLSUY1Rk1kckJOVU15UnczNVNWQURZN3dUVFAxcitFSFJsUXJFaU5ET1JCc2VweWsrNytLZFliMGRLeEU2Y0VkT2ZMMEZSQmZXeXFHL3dBZ1VuR1Y3emdReUdaZHV1WFFLd3BrWDVNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=815705743217)
+
+**Figura 67. Design-Level Event Storming.**
+
+![Figura 67. Design-Level Event Storming.](../assets/chapter-4/designleveleventstorming.png)
+
+### 4.6.2. Software Architecture Context Diagram
+
+**Figura 68. C4 Context Diagram.**
+
+![Figura 68. C4 Context Diagram.](../assets/chapter-4/c4contextdiagram.png)
+
+### 4.6.3. Software Architecture Container Diagrams
+
+**Figura 69. C4 Container Diagram.**
+
+![Figura 69. C4 Container Diagram.](../assets/chapter-4/c4containerdiagram.png)
+
+### 4.6.4. Software Architecture Components Diagrams
+
+**Figura 70. C4 Component Diagram 1.**
+
+![Figura 70. C4 Component Diagram 1.](../assets/chapter-4/c4componentdiagram1.png)
+
+**Figura 71. C4 Component Diagram 2.**
+
+![Figura 71. C4 Component Diagram 2.](../assets/chapter-4/c4componentdiagram2.png)
+
+**Figura 72. C4 Component Diagram 3.**
+
+![Figura 72. C4 Component Diagram 3.](../assets/chapter-4/c4componentdiagram3.png)
+
+**Figura 73. C4 Component Diagram 4.**
+
+![Figura 73. C4 Component Diagram 4.](../assets/chapter-4/c4componentdiagram4.png)
+
+**Figura 74. C4 Component Diagram 5.**
+
+![Figura 74. C4 Component Diagram 5.](../assets/chapter-4/c4componentdiagram5.png)
+
+**Figura 75. C4 Component Diagram 6.**
+
+![Figura 75. C4 Component Diagram 6.](../assets/chapter-4/c4componentdiagram6.png)
+
+---
+
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
+
+**Figura 76. Class Diagram - Bounded Context 1.**
+
+![Figura 76. Class Diagram del Bounded Context 1.](../assets/chapter-4/boundedcontext1.png)
+
+**Figura 77. Class Diagram - Bounded Context 2.**
+
+![Figura 77. Class Diagram del Bounded Context 2.](../assets/chapter-4/boundedcontext2.png)
+
+**Figura 78. Class Diagram - Bounded Context 3.**
+
+![Figura 78. Class Diagram del Bounded Context 3.](../assets/chapter-4/boundedcontext3.png)
+
+**Figura 79. Class Diagram - Bounded Context 4.**
+
+![Figura 79. Class Diagram del Bounded Context 4.](../assets/chapter-4/boundedcontext4.png)
+
+**Figura 80. Class Diagram - Bounded Context 5.**
+
+![Figura 80. Class Diagram del Bounded Context 5.](../assets/chapter-4/boundedcontext5.png)
+
+**Figura 81. Class Diagram - Bounded Context 6.**
+
+![Figura 81. Class Diagram del Bounded Context 6.](../assets/chapter-4/boundedcontext6.png)
+
+---
+
+## 4.8. Database Design
+
+### 4.8.1. Database Diagrams
+
+El diagrama de base de datos representa las entidades, atributos y relaciones necesarias para almacenar la información gestionada por SmartStock.
+
+![Database Diagram de SmartStock.](../assets/chapter-4/databasediagrams.png)
+a
