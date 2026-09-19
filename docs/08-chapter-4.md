@@ -478,3 +478,125 @@ Las llamadas a la acción mantienen temporalmente enlaces como `href="#"` en ele
 Esta integración pendiente constituye una limitación actual del alcance implementado.
 
 ---
+
+## 4.3. Landing Page UI Design
+
+El diseño de la interfaz de usuario (UI) de la página de inicio de SmartStock es clave para captar la atención de los administradores y propietarios de bodegas y minimarkets, ya que los guía hacia una acción clara: comprender y adoptar una solución inteligente de gestión de inventarios. Se ha priorizado una experiencia continua, de modo que cada elemento de la página sea accesible, interactivo y fácil de usar, transmitiendo confianza, mientras refleja el compromiso de SmartStock con la innovación tecnológica y la claridad en la comunicación.
+
+### 4.3.1. Landing Page Wireframe
+
+El wireframe de SmartStock organiza de forma clara la página de inicio, mostrando la secuencia lógica de secciones: desde el problema de la gestión del inventario, pasando por las funcionalidades principales, hasta los beneficios que ofrece la plataforma.
+
+### Desktop:
+
+**Figura 15. Interfaz principal de bienvenida del landing page de SmartStock.**
+
+![Figura 15. Interfaz principal de bienvenida del landing page de SmartStock.](../assets/chapter-4/wireframe-escritorio1.png)
+
+> *Nota.* Wireframe de la estructura principal de inicio del landing page de SmartStock en versión de escritorio.
+
+**Figura 16. Interfaz sección de problemas y beneficios de SmartStock en versión de escritorio.**
+
+![Figura 16. Interfaz sección de problemas y beneficios de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio2.png)
+
+> *Nota.* Wireframe de la estructura de la sección de problemas y beneficios de SmartStock en versión de escritorio.
+
+**Figura 17. Interfaz de la sección de casos de uso de SmartStock en versión de escritorio.**
+
+![Figura 17. Interfaz de la sección de casos de uso de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio3.png)
+
+> *Nota.* Wireframe de la estructura de la sección de casos de uso de SmartStock en versión de escritorio.
+
+**Figura 18. Interfaz de la sección comparativa de SmartStock en versión de escritorio.**
+
+![Figura 18. Interfaz de la sección comparativa de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio4.png)
+
+> *Nota.* Wireframe de la estructura de la sección comparativa de SmartStock en versión de escritorio.
+
+**Figura 19. Interfaz de la sección de planes de SmartStock en versión de escritorio.**
+
+![Figura 19. Interfaz de la sección de planes de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio5.png)
+
+> *Nota.* Wireframe de la estructura de la sección de planes de SmartStock en versión de escritorio.
+
+**Figura 20. Interfaz de la sección de testimonios de SmartStock en versión de escritorio.**
+
+![Figura 20. Interfaz de la sección de testimonios de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio6.png)
+
+> *Nota.* Wireframe de la estructura de la sección de testimonios de SmartStock en versión de escritorio.
+
+**Figura 21. Interfaz de la sección de preguntas frecuentes de SmartStock en versión de escritorio.**
+
+![Figura 21. Interfaz de la sección de preguntas frecuentes de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio7.png)
+
+> *Nota.* Wireframe de la estructura de la sección de preguntas frecuentes de SmartStock en versión de escritorio.
+
+**Figura 22. Interfaz del formulario de demostración de SmartStock en versión de escritorio.**
+
+![Figura 22. Interfaz del formulario de demostración de SmartStock en versión de escritorio.](../assets/chapter-4/wireframe-escritorio8.png)
+
+> *Nota.* Wireframe de la estructura del formulario de demostración de SmartStock en versión de escritorio.
+
+**Figura 23. Pie de página del landing page de SmartStock.**
+
+![Figura 23. Pie de página del landing page de SmartStock.](../assets/chapter-4/wireframe-escritorio9)
+
+> *Nota.* Wireframe del pie de página del landing page de SmartStock.
+
+### Mobile:
+
+**Figura 24. Interfaz de la interfaz principal de inicio de SmartStock en versión móvil.**
+
+![Figura 24. Interfaz de la interfaz principal de inicio de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile1.png)
+
+> *Nota.* Wireframe de la estructura principal de inicio del landing page de SmartStock adaptada para dispositivos móviles.
+
+**Figura 25. Interfaz de la sección de problemas y beneficios de SmartStock en versión móvil.**
+
+![Figura 25. Interfaz de la sección de problemas y beneficios de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile2.png)
+
+> *Nota.* Wireframe de la estructura de la sección de problemas y beneficios de SmartStock adaptada para dispositivos móviles.
+
+**Figura 26. Interfaz de la sección de casos de uso de SmartStock en versión móvil.**
+
+![Figura 26. Interfaz de la sección de casos de uso de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile3.png)
+
+> *Nota.* Wireframe de la estructura de la sección de casos de uso de SmartStock adaptada para dispositivos móviles.
+
+**Figura 27. Interfaz de la sección comparativa de SmartStock en versión móvil.**
+
+![Figura 27. Interfaz de la sección comparativa de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile4.png)
+
+> *Nota.* Wireframe de la estructura de la sección comparativa de SmartStock adaptada para dispositivos móviles.
+
+**Figura 28. Interfaz de la sección de planes de SmartStock en versión móvil.**
+
+![Figura 28. Interfaz de la sección de planes de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile5.png)
+
+> *Nota.* Wireframe de la estructura de la sección de planes de SmartStock adaptada para dispositivos móviles.
+
+**Figura 29. Interfaz de la sección de testimonios de SmartStock en versión móvil.**
+
+![Figura 29. Interfaz de la sección de testimonios de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile6.png)
+
+> *Nota.* Wireframe de la estructura de la sección de testimonios de SmartStock adaptada para dispositivos móviles.
+
+**Figura 30. Interfaz de la sección de preguntas frecuentes de SmartStock en versión móvil.**
+
+![Figura 30. Interfaz de la sección de preguntas frecuentes de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile7.png)
+
+> *Nota.* Wireframe de la estructura de la sección de preguntas frecuentes de SmartStock adaptada para dispositivos móviles.
+
+**Figura 31. Interfaz del formulario de demostración de SmartStock en versión móvil.**
+
+![Figura 31. Interfaz del formulario de demostración de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile8.png)
+
+> *Nota.* Wireframe de la estructura del formulario de demostración de SmartStock adaptada para dispositivos móviles.
+
+**Figura 32. Interfaz del menú de navegación de SmartStock en versión móvil.**
+
+![Figura 32. Interfaz del menú de navegación de SmartStock en versión móvil.](../assets/chapter-4/wireframe-mobile9.png)
+
+> *Nota.* Wireframe de la estructura del menú de navegación de SmartStock adaptado para dispositivos móviles.
+
+---
