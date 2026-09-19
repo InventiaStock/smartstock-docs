@@ -40,7 +40,7 @@ El blanco (`#ffffff`) es el fondo dominante, reforzando una identidad limpia y c
 
 Estas decisiones se sustentan en los principios de claridad, confianza y accesibilidad: el azul marino como color dominante transmite seriedad y profesionalismo sin resultar frío; los acentos cian y verde menta se reservan para elementos puntuales de refuerzo visual (etiquetas, indicadores de interacción), evitando sobrecargar la interfaz; y el uso del blanco como fondo dominante prioriza la legibilidad de los datos de inventario que el producto presenta al usuario.
 
-![Figura 1. paleta de colores de SmartStock.](assets/chapter-4/paleta-colores.png)
+![Figura 1. paleta de colores de SmartStock.](../assets/chapter-4/paleta-colores.png)
 
 #### Spacing
 
@@ -73,13 +73,13 @@ El tono de comunicación definido es cercano, práctico y directo, priorizando l
 
 - **Botones:** se definieron tres variantes: `.btn` como botón primario, con relleno en degradado de navy y estado hover con elevación (desplazamiento sutil hacia arriba) y sombra reforzada; `.btn.ghost` como botón secundario, con borde y sin relleno; y `.btn.block` como botón de ancho completo, utilizado en las tarjetas de planes. Las tres variantes cuentan con un estado hover definido.
 
-![Figura 2. botones del landing page de SmartStock.](assets/chapter-4/boton-1.png)
+![Figura 2. botones del landing page de SmartStock.](../assets/chapter-4/boton-1.png)
 
-![Figura 3. botones del landing page de SmartStock.](assets/chapter-4/boton-2.png)
+![Figura 3. botones del landing page de SmartStock.](../assets/chapter-4/boton-2.png)
 
 - **Formularios:** los campos de entrada utilizan un borde de 1px y un radio de 8px. El estado de error se identifica mediante `aria-invalid="true"`, acompañado de un borde rojo `#c0392b` y un mensaje de error asociado mediante `aria-describedby`. La validación se ejecuta en el evento blur, en lugar de realizarse mientras el usuario escribe, evitando marcar como inválido un campo que aún se encuentra en proceso de completarse.
 
-![Figura 4. formulario del landing page de SmartStock.](assets/chapter-4/formulario.png)
+![Figura 4. formulario del landing page de SmartStock.](../assets/chapter-4/formulario.png)
 
 - **Foco visible:** se define `:focus-visible` con un outline azul de 2px en toda la interfaz, facilitando la navegación mediante teclado como parte de los criterios de accesibilidad.
 
@@ -99,7 +99,7 @@ Ambos productos utilizan la misma preferencia de idioma mediante `localStorage`,
 
 ### Mapa de Arquitectura de Información
 
-![Figura 5. arquitectura de SmartStock.](assets/chapter-4/arquitectura.png)
+![Figura 5. arquitectura de SmartStock.](../assets/chapter-4/arquitectura.png)
 
 El mapa de arquitectura de información representa la organización de ambos productos y muestra también las conexiones existentes entre ellos. Asimismo, permite identificar visualmente la navegación que ya se encuentra implementada y aquella integración que todavía se encuentra pendiente.
 
@@ -121,9 +121,9 @@ Esto permite que el usuario avance desde una sección general hacia información
 
 Además, dentro del sidebar, las funcionalidades principales se muestran primero, mientras que opciones secundarias como Configuración y Cerrar sesión se encuentran ubicadas al final del menú.
 
-![Figura 6. dashboard de SmartStock.](assets/chapter-4/organizacion-1.png)
+![Figura 6. dashboard de SmartStock.](../assets/chapter-4/organizacion-1.png)
 
-![Figura 7. dashboard de SmartStock.](assets/chapter-4/organizacion-2.png)
+![Figura 7. dashboard de SmartStock.](../assets/chapter-4/organizacion-2.png)
 
 #### Organización secuencial
 
@@ -163,7 +163,7 @@ Este tipo de organización permite visualizar diferentes atributos de un mismo p
 
 La organización por audiencia representa una de las decisiones más importantes dentro de SmartStock.
 
-![Figura 8. dashboard de SmartStock.](assets/chapter-4/organizacion-3.png)
+![Figura 8. dashboard de SmartStock.](../assets/chapter-4/organizacion-3.png)
 
 Las funcionalidades disponibles se organizan dependiendo del segmento seleccionado por el usuario durante el registro.
 
@@ -263,7 +263,7 @@ Entre las principales etiquetas se encuentran:
 
 Los íconos ayudan a complementar visualmente el significado de cada opción, permitiendo mantener textos cortos sin perder claridad.
 
-![Figura 9. dashboard de SmartStock.](assets/chapter-4/organizacion-4.png)
+![Figura 9. dashboard de SmartStock.](../assets/chapter-4/organizacion-4.png)
 Además, tanto el Landing Page como la Web Application se encuentran disponibles en inglés y español.
 
 Ambos productos comparten la misma preferencia de idioma mediante:
@@ -367,7 +367,7 @@ También cuenta con filtros según el estado del producto:
 - Normal.
 - Sin sensor.
 
-![Figura 10. dashboard de SmartStock.](assets/chapter-4/organizacion-5.png)
+![Figura 10. dashboard de SmartStock.](../assets/chapter-4/organizacion-5.png)
 
 Cuando el usuario realiza una búsqueda o aplica un filtro, las filas que no coinciden con los criterios establecidos son ocultadas. Las filas que coinciden mantienen la información correspondiente a:
 
@@ -390,7 +390,7 @@ Los filtros disponibles son:
 
 El sistema actualiza el número de productos visibles y permite identificar aquellos que presentan una diferencia superior al **10 %** entre el stock registrado y el stock físico.
 
-![Figura 11. dashboard de SmartStock.](assets/chapter-4/organización-6.png)
+![Figura 11. dashboard de SmartStock.](../assets/chapter-4/organización-6.png)
 
 ##### Alertas
 
@@ -407,7 +407,7 @@ Los contadores de cada categoría se actualizan según las alertas disponibles. 
 - Mensaje.
 - Tiempo relativo desde su generación.
 
-![Figura 12. dashboard de SmartStock.](assets/chapter-4/organizacion-7.png)
+![Figura 12. dashboard de SmartStock.](../assets/chapter-4/organizacion-7.png)
 
 ---
 
@@ -449,7 +449,7 @@ El bloque que contiene la información del negocio funciona además como un indi
 
 Dentro del Detalle de producto también se proporciona contexto adicional mediante una navegación similar a un breadcrumb:
 
-![Figura 13. dashboard de SmartStock.](assets/chapter-4/organizacion-8.png)
+![Figura 13. dashboard de SmartStock.](../assets/chapter-4/organizacion-8.png)
 
 **Productos / Categoría**
 
@@ -462,7 +462,7 @@ Actualmente, la Web Application permite regresar al Landing Page mediante:
 - El logotipo de SmartStock.
 - La opción **← Volver al sitio SmartStock**.
 
-![Figura 14. dashboard de SmartStock.](assets/chapter-4/organizacion-9.png)
+![Figura 14. dashboard de SmartStock.](../assets/chapter-4/organizacion-9.png)
 
 Sin embargo, la navegación desde el Landing Page hacia la Web Application todavía no se encuentra completamente implementada.
 
