@@ -13,6 +13,7 @@ A continuación se detallan los productos de software que utilizan los miembros 
 **Project Management**
 
 **Tabla 20**
+
 *Herramientas de Project Management*
 
 | Producto | Propósito de uso en el proyecto | Ruta |
@@ -24,6 +25,7 @@ Nota. Elaboración propia
 **Requirements Management**
 
 **Tabla 21**
+
 *Herramientas de Requirements Management*
 
 | Producto | Propósito de uso en el proyecto | Ruta |
@@ -35,6 +37,7 @@ Nota. Elaboración propia
 **Product UX/UI Design**
 
 **Tabla 22**
+
 *Herramientas de Product UX/UI Design*
 
 | Producto | Propósito de uso en el proyecto | Ruta |
@@ -48,6 +51,7 @@ Nota. Elaboración propia
 **Software Development**
 
 **Tabla 23**
+
 *Herramientas de Software Development*
 
 | Producto | Propósito de uso en el proyecto | Ruta |
@@ -66,6 +70,7 @@ Nota. Elaboración propia
 **Software Documentation**
 
 **Tabla 24**
+
 *Herramientas de Software Documentation*
 
 | Producto | Propósito de uso en el proyecto | Ruta |
@@ -77,6 +82,7 @@ Nota. Elaboración propia
 **Software Deployment**
 
 **Tabla 25**
+
 *Herramientas de Software Deployment*
 
 | Producto | Propósito de uso en el proyecto | Ruta |
@@ -92,6 +98,7 @@ Pendiente: confirmar el proveedor de despliegue de la Frontend Web Application y
 El equipo utiliza GitHub como plataforma de alojamiento y Git como sistema de control de versiones. Los repositorios del proyecto pertenecen a la organización pública InventiaStock y se organizan en un repositorio por producto, además del repositorio de documentación del informe.
 
 **Tabla 26**
+
 *Repositorios del proyecto por producto*
 
 | Producto | Repositorio |
@@ -107,6 +114,7 @@ Nota. Elaboración propia
 El equipo aplica GitFlow, siguiendo el modelo de ramificación descrito por Vincent Driessen. Cada repositorio mantiene las siguientes ramas:
 
 **Tabla 27**
+
 *Ramas de GitFlow y convención de nombres*
 
 | Rama | Propósito | Convención de nombre |
@@ -127,6 +135,7 @@ Los releases se nombran aplicando Semantic Versioning 2.0.0, bajo el formato MAJ
 Los mensajes de commit siguen la especificación de Conventional Commits, bajo la estructura `<type>(<scope>): <description>`. Los tipos utilizados por el equipo son los siguientes:
 
 **Tabla 28**
+
 *Tipos de commit según Conventional Commits*
 
 | Tipo | Uso |
@@ -147,6 +156,7 @@ La descripción se redacta en inglés, en modo imperativo y en minúsculas, sin 
 El equipo adopta la nomenclatura en inglés para todos los lenguajes utilizados en la solución, así como las siguientes convenciones estándar de codificación:
 
 **Tabla 29**
+
 *Convenciones de codificación por lenguaje*
 
 | Lenguaje | Convención adoptada |
@@ -170,12 +180,14 @@ El Landing Page se publica como sitio web estático en GitHub Pages, a partir de
 4. Se verificó el correcto funcionamiento del selector de idioma, la navegación por anclas y el enlace a los términos y condiciones del footer.
 
 **Figura 154**
+
 *Configuración de GitHub Pages del repositorio smartstock-landing-page*
 
 ![Configuración de GitHub Pages para el repositorio smartstock-landing-page](../assets/chapter-5/deploypagesconfig.png)
 *Nota: Configuración de GitHub Pages para el repositorio smartstock-landing-page, publicando desde la rama main.*
 
 **Figura 155**
+
 *Landing Page de SmartStock desplegado en GitHub Pages*
 
 ![Landing page de SmartStock desplegada y accesible públicamente en GitHub Pages](../assets/chapter-5/deploylandingpublished.png)
@@ -190,6 +202,7 @@ En esta sección se explica y evidencia el proceso de implementación, pruebas, 
 #### 5.2.1.1. Sprint Planning 1
 
 **Tabla 30**
+
 *Sprint Planning 1*
 
 | Campo | Detalle |
@@ -212,6 +225,7 @@ Nota. Elaboración propia
 A continuación, se presenta la matriz de liderazgo y colaboración (LACX), cuyo objetivo es facilitar una comunicación clara y organizada entre los integrantes del equipo durante el desarrollo de las tareas correspondientes a este Sprint.
 
 **Tabla 31**
+
 *Matriz de liderazgo y colaboración (LACX) del Sprint 1*
 
 | Team Member | GitHub Username | Landing Page Structure | Landing Page UI/UX |
@@ -230,6 +244,7 @@ El Sprint Backlog 1 se estructuró en torno a la construcción del sitio web est
 Trello link: https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba8336b688a97353B8B08C/trello-web
 
 **Figura 156**
+
 *Tablero de Trello del Sprint Backlog 1*
 
 ![Tablero de Trello con los Epics y el Sprint Backlog 1](../assets/chapter-5/sprint1trello.png)
@@ -238,6 +253,7 @@ Nota. Elaboración propia
 **Sprint # Sprint 1**
 
 **Tabla 32**
+
 *Sprint Backlog 1*
 
 | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
@@ -274,6 +290,7 @@ Nota. Elaboración propia
 Durante el Sprint 1 se implementó la primera versión del sitio web estático (Landing Page) de SmartStock, cubriendo las secciones de propuesta de valor, problemática, casos de uso por segmento, comparación frente a otras soluciones, planes y precios, testimonios, preguntas frecuentes y formulario de contacto. A continuación se presenta la tabla de commits relacionados con la implementación, organizados por rama según GitFlow y redactados bajo la convención de Conventional Commits.
 
 **Tabla 33**
+
 *Commits relacionados con la implementación del Sprint 1*
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
@@ -310,6 +327,7 @@ El encabezado principal se organiza en dos columnas: a la izquierda la propuesta
 La barra superior mantiene visibles de forma permanente el selector de idioma y la acción de crear cuenta, en cumplimiento de la regla de negocio de la US24.
 
 **Figura 157**
+
 *Encabezado principal y propuesta de valor del Landing Page (US16, US24)*
 
 ![Encabezado principal del Landing Page y sección de problemática](../assets/chapter-5/sprint1hero.png)
@@ -320,6 +338,7 @@ Nota. Elaboración propia
 La sección de casos de uso separa el contenido dirigido a bodegas de barrio del dirigido a minimarkets. Cada bloque enumera los beneficios propios del segmento y cierra con un call-to-action que redirige a la vista de registro de la Web Application transportando el segmento correspondiente. La captura se presenta con la experiencia conmutada a español latinoamericano, de modo que evidencie además el alcance de la traducción sobre el contenido de esta sección.
 
 **Figura 158**
+
 *Sección de casos de uso por segmento objetivo del Landing Page (US17, US18)*
 
 ![Sección de casos de uso por segmento y comparación frente a otras soluciones](../assets/chapter-5/sprint1usecases.png)
@@ -330,12 +349,14 @@ Nota. Elaboración propia
 Los tres planes se presentan sobre el mismo conjunto de características, ordenados de menor a mayor capacidad, y el plan intermedio se destaca mediante un borde de mayor peso. Cada plan conduce al registro con el plan preseleccionado. Las tarjetas aplican el refresco visual del design system: radio de esquina de 14 píxeles, elevación tenue en reposo y un filete de acento que se revela al pasar el cursor.
 
 **Figura 159**
+
 *Sección comparativa frente a otras soluciones del Landing Page (US23)*
 
 ![Comparación frente a otras soluciones del mercado y sección de planes y precios](../assets/chapter-5/sprint1comparison.png)
 Nota. Elaboración propia
 
 **Figura 160**
+
 *Sección de planes y precios del Landing Page (US19)*
 
 ![Sección de planes y precios con los tres planes disponibles](../assets/chapter-5/sprint1plans.png)
@@ -346,6 +367,7 @@ Nota. Elaboración propia
 La sección de testimonios presenta las opiniones recogidas durante las entrevistas, cada una acompañada de una valoración y de un avatar con las iniciales del entrevistado. La valoración se expone además mediante aria-label, de modo que un lector de pantalla anuncie la calificación en lugar de leer una sucesión de símbolos.
 
 **Figura 161**
+
 *Formulario de solicitud de demostración del Landing Page (US20)*
 
 ![Sección de testimonios de clientes con calificación por estrellas](../assets/chapter-5/sprint1testimonials.png)
@@ -356,6 +378,7 @@ Nota. Elaboración propia
 El formulario valida los campos obligatorios al abandonar cada campo y expone los mensajes de error mediante `role="alert"`, de modo que un lector de pantalla los anuncie. Los campos adoptan el radio de esquina y el color de borde definidos en la sección 4.1, y el botón de envío emplea el degradado de marca.
 
 **Figura 162**
+
 *Formulario de solicitud de demostración del Landing Page (US20)*
 
 ![Formulario de solicitud de demostración](../assets/chapter-5/sprint1demoform.png)
@@ -368,6 +391,7 @@ El idioma por defecto del sitio es el inglés, conforme a lo establecido en el e
 El selector de idioma de la barra superior conmuta toda la experiencia al español latinoamericano, incluyendo el título del documento, los textos de la interfaz, los mensajes de validación del formulario y los atributos aria-label de la navegación, del selector de idioma y de la imagen del encabezado principal. El atributo `lang` del documento se actualiza en cada conmutación, de modo que un lector de pantalla emplee la pronunciación correcta.
 
 **Figura 163**
+
 *Formulario de demostración y pie de página del Landing Page*
 
 ![Formulario de solicitud de demostración con la experiencia conmutada a español, y footer del sitio](../assets/chapter-5/sprint1i18n.png)
@@ -380,6 +404,7 @@ La experiencia se adapta a las dimensiones del dispositivo cliente. En navegador
 La barra superior conserva en pantallas estrechas únicamente la marca, el selector de idioma y el botón de menú. La acción de crear cuenta se traslada al interior del menú desplegable, de modo que la barra no compita por el ancho disponible y se mantenga el cumplimiento de la regla de negocio de la US24, que establece que la opción de registro está disponible de forma permanente en todas las secciones del sitio web estático.
 
 **Figura 164**
+
 *Mockup de la interfaz principal de incio del landing*
 
 ![Mockup de la interfaz principal de inicio del landing page de SmartStock adaptada para dispositivos móviles](../assets/chapter-5/sprint1mobile.png)
@@ -397,6 +422,7 @@ N/A. Durante el Sprint 1 el esfuerzo de desarrollo se enfocó exclusivamente en 
 Durante el Sprint 1, el alcance de despliegue correspondió al Landing Page. El equipo creó el repositorio `smartstock-landing-page` dentro de la organización InventiaStock, aplicó sobre él el flujo de trabajo GitFlow e integró la versión 1.0.0 a la rama `main` mediante una release branch. A continuación, habilitó GitHub Pages tomando como fuente dicha rama y el directorio raíz del repositorio.
 
 **Tabla 34**
+
 *Evidencia de despliegue del Sprint 1*
 
 | Producto | Repositorio | URL desplegado | Estado |
@@ -409,12 +435,14 @@ Nota. Elaboración propia
 La configuración aplicada en el repositorio se muestra a continuación. La fuente de publicación es la rama main y el directorio raíz, y GitHub confirma la publicación del sitio. En el selector de ramas se aprecian además las ramas main y develop, que evidencian la aplicación de GitFlow sobre el repositorio.
 
 **Figura 165**
+
 *Configuración de GitHub Pages del repositorio smartstock-landing-page*
 
 ![Configuración de GitHub Pages del repositorio, fuente de publicación desde main](../assets/chapter-5/sprint1pagessaved.png)
 Nota. Elaboración propia
 
 **Figura 166**
+
 *Publicación del sitio confirmada en GitHub Pages*
 
 ![Confirmación de publicación del sitio en GitHub Pages](../assets/chapter-5/sprint1pageslive.png)
@@ -423,6 +451,7 @@ Nota. Elaboración propia
 Se verificó que el sitio publicado responde correctamente tanto en la página de inicio como en la página de términos y condiciones, y que la hoja de estilos y el archivo de comportamiento se sirven sin errores.
 
 **Figura 167**
+
 *Landing Page de SmartStock publicado en GitHub Pages*
 
 ![Sitio publicado del Landing Page funcionando correctamente](../assets/chapter-5/sprint1sitepublished.png)
@@ -439,6 +468,7 @@ El flujo de trabajo seguido fue el siguiente: la rama develop concentró el avan
 La vista de contribuyentes evidencia la participación de los cinco integrantes del equipo, con el detalle de commits y de líneas agregadas y eliminadas por cada uno.
 
 **Figura 168**
+
 *Contribuyentes del repositorio smartstock-landing-page*
 
 ![Contribuyentes del repositorio smartstock-landing-page](../assets/chapter-5/sprint1contributors.png)
@@ -449,6 +479,7 @@ La vista de contribuyentes evidencia la participación de los cinco integrantes 
 El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature nacen de develop, se integran nuevamente a ella y la rama main recibe únicamente las versiones publicadas.
 
 **Figura 170**
+
 *Historial de commits del repositorio smartstock-landing-page*
 
 ![Historial de commits del repositorio smartstock-landing-page (parte 1)](../assets/chapter-5/sprint1commits1.png)
