@@ -992,13 +992,13 @@ Se utilizó la guía de Philippe Bourgau, proporcionada en la rúbrica del Final
 
 **Figura 68. C4 Context Diagram.**
 
-![Figura 68. C4 Context Diagram.](../assets/chapter-4/c4contextdiagram.png)
+![Figura 68. C4 Context Diagram.](../assets/chapter-4/C4ContextoSmartStock.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
 
 **Figura 69. C4 Container Diagram.**
 
-![Figura 69. C4 Container Diagram.](../assets/chapter-4/c4containerdiagram.png)
+![Figura 69. C4 Container Diagram.](../assets/chapter-4/C4ContenedoresSmartStock.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
 
@@ -1046,11 +1046,11 @@ Se utilizó la guía de Philippe Bourgau, proporcionada en la rúbrica del Final
 
 **Figura 79. Class Diagram - Bounded Context 4.**
 
-![Figura 79. Class Diagram del Bounded Context 4.](../assets/chapter-4/boundedcontext4.png)
+![Figura 79. Class Diagram del Bounded Context 4.](../assets/chapter-4/boundedcontext44.png)
 
 **Figura 80. Class Diagram - Bounded Context 5.**
 
-![Figura 80. Class Diagram del Bounded Context 5.](../assets/chapter-4/boundedcontext5.png)
+![Figura 80. Class Diagram del Bounded Context 5.](../assets/chapter-4/boundedcontext55.png)
 
 **Figura 81. Class Diagram - Bounded Context 6.**
 
