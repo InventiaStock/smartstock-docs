@@ -25,7 +25,10 @@ A partir del análisis de estas soluciones, se observa que los competidores ofre
 
 Permite identificar cómo funcionan las soluciones actuales de gestión de inventarios, reconocer sus limitaciones y diferenciar a SmartStock mediante el monitoreo con sensores IoT, alertas de stock y una mejor coordinación con proveedores.
 
-**Logos**
+**Tabla 3**
+
+*Logos de SmartStock y de sus competidores*
+
 
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
@@ -46,7 +49,10 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
   </tbody>
 </table>
 
-**Perfil**
+**Tabla 4**
+
+*Perfil general y ventaja competitiva de SmartStock y de sus competidores*
+
 
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
@@ -103,8 +109,12 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
     </tr>
   </tbody>
 </table>
+Nota. Elaboración propia
 
-**Perfil de marketing**
+**Tabla 5**
+
+*Perfil de marketing de SmartStock y de sus competidores*
+
 
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
@@ -158,8 +168,11 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
     </tr>
   </tbody>
 </table>
+Nota. Elaboración propia
 
-**Perfil de producto**
+**Tabla 6**
+*Perfil de producto de SmartStock y de sus competidores*
+
 
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
@@ -222,8 +235,12 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
     </tr>
   </tbody>
 </table>
+Nota. Elaboración propia
 
-**Análisis SWOT**
+**Tabla 7**
+
+*Análisis SWOT de SmartStock y de sus competidores*
+
 
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
@@ -354,6 +371,7 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
     </tr>
   </tbody>
 </table>
+Nota. Elaboración propia
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -517,8 +535,11 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 #### Entrevista 1
 
-**Screenshot:**
+**Tabla 8**
 
+*Registro de la entrevista 1 a propietarios y administradores de minimarkets*
+
+**Screenshot:**
 <p align="center">
   <img src="../assets/chapter-2/entrevista11.png" width="750">
 </p>
@@ -559,11 +580,15 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
     </tr>
   </tbody>
 </table>
+Nota. Elaboración propia
 
 #### Entrevista 2
 
-**Screenshot:**
+**Tabla 9**
 
+*Registro de la entrevista 2 a propietarios y administradores de minimarkets*
+
+**Screenshot:**
 <p align="center">
   <img src="../assets/chapter-2/entrevista12.png" width="750">
 </p>
@@ -604,11 +629,15 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
     </tr>
   </tbody>
 </table>
+Nota. Elaboración propia
 
 #### Entrevista 3
 
-**Screenshot:**
+**Tabla 10**
 
+*Registro de la entrevista 3 a propietarios y administradores de minimarkets*
+
+**Screenshot:**
 <p align="center">
   <img src="../assets/chapter-2/entrevista13.png" width="750">
 </p>
@@ -649,10 +678,15 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
     </tr>
   </tbody>
 </table>
+Nota. Elaboración propia
 
 **Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)**
 
 #### Entrevista 1
+
+**Tabla 11**
+
+*Registro de la entrevista 1 a propietarios y administradores de bodegas de barrio*
 
 **Screenshot:**
 
@@ -696,8 +730,13 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
     </tr>
   </tbody>
 </table>
+Nota. Elaboración propia
 
 #### Entrevista 2
+
+**Tabla 12**
+
+*Registro de la entrevista 2 a propietarios y administradores de bodegas de barrio*
 
 **Screenshot:**
 
@@ -741,8 +780,13 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
     </tr>
   </tbody>
 </table>
+Nota. Elaboración propia
 
 #### Entrevista 3
+
+**Tabla 13**
+
+*Registro de la entrevista 3 a propietarios y administradores de bodegas de barrio*
 
 **Screenshot:**
 
@@ -797,6 +841,10 @@ En este segmento se entrevistó a José Martín Montañez, Cristopher Benavides 
 
 Respecto a las herramientas utilizadas, se identificó una combinación de medios digitales y métodos manuales. Los entrevistados utilizan principalmente el celular y también recurren a laptop, sistemas de inventario o ventas, Excel y registros manuales, dependiendo de las características de cada negocio. Para comunicarse con los proveedores utilizan principalmente WhatsApp y llamadas telefónicas.
 
+**Tabla 14**
+
+*Características subjetivas de propietarios y administradores de minimarkets*
+
 <table>
   <tr>
     <th colspan="2">Características subjetivas</th>
@@ -838,6 +886,7 @@ Respecto a las herramientas utilizadas, se identificó una combinación de medio
     <td>Existe disposición a invertir en una herramienta si genera beneficios para el negocio y mantiene un precio razonable.</td>
   </tr>
 </table>
+Nota. Elaboración propia
 
 En conclusión, los resultados muestran que las principales características subjetivas de los propietarios y administradores de minimarkets están relacionadas con la preocupación por las diferencias de inventario y los quiebres de stock, así como con la necesidad de ahorrar tiempo, reducir errores y facilitar la renovación de los productos. El 100% de los entrevistados manifestó necesidades relacionadas con estos aspectos. Por ello, SmartStock debe proporcionar información clara y actualizada, acompañada de alertas que permitan el reabastecimiento y disminuyan las pérdidas ocasionadas por productos agotados.
 
@@ -846,6 +895,10 @@ En conclusión, los resultados muestran que las principales características sub
 Se entrevistó a Lincoln Bruno, Marleny Araujo y Ruth Osorio, con edades de 49, 42 y 42 años, respectivamente. En la muestra, el 66.7% tiene 42 años y el 66.7% reside en San Juan de Lurigancho.
 
 En cuanto a las características objetivas, los entrevistados utilizan principalmente el celular y presentan una mayor dependencia de herramientas manuales como cuadernos, inspección visual y conteos físicos, aunque también se identificó el uso de un sistema de caja. La comunicación con proveedores se realiza principalmente mediante WhatsApp y llamadas telefónicas.
+
+**Tabla 15**
+
+*Características subjetivas de propietarios y administradores de bodegas de barrio*
 
 <table>
   <tr>
@@ -888,6 +941,7 @@ En cuanto a las características objetivas, los entrevistados utilizan principal
     <td>Consideran importante que la solución tenga un precio accesible para las características de una pequeña bodega.</td>
   </tr>
 </table>
+Nota. Elaboración propia
 
 En conclusión, los resultados muestran que el 100% de los entrevistados presenta preocupación por las diferencias entre el stock registrado y el físico, considera útiles las alertas de bajo stock, prefiere una herramienta sencilla y fácil de aprender y busca ahorrar tiempo durante el control del inventario. Además, el 66.7% manifestó preocupación por las pérdidas ocasionadas por productos agotados o de alta demanda y consideró importante que la solución tenga un precio accesible.
 
@@ -897,37 +951,50 @@ En conclusión, los resultados muestran que el 100% de los entrevistados present
 
 **Primer Segmento Objetivo (Propietarios y administradores de minimarkets)**
 
+**Figura 7**
+
+*User Persona 1 (propietarios y administradores de minimarkets)*
+
 <p align="center">
   <img src="../assets/chapter-2/userpersona1.png" width="800">
 </p>
-
-<p align="center"><em>Figura 2 (User Persona 1)</em></p>
+Nota. Elaboración propia
 
 **Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)**
+
+**Figura 8**
+
+*User Persona 2 (propietarios y administradores de bodegas de barrio)*
 
 <p align="center">
   <img src="../assets/chapter-2/userpersona2.png" width="800">
 </p>
-
-<p align="center"><em>Figura 3 (User Persona 2)</em></p>
+Nota. Elaboración propia
 
 ### 2.3.2. User Task Matrix
 
 **Primer Segmento Objetivo (Propietarios y administradores de minimarkets)**
 
+**Figura 9**
+
+*User Task Matrix 1 (propietarios y administradores de minimarkets)*
+
 <p align="center">
   <img src="../assets/chapter-2/usertaskmatrix1.png" width="800">
 </p>
-
-<p align="center"><em>Figura 4 ((User Task Matrix 1)</em></p>
+Nota. Elaboración propia
 
 **Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)**
+
+**Figura 10**
+
+*User Task Matrix 2 (propietarios y administradores de bodegas de barrio)*
 
 <p align="center">
   <img src="../assets/chapter-2/usertaskmatrix2.png" width="800">
 </p>
+Nota. Elaboración propia
 
-<p align="center"><em>Figura 4 ((User Task Matrix 2)</em></p>
 
 ### 2.3.3. User Journey Mapping
 
@@ -941,11 +1008,14 @@ El User Journey de Yngrid Ruiz representa el proceso seguido por un usuario de m
 
 Durante este recorrido, el principal punto de dificultad se presenta al realizar conteos físicos y comparar las cantidades disponibles con las registradas, debido al tiempo requerido y a la posibilidad de encontrar diferencias de inventario. SmartStock busca reducir este esfuerzo mediante el monitoreo del stock físico, la comparación automática de información y la generación de alertas que permitan identificar oportunamente productos que necesitan reposición.
 
+**Figura 11**
+
+*User Journey Map 1 (propietarios y administradores de minimarkets)*
+
 <p align="center">
   <img src="../assets/chapter-2/userjourneymap1.png" width="800">
 </p>
-
-<p align="center"><em>Figura 6 (User Journey Map 1)</em></p>
+Nota. Elaboración propia
 
 #### User Journey Map – Lincoln Bruno
 
@@ -955,21 +1025,25 @@ El User Journey de Lincoln Bruno representa el proceso seguido por un propietari
 
 El principal punto de dificultad se presenta durante los conteos manuales, especialmente cuando existe movimiento frecuente de productos. Asimismo, la detección tardía de productos próximos a agotarse puede ocasionar pérdidas de ventas. SmartStock busca mejorar este recorrido mediante información actualizada del inventario, alertas de stock bajo y funcionalidades que faciliten la identificación y seguimiento de las necesidades de reposición.
 
+**Figura 12**
+
+*User Journey Map 2 (propietarios y administradores de bodegas de barrio)*
+
 <p align="center">
   <img src="../assets/chapter-2/userjourneymap2.png" width="800">
 </p>
-
-<p align="center"><em>Figura 7 (User Journey Map 2)</em></p>
+Nota. Elaboración propia
 
 ### 2.3.4. Empathy Mapping
+
+**Figura 13**
+
+*Empathy Map 1 (propietarios y administradores de minimarkets)*
 
 <p align="center">
   <img src="../assets/chapter-2/empathymapping1.png" width="800">
 </p>
-
-<p align="center">
-  <img src="../assets/chapter-2/empathymapping2.png" width="800">
-</p>
+Nota. Elaboración propia
 
 ## 2.4. Big Picture Event Storming
 
@@ -983,11 +1057,14 @@ Para el desarrollo del Big Picture Event Storming se aplicó la guía Step-by-St
 
 [https://miro.com/welcomeonboard/UHk1SzhpUVZrN1hGMDFlMnpHa2NUOUJMbHBId2xlc2YydGhaYmxUcC96S2hnOWpMWmdwaUVkbGRMWHFlSkhiS0t2TXR6V0JXWEhDU0JKWUNhRWFWRncyeXpmaS84aTEyUHJyU1VmcDNrWWhLd1BTZ09xNlphNUFlVWsxb1h1UXVNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=472690857440](https://miro.com/welcomeonboard/UHk1SzhpUVZrN1hGMDFlMnpHa2NUOUJMbHBId2xlc2YydGhaYmxUcC96S2hnOWpMWmdwaUVkbGRMWHFlSkhiS0t2TXR6V0JXWEhDU0JKWUNhRWFWRncyeXpmaS84aTEyUHJyU1VmcDNrWWhLd1BTZ09xNlphNUFlVWsxb1h1UXVNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=472690857440)
 
+**Figura 15**
+
+*Big Picture Event Storming de SmartStock*
+
 <p align="center">
   <img src="../assets/chapter-2/bigpictureeventstorming.png" width="800">
 </p>
-
-<p align="center"><em>Figura 10. Big Picture Event Storming.</em></p>
+Nota. Elaboración propia
 
 ## 2.5. Ubiquitous Language
 
