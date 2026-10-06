@@ -777,7 +777,15 @@ Este segmento es relevante debido a que los propietarios y administradores de bo
 
 ### 2.3.3. User Journey Mapping
 
-**Primer Segmento Objetivo (Propietarios y administradores de minimarkets)**
+A partir de los User Personas definidos para los dos segmentos objetivo, se elaboró un User Journey Map para cada perfil representativo. Estos mapas permiten visualizar las principales actividades que realizan los usuarios durante el control y reposición de inventario, así como los momentos de mayor dificultad y las oportunidades de mejora que SmartStock busca atender.
+
+#### User Journey Map – Yngrid Ruiz
+
+**Segmento:** Propietarios y administradores de minimarkets.
+
+El User Journey de Yngrid Ruiz representa el proceso seguido por un usuario de minimarket para revisar existencias, comparar el inventario, realizar verificaciones físicas, identificar necesidades de reposición y efectuar pedidos a proveedores.
+
+Durante este recorrido, el principal punto de dificultad se presenta al realizar conteos físicos y comparar las cantidades disponibles con las registradas, debido al tiempo requerido y a la posibilidad de encontrar diferencias de inventario. SmartStock busca reducir este esfuerzo mediante el monitoreo del stock físico, la comparación automática de información y la generación de alertas que permitan identificar oportunamente productos que necesitan reposición.
 
 <p align="center">
   <img src="../assets/chapter-2/userjourneymap1.png" width="800">
@@ -785,7 +793,13 @@ Este segmento es relevante debido a que los propietarios y administradores de bo
 
 <p align="center"><em>Figura 6 (User Journey Map 1)</em></p>
 
-**Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)**
+#### User Journey Map – Lincoln Bruno
+
+**Segmento:** Propietarios y administradores de bodegas de barrio.
+
+El User Journey de Lincoln Bruno representa el proceso seguido por un propietario de bodega para revisar sus productos, realizar conteos de inventario, detectar productos con bajo stock, determinar cuáles necesitan reposición y coordinar pedidos con sus proveedores.
+
+El principal punto de dificultad se presenta durante los conteos manuales, especialmente cuando existe movimiento frecuente de productos. Asimismo, la detección tardía de productos próximos a agotarse puede ocasionar pérdidas de ventas. SmartStock busca mejorar este recorrido mediante información actualizada del inventario, alertas de stock bajo y funcionalidades que faciliten la identificación y seguimiento de las necesidades de reposición.
 
 <p align="center">
   <img src="../assets/chapter-2/userjourneymap2.png" width="800">
