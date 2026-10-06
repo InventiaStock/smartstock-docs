@@ -669,73 +669,107 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 ### 2.2.3. Análisis de entrevistas
 
+### 2.2.3. Análisis de entrevistas
+
 **Primer Segmento Objetivo (Propietarios y administradores de minimarkets)**
 
-Este segmento es importante debido a que los propietarios y administradores son responsables del control, supervisión y reposición de los productos del minimarket. Las entrevistas realizadas evidencian que, aunque algunos negocios cuentan con sistemas de inventario, sistemas de ventas o herramientas como Excel, todavía es necesario realizar verificaciones físicas y conteos manuales para comprobar las existencias disponibles.
+En este segmento se entrevistó a José Martín Montañez, Cristopher Benavides y Yngrid Ruiz, con edades de 52, 23 y 23 años, respectivamente. Los entrevistados pertenecen a los distritos de Pueblo Libre y Jesús María. En la muestra, el 66.7% tiene 23 años y el 66.7% reside en Pueblo Libre. Asimismo, el segmento está conformado por personas que participan directamente en la administración y control del minimarket.
 
-Asimismo, se identificaron dificultades relacionadas con las diferencias entre el stock registrado y el stock físico, especialmente en productos de alta rotación.
+Respecto a las herramientas utilizadas, se identificó una combinación de medios digitales y métodos manuales. Los entrevistados utilizan principalmente el celular y también recurren a laptop, sistemas de inventario o ventas, Excel y registros manuales, dependiendo de las características de cada negocio. Para comunicarse con los proveedores utilizan principalmente WhatsApp y llamadas telefónicas.
 
-**¿Quiénes son?** Se trata de propietarios y administradores encargados de supervisar las ventas, controlar el inventario, revisar las existencias y coordinar la reposición de productos con sus proveedores.
+<table>
+  <tr>
+    <th colspan="2">Características subjetivas</th>
+  </tr>
+  <tr>
+    <th>Característica</th>
+    <th>Hallazgos identificados en las entrevistas</th>
+  </tr>
+  <tr>
+    <td>Preocupaciones</td>
+    <td>Existe preocupación por las diferencias entre el stock registrado y las cantidades disponibles físicamente, especialmente en productos de alta rotación.</td>
+  </tr>
+  <tr>
+    <td>Frustraciones</td>
+    <td>Las revisiones y conteos manuales requieren tiempo y pueden generar errores o diferencias en el inventario.</td>
+  </tr>
+  <tr>
+    <td>Necesidades</td>
+    <td>Necesitan conocer rápidamente las unidades disponibles y detectar productos próximos a agotarse.</td>
+  </tr>
+  <tr>
+    <td>Preferencias</td>
+    <td>Prefieren una herramienta sencilla, clara, organizada y fácil de utilizar.</td>
+  </tr>
+  <tr>
+    <td>Expectativas</td>
+    <td>Esperan que la herramienta permita ahorrar tiempo, reducir errores y facilitar la identificación de productos que necesitan reposición.</td>
+  </tr>
+  <tr>
+    <td>Motivaciones</td>
+    <td>Existe interés en utilizar una solución que permita reducir pérdidas y evitar quiebres de stock.</td>
+  </tr>
+  <tr>
+    <td>Valoración de alertas</td>
+    <td>Consideran útil recibir alertas cuando un producto alcanza un nivel mínimo de stock.</td>
+  </tr>
+  <tr>
+    <td>Percepción del precio</td>
+    <td>Existe disposición a invertir en una herramienta si genera beneficios para el negocio y mantiene un precio razonable.</td>
+  </tr>
+</table>
 
-- Utilizan herramientas como sistemas de inventario, sistemas de ventas, Excel y registros manuales.
-- Realizan revisiones físicas y conteos periódicos para comprobar las cantidades disponibles.
-- Utilizan principalmente el celular y la laptop para realizar actividades relacionadas con el negocio.
-- Se comunican con sus proveedores principalmente mediante WhatsApp y llamadas.
-- Manejan productos de diferentes niveles de rotación, prestando mayor atención a aquellos que presentan una alta demanda.
-
-**¿Qué les preocupa y anhelan?**
-
-- Diferencias entre stock registrado y físico: Pueden presentarse inconsistencias debido a errores de registro, ventas no registradas correctamente o al constante movimiento de los productos.
-- Productos de alta rotación: Las bebidas, snacks, golosinas y otros productos de consumo frecuente requieren una supervisión constante.
-- Quiebres de stock: Existe preocupación por no detectar a tiempo que un producto está próximo a agotarse, lo que puede ocasionar pérdidas de ventas y molestias en los clientes.
-- Tiempo destinado al control: Las verificaciones y conteos manuales requieren tiempo y esfuerzo por parte del administrador.
-- Necesidad de información actualizada: Buscan conocer rápidamente las unidades disponibles, los productos con bajo stock y aquellos que necesitan reposición.
-- Reducción de errores: Esperan contar con una herramienta que facilite el control y disminuya las diferencias entre las cantidades registradas y las existencias reales.
-
-**Requisitos del producto**
-
-- Fácil de utilizar, permitiendo registrar y consultar información de manera rápida.
-- Clara y visual, mostrando el stock disponible y el estado de los productos.
-- Con alertas de bajo stock para detectar oportunamente los productos próximos a agotarse.
-- Con identificación de productos de alta rotación y aquellos que requieren reposición.
-- Con capacidad para mostrar diferencias entre el inventario registrado y el inventario físico.
-- Con reportes de consumo y movimientos de inventario que faciliten la toma de decisiones.
-- Accesible desde diferentes dispositivos, como celular o computadora.
-- Que permita ahorrar tiempo y reducir la dependencia de verificaciones manuales.
+En conclusión, los resultados muestran que las principales características subjetivas de los propietarios y administradores de minimarkets están relacionadas con la preocupación por las diferencias de inventario y los quiebres de stock, así como con la necesidad de ahorrar tiempo, reducir errores y facilitar la renovación de los productos. El 100% de los entrevistados manifestó necesidades relacionadas con estos aspectos. Por ello, SmartStock debe proporcionar información clara y actualizada, acompañada de alertas que permitan el reabastecimiento y disminuyan las pérdidas ocasionadas por productos agotados.
 
 **Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)**
 
-Este segmento es relevante debido a que los propietarios y administradores de bodegas suelen encargarse directamente de diferentes actividades del negocio, como atender a los clientes, controlar los productos disponibles y realizar pedidos a proveedores. Las entrevistas evidencian una mayor dependencia de métodos manuales, como cuadernos, inspección visual y conteos físicos. Esta situación puede dificultar la identificación oportuna de productos con bajo stock y generar diferencias entre las cantidades registradas y las realmente disponibles.
+Se entrevistó a Lincoln Bruno, Marleny Araujo y Ruth Osorio, con edades de 49, 42 y 42 años, respectivamente. En la muestra, el 66.7% tiene 42 años y el 66.7% reside en San Juan de Lurigancho.
 
-**¿Quiénes son?** Se trata principalmente de propietarios y administradores de pequeñas bodegas que participan directamente en la atención al cliente, control de productos y coordinación con proveedores.
+En cuanto a las características objetivas, los entrevistados utilizan principalmente el celular y presentan una mayor dependencia de herramientas manuales como cuadernos, inspección visual y conteos físicos, aunque también se identificó el uso de un sistema de caja. La comunicación con proveedores se realiza principalmente mediante WhatsApp y llamadas telefónicas.
 
-- Utilizan principalmente el celular para las actividades relacionadas con el negocio.
-- El control del inventario se realiza mediante cuadernos, inspección visual, sistemas de caja o revisiones manuales.
-- Realizan conteos con diferente frecuencia dependiendo de la cantidad de productos y de la demanda.
-- Se comunican con sus proveedores principalmente mediante WhatsApp o llamadas.
-- La decisión de reposición depende principalmente de la observación de los productos disponibles y de la experiencia del propietario.
+<table>
+  <tr>
+    <th colspan="2">Características subjetivas</th>
+  </tr>
+  <tr>
+    <th>Característica</th>
+    <th>Hallazgos identificados en las entrevistas</th>
+  </tr>
+  <tr>
+    <td>Preocupaciones</td>
+    <td>Existen preocupaciones por detectar tarde los productos próximos a agotarse y por las diferencias entre el inventario registrado y el físico.</td>
+  </tr>
+  <tr>
+    <td>Frustraciones</td>
+    <td>El control manual y la revisión de los productos uno por uno pueden consumir una cantidad considerable de tiempo.</td>
+  </tr>
+  <tr>
+    <td>Necesidades</td>
+    <td>Necesitan conocer rápidamente qué productos están disponibles, cuáles tienen bajo stock y cuáles requieren reabastecimiento.</td>
+  </tr>
+  <tr>
+    <td>Preferencias</td>
+    <td>Prefieren una herramienta sencilla, didáctica, rápida y fácil de aprender.</td>
+  </tr>
+  <tr>
+    <td>Expectativas</td>
+    <td>Esperan que la solución facilite el control del inventario y reduzca el tiempo dedicado a revisiones manuales.</td>
+  </tr>
+  <tr>
+    <td>Motivaciones</td>
+    <td>Buscan reducir pérdidas y evitar quedarse sin productos de alta demanda que puedan ocasionar pérdida de ventas.</td>
+  </tr>
+  <tr>
+    <td>Valoración de alertas</td>
+    <td>Consideran útiles las alertas automáticas para conocer cuándo un producto está próximo a agotarse.</td>
+  </tr>
+  <tr>
+    <td>Percepción del precio</td>
+    <td>Consideran importante que la solución tenga un precio accesible para las características de una pequeña bodega.</td>
+  </tr>
+</table>
 
-**¿Qué les preocupa y anhelan?**
-
-- Control manual del inventario: Revisar los productos uno por uno puede requerir una cantidad considerable de tiempo.
-- Falta de información inmediata: En algunos casos no conocen exactamente las unidades disponibles de cada producto sin realizar una revisión física.
-- Productos próximos a agotarse: Existe el riesgo de detectar demasiado tarde que un producto de alta demanda necesita reposición.
-- Diferencias de inventario: Se presentan ocasiones en las que el stock registrado no coincide con las cantidades realmente disponibles.
-- Pérdida de ventas: Cuando un producto solicitado por un cliente se encuentra agotado, existe el riesgo de perder la venta e incluso al cliente.
-- Facilidad de uso: Buscan una solución sencilla, rápida y fácil de aprender, que no complique las actividades diarias del negocio.
-- Precio accesible: La herramienta debe adaptarse económicamente a las características de una pequeña bodega.
-
-**Requisitos del producto**
-
-- Sencilla e intuitiva, permitiendo su utilización sin necesidad de conocimientos tecnológicos avanzados.
-- Rápida, facilitando el registro y consulta de productos durante las actividades diarias.
-- Visual, mostrando de manera clara las unidades disponibles, productos agotados y productos de mayor venta.
-- Con alertas cuando un producto alcance una cantidad mínima o esté próximo a agotarse.
-- Con apoyo para identificar qué productos necesitan ser repuestos.
-- Con información actualizada que permita reducir las diferencias entre el inventario registrado y el físico.
-- Accesible principalmente desde dispositivos móviles.
-- Con un precio accesible para pequeños negocios.
-- Que permita ahorrar tiempo y reducir las pérdidas ocasionadas por quiebres de stock.
+En conclusión, los resultados muestran que el 100% de los entrevistados presenta preocupación por las diferencias entre el stock registrado y el físico, considera útiles las alertas de bajo stock, prefiere una herramienta sencilla y fácil de aprender y busca ahorrar tiempo durante el control del inventario. Además, el 66.7% manifestó preocupación por las pérdidas ocasionadas por productos agotados o de alta demanda y consideró importante que la solución tenga un precio accesible.
 
 ## 2.3. Needfinding
 
