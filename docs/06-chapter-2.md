@@ -2,17 +2,20 @@
 
 ## 2.1. Competidores
 
-- **Trax Retail :**
+- **FacilVenta :**
 
-Trax Retail es una solución tecnológica orientada al análisis y monitoreo de productos en tiendas mediante visión por computadora e inteligencia artificial. Su plataforma permite digitalizar los estantes, identificar productos, verificar su ubicación y analizar información relacionada con disponibilidad, cumplimiento y desempeño de los SKU. Además, genera métricas y reportes que ayudan a mejorar la gestión del inventario y las decisiones dentro del establecimiento. A diferencia de SmartStock, Trax se basa principalmente en reconocimiento de imágenes e inteligencia artificial, mientras que SmartStock propone utilizar sensores de peso IoT y enfocarse en bodegas y minimarkets.
+FacilVenta es una solución orientada a la gestión comercial y al control de operaciones de pequeños y medianos negocios. Su propuesta incluye funcionalidades relacionadas con ventas, productos, clientes e inventario, permitiendo centralizar información básica del establecimiento y facilitar el seguimiento de las operaciones diarias. Frente a SmartStock, FacilVenta se enfoca principalmente en la gestión administrativa y comercial, mientras que SmartStock incorpora monitoreo físico del inventario mediante sensores IoT, alertas de stock y funcionalidades orientadas a mejorar la reposición de productos.
 
-- **Trigo Retail :**
+- **Adiasoft :**
 
-Trigo Retail desarrolla soluciones basadas en visión por computadora e inteligencia artificial para modernizar las operaciones de tiendas físicas. Su tecnología permite obtener información en tiempo real sobre las actividades dentro del establecimiento y generar datos que apoyan la gestión operativa y la toma de decisiones. Trigo está orientado a soluciones avanzadas de retail y tiendas inteligentes, mientras que SmartStock busca una alternativa más sencilla para pequeños comercios mediante sensores IoT, alertas de inventario y coordinación con proveedores.
+Adiasoft ofrece soluciones de software para la administración de negocios, incluyendo funcionalidades vinculadas con ventas, inventario, facturación y control de productos. Su plataforma busca mejorar la organización de la información comercial y facilitar el registro de operaciones dentro del establecimiento. A diferencia de SmartStock, Adiasoft se orienta principalmente al control administrativo del inventario, mientras que SmartStock propone complementar el registro digital con información proveniente del stock físico mediante sensores de peso IoT y alertas automáticas.
 
-- **Pensa Systems :**
+- **PACAY :**
 
-Pensa Systems es una solución especializada en digitalizar el inventario disponible en los estantes mediante inteligencia artificial y visión computacional. Su tecnología permite identificar la disponibilidad real de productos, detectar productos agotados, conocer su ubicación y mejorar la precisión del inventario. Al igual que SmartStock, busca proporcionar mayor visibilidad sobre las existencias físicas; sin embargo, Pensa utiliza principalmente análisis visual mediante IA, mientras que SmartStock propone sensores de peso IoT y funcionalidades dirigidas específicamente a la relación entre bodegas, minimarkets y proveedores.
+PACAY es una solución tecnológica orientada a la gestión de negocios y al control de procesos comerciales e inventario. Sus funcionalidades permiten registrar productos, operaciones y movimientos relacionados con la actividad del establecimiento, ofreciendo herramientas para organizar y consultar información del negocio. En comparación con SmartStock, PACAY se concentra en la gestión digital de las operaciones, mientras que SmartStock busca diferenciarse mediante la integración con sensores IoT, la comparación entre stock físico y registrado, y la generación de alertas para apoyar decisiones de reposición. 
+
+
+A partir del análisis de estas soluciones, se observa que los competidores ofrecen funcionalidades relevantes para la gestión comercial y el control de inventarios. Sin embargo, SmartStock busca diferenciarse mediante la integración del monitoreo físico del stock con sensores IoT, la detección de diferencias entre inventario físico y registrado, la generación de alertas y el apoyo a los procesos de reposición en bodegas de barrio y minimarkets. 
 
 ### 2.1.1. Análisis competitivo
 
@@ -354,34 +357,50 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-1. **Diferenciación mediante sensores IoT y monitoreo del inventario físico en tiempo real:** A diferencia de soluciones como Trax Retail, Trigo Retail y Pensa Systems, que utilizan principalmente visión computacional e inteligencia artificial para analizar productos en tiendas, SmartStock propone el uso de sensores de peso IoT instalados en los espacios donde se almacenan o exhiben determinados productos, permitiendo:
+1. **Gestión integrada de compras, ventas e inventario como núcleo de la solución:**  
+   SmartStock tendrá como núcleo la gestión de las operaciones que generan el movimiento del stock: compras y ventas. Las compras permitirán incrementar las existencias registradas, mientras que las ventas disminuirán el stock disponible. De esta manera, el sistema mantendrá un inventario actualizado.
 
-   - Monitoreo continuo de las existencias físicas.
-   - Detección de niveles bajos de stock.
-   - Comparación entre el inventario físico y el inventario registrado.
-   - Generación automática de alertas ante posibles faltantes.
+   Esta información se puede observar en soluciones como FácilVenta, Adiasoft y PACAY, que integran módulos de ventas, compras e inventario dentro de sus plataformas.
 
-   Esto permite ofrecer una solución orientada al control directo del inventario físico y adaptada a las necesidades de bodegas y minimarkets.
+   SmartStock complementará este núcleo con las siguientes características:
 
-2. **Solución accesible y escalable para pequeños comercios:** Mientras que varios competidores están orientados principalmente a grandes cadenas de retail y requieren infraestructura de cámaras, procesamiento de imágenes o soluciones empresariales más complejas, SmartStock busca implementar un modelo progresivo y adaptable:
+   - Registro y seguimiento de compras.
+   - Registro de ventas y actualización automática del stock.
+   - Integración posterior con información obtenida mediante sensores IoT.
+   - Consulta del stock registrado en tiempo real.
 
-   - Implementación inicial con una cantidad reducida de sensores.
-   - Incorporación gradual de nuevos productos y dispositivos IoT.
-   - Escalabilidad según el tamaño y necesidades del establecimiento.
-   - Modelo de suscripción adaptable a las funcionalidades utilizadas.
+   De esta manera, la solución no se limita al monitoreo físico de productos, sino que parte de la gestión que origina el movimiento del stock y posteriormente incorpora el monitoreo físico mediante IoT.
 
-   Este enfoque busca reducir las barreras tecnológicas y económicas para la adopción de la solución en pequeños comercios.
+2. **Diferenciación mediante sensores IoT y comparación del inventario físico:**  
+   Aunque las soluciones analizadas ofrecen funcionalidades de gestión de ventas, compras e inventario, SmartStock busca diferenciarse mediante el monitoreo físico del inventario utilizando sensores de peso IoT.
 
-3. **Notificaciones oportunas para la gestión de la reposición:** SmartStock permitirá que los propietarios y administradores de minimarkets y bodegas de barrio utilicen la información de inventario para gestionar oportunamente sus necesidades de abastecimiento. La plataforma permitirá:
+   Los sensores estarán instalados en espacios destinados al almacenamiento o exhibición de determinados productos y permitirán obtener información sobre las existencias físicas. Esta información podrá compararse con el stock registrado en la plataforma.
 
-   - Identificar productos que requieren reposición.
-   - Registrar necesidades de abastecimiento.
-   - Generar alertas relacionadas con faltantes.
-   - Enviar notificaciones automáticas por correo electrónico o WhatsApp, mediante un servicio de terceros, cuando el stock de un producto alcance un nivel crítico.
+   SmartStock permitirá:
 
-   De esta manera, la coordinación directa con los proveedores la sigue realizando el usuario fuera de la plataforma; SmartStock actúa como el sistema que le avisa oportunamente cuándo hacerlo, manteniendo a los proveedores como actores externos del abastecimiento sin convertirlos en un segmento objetivo o usuario de la plataforma."
+   - Monitorear las existencias físicas mediante sensores de peso.
+   - Obtener información del inventario físico.
+   - Comparar el stock físico con el stock registrado.
+   - Detectar posibles diferencias o faltantes.
+   - Generar alertas cuando se identifiquen niveles críticos.
 
-4. **Experiencia de usuario centrada en información inmediata:** La plataforma busca facilitar la toma de decisiones mediante una interfaz web sencilla e intuitiva que permita consultar rápidamente:
+   Así, el IoT funcionará como una capa complementaria al sistema de compras, ventas e inventario, permitiendo contrastar lo que el sistema registra con lo que realmente existe físicamente en el negocio.
+
+3. **Solución accesible y escalable para pequeños comercios:**  
+   SmartStock estará orientado principalmente a bodegas y minimarkets, considerando que estos negocios requieren controlar sus compras, ventas e inventario sin incorporar procesos tecnológicos excesivamente complejos.
+
+   La estrategia consiste en permitir una implementación progresiva de la solución:
+
+   - Inicio con una cantidad limitada de productos y sensores.
+   - Incorporación gradual de nuevos sensores IoT.
+   - Ampliación del número de productos monitoreados.
+   - Adaptación de la solución al tamaño del establecimiento.
+   - Crecimiento progresivo de las funcionalidades utilizadas.
+
+   Este enfoque busca facilitar la adopción de SmartStock por pequeños comercios, manteniendo como base las operaciones de compras, ventas e inventario y permitiendo incorporar capacidades IoT conforme aumenten las necesidades del negocio.
+
+4. **Experiencia de usuario centrada en información inmediata:**  
+   La plataforma busca facilitar la toma de decisiones mediante una interfaz web sencilla e intuitiva que permita consultar rápidamente:
 
    - Productos con stock suficiente, bajo o agotado.
    - Alertas pendientes de reposición.
@@ -391,7 +410,8 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 
    De esta manera, los propietarios y administradores de minimarkets y bodegas de barrio podrán acceder a la información necesaria sin realizar procesos complejos de consulta.
 
-5. **Gestión preventiva del inventario mediante alertas:** SmartStock busca reemplazar un modelo reactivo de reposición por uno preventivo mediante la detección anticipada de niveles bajos de inventario. El sistema permitirá:
+5. **Gestión preventiva del inventario mediante alertas:**  
+   SmartStock busca reemplazar un modelo reactivo de reposición por uno preventivo mediante la detección anticipada de niveles bajos de inventario. El sistema permitirá:
 
    - Configurar niveles mínimos de stock por producto.
    - Generar alertas cuando las existencias alcancen dichos niveles.
@@ -400,8 +420,7 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 
    Este enfoque puede contribuir a reducir quiebres de stock y mejorar la disponibilidad de productos en bodegas y minimarkets.
 
-6. **Analítica de inventario y apoyo a la toma de decisiones:**
-
+6. **Analítica de inventario y apoyo a la toma de decisiones:**  
    SmartStock incorporará información histórica que permita a los administradores analizar el comportamiento de sus productos mediante:
 
    - Reportes de rotación de productos.
@@ -418,67 +437,73 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 
 Las guías de entrevista para ambos segmentos combinan preguntas demográficas con preguntas sobre gestión del inventario y comportamiento del negocio, orientadas a sustentar la construcción de los User Persona.
 
-**Primer Segmento Objetivo (Propietarios y administradores de minimarkets)**
+### Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
 
-**Preguntas demográficas**
-
-1. ¿Cuál es su nombre completo?
-2. ¿Qué edad tiene?
-3. ¿En qué distrito reside?
-4. ¿Cuál es su estado civil?
-5. ¿A qué se dedica usted (ocupación) y qué rol cumple en el negocio (dueño, administrador, etc.)?
-6. ¿Hace cuánto tiempo tiene o administra el negocio?
-7. ¿Qué dispositivo usa con más frecuencia para temas del negocio (celular, laptop, computadora de escritorio)?
-8. ¿Qué aplicaciones o redes sociales usa habitualmente?
-
-**Preguntas sobre gestión del inventario / comportamiento del negocio**
-
-9. ¿Cómo realiza actualmente el control del inventario de los productos de su minimarket?
-10. ¿Con qué frecuencia revisa físicamente las existencias disponibles?
-11. ¿Qué dificultades encuentra al mantener actualizado el inventario?
-12. ¿Con qué frecuencia encuentra diferencias entre el stock registrado y la cantidad física disponible?
-13. ¿Qué problemas se presentan cuando un producto se agota sin ser detectado a tiempo?
-14. ¿Cómo determina cuándo debe realizar una reposición de productos?
-15. ¿Qué productos o categorías son más difíciles de controlar por su rotación?
-16. ¿Cómo se comunica actualmente con sus proveedores para solicitar reposiciones?
-17. ¿Qué herramientas o sistemas utiliza actualmente para gestionar el inventario?
-18. ¿Qué limitaciones encuentra en esas herramientas o métodos?
-19. ¿Qué información considera más importante visualizar al revisar el inventario?
-20. ¿Qué tipo de alertas le resultarían útiles para detectar productos con bajo stock?
-21. ¿Qué importancia tendría para usted saber en todo momento si existen diferencias entre lo que su sistema registra y lo que realmente tiene en tienda?
-22. ¿Qué le gustaría que una herramienta de inventario le resuelva o facilite, sin importar la tecnología que use?
-23. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
-
-**Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)**
-
-**Preguntas demográficas**
+#### Preguntas demográficas
 
 1. ¿Cuál es su nombre completo?
 2. ¿Qué edad tiene?
 3. ¿En qué distrito reside?
 4. ¿Cuál es su estado civil?
-5. ¿A qué se dedica usted (ocupación) y qué rol cumple en el negocio (dueño, administrador, etc.)?
+5. ¿A qué se dedica y qué rol cumple en el minimarket (dueño/a, administrador/a, otro)?
 6. ¿Hace cuánto tiempo tiene o administra el negocio?
-7. ¿Qué dispositivo usa con más frecuencia para temas del negocio (celular, laptop, computadora de escritorio)?
-8. ¿Qué aplicaciones o redes sociales usa habitualmente?
+7. ¿Cuántas personas trabajan en el minimarket y, aproximadamente, cuántos productos distintos maneja?
+8. ¿Quién decide qué herramientas o sistemas se contratan para el negocio?
+9. ¿Qué dispositivo usa con más frecuencia para temas del negocio y para qué lo usa?
+10. ¿Qué aplicaciones o redes sociales usa habitualmente?
 
-**Preguntas sobre gestión del inventario / comportamiento del negocio**
+#### Preguntas sobre gestión del inventario / comportamiento del negocio
 
-9. ¿Cómo controla actualmente los productos disponibles en su bodega?
-10. ¿Utiliza cuaderno, Excel, sistema digital u otro método para registrar su inventario?
-11. ¿Con qué frecuencia realiza conteos o revisiones manuales de sus productos?
-12. ¿Qué dificultades tiene para saber qué productos están por agotarse?
-13. ¿Le ha ocurrido que el stock registrado no coincida con la cantidad real disponible? ¿Con qué frecuencia?
-14. ¿Qué problemas genera en su negocio quedarse sin un producto de alta demanda?
-15. ¿Cómo decide qué productos debe reponer y en qué momento?
-16. ¿Cómo realiza actualmente sus pedidos a proveedores?
-17. ¿Qué parte del control de inventario le toma más tiempo o le resulta más complicada?
-18. ¿Qué tan cómodo se siente utilizando aplicaciones o plataformas web para gestionar su negocio?
-19. ¿Qué información le gustaría ver en una pantalla para conocer rápidamente el estado de sus productos?
-20. ¿Qué tipo de alerta le sería útil cuando un producto está por agotarse?
-21. ¿Qué tan importante sería para usted enterarse automáticamente cuando un producto está por agotarse, sin tener que revisarlo usted mismo?
-22. ¿Qué beneficio tendría que ofrecer una herramienta de inventario para que usted la use de manera frecuente?
-23. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
+11. Cuénteme cómo es un día normal controlando el inventario, desde que abre hasta que cierra.
+12. ¿Cómo registra hoy lo que entra y lo que sale de productos?
+13. ¿Cada cuánto revisa físicamente las existencias y cuánto tiempo le toma?
+14. Cuénteme la última vez que lo que figuraba en su sistema o registro no coincidió con lo que había en tienda. ¿Qué pasó y cómo lo resolvió?
+15. ¿Recuerda alguna vez que se quedó sin un producto que se vendía bien? ¿Cómo se enteró y qué hizo?
+16. ¿Cómo decide cuándo y cuánto reponer de cada producto?
+17. ¿Qué productos o categorías le resultan más difíciles de controlar y por qué?
+18. ¿Quién más participa en el control del inventario y cómo se coordinan?
+19. ¿Cómo hace sus pedidos a proveedores (medio, frecuencia, quién los hace)?
+20. ¿Qué herramientas o sistemas usa o ha usado para el inventario? ¿Qué le gustó y qué no?
+21. Al revisar el inventario, ¿qué información necesita ver primero?
+22. ¿Cómo le gustaría enterarse de que un producto se está acabando (medio, momento del día)?
+23. Sin pensar en tecnología, ¿qué le gustaría que una herramienta resolviera por usted?
+24. Si existiera una herramienta que verificara el stock con sensores de peso, ¿qué dudas o reservas tendría?
+25. ¿Cuánto invierte hoy en sistemas o herramientas para el negocio, y qué rango mensual le parecería razonable para una nueva?
+26. ¿Qué tendría que pasar para que decida contratar una nueva herramienta?
+
+---
+
+### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
+
+#### Preguntas demográficas
+
+1. ¿Cuál es su nombre completo?
+2. ¿Qué edad tiene?
+3. ¿En qué distrito reside?
+4. ¿Cuál es su estado civil?
+5. ¿A qué se dedica y qué rol cumple en la bodega?
+6. ¿Hace cuánto tiempo tiene o administra la bodega?
+7. ¿Atiende sola/o o con apoyo? Más o menos, ¿cuántos productos tiene?
+8. ¿Qué hace con el celular en su bodega?
+9. ¿Qué aplicaciones o redes sociales usa habitualmente?
+
+#### Preguntas sobre gestión del inventario / comportamiento del negocio
+
+10. Cuénteme cómo se da cuenta de qué productos le quedan en la bodega.
+11. ¿Cómo anota lo que compra y lo que vende (cuaderno, Excel, sistema, de memoria)?
+12. ¿Cada cuánto cuenta o revisa sus productos y cuánto le toma?
+13. Cuénteme una vez que lo que tenía anotado no coincidió con lo que realmente había. ¿Qué hizo?
+14. ¿Recuerda alguna vez que un cliente pidió un producto y no había? ¿Qué pasó?
+15. ¿Cómo decide qué reponer y cuándo?
+16. ¿Cómo hace sus pedidos (a quién, por qué medio, cuánto demora la entrega)?
+17. ¿Qué hace con los productos que están por vencer o que se venden poco?
+18. ¿Qué parte del control de sus productos le resulta más complicada o le quita más tiempo, y por qué?
+19. ¿Ha usado alguna aplicación o sistema para el negocio? ¿Cómo le fue?
+20. ¿Cómo le gustaría enterarse de que un producto se está acabando?
+21. Si abriera una pantalla para saber cómo está su bodega, ¿qué le gustaría ver?
+22. Si existiera una herramienta que pesara los productos con sensores, ¿qué dudas tendría?
+23. ¿Qué tendría que tener una herramienta para que la use todos los días?
+24. ¿Cuánto podría pagar al mes por algo así y qué tendría que pasar para que decida pagarlo?
 
 ### 2.2.2. Registro de entrevistas
 
@@ -500,10 +525,14 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 <table border="1" cellspacing="0" cellpadding="8">
   <tbody>
-    <tr>
-      <td><strong>URL:</strong></td>
-      <td>[upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)</td>
-    </tr>
+   <tr>
+  <td><strong>URL:</strong></td>
+  <td>
+    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1
+    </a>
+  </td>
+</tr>
     <tr>
       <td><strong>Inicia:</strong></td>
       <td>00:00</td>
@@ -542,9 +571,13 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 <table border="1" cellspacing="0" cellpadding="8">
   <tbody>
     <tr>
-      <td><strong>URL:</strong></td>
-      <td>[upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)</td>
-    </tr>
+  <td><strong>URL:</strong></td>
+  <td>
+    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1
+    </a>
+  </td>
+</tr>
     <tr>
       <td><strong>Inicia:</strong></td>
       <td>17:16</td>
@@ -583,9 +616,13 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 <table border="1" cellspacing="0" cellpadding="8">
   <tbody>
     <tr>
-      <td><strong>URL:</strong></td>
-      <td>[upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)</td>
-    </tr>
+  <td><strong>URL:</strong></td>
+  <td>
+    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1
+    </a>
+  </td>
+</tr>
     <tr>
       <td><strong>Inicia:</strong></td>
       <td>23:46</td>
@@ -625,10 +662,14 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 <table border="1" cellspacing="0" cellpadding="8">
   <tbody>
-    <tr>
-      <td><strong>URL:</strong></td>
-      <td>[upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)</td>
-    </tr>
+   <tr>
+  <td><strong>URL:</strong></td>
+  <td>
+    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1
+    </a>
+  </td>
+</tr>
     <tr>
       <td><strong>Inicia:</strong></td>
       <td>31:08</td>
@@ -667,9 +708,13 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 <table border="1" cellspacing="0" cellpadding="8">
   <tbody>
     <tr>
-      <td><strong>URL:</strong></td>
-      <td>[upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)</td>
-    </tr>
+  <td><strong>URL:</strong></td>
+  <td>
+    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1
+    </a>
+  </td>
+</tr>
     <tr>
       <td><strong>Inicia:</strong></td>
       <td>37:52</td>
@@ -708,9 +753,13 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 <table border="1" cellspacing="0" cellpadding="8">
   <tbody>
     <tr>
-      <td><strong>URL:</strong></td>
-      <td>[upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)</td>
-    </tr>
+  <td><strong>URL:</strong></td>
+  <td>
+    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1
+    </a>
+  </td>
+</tr>
     <tr>
       <td><strong>Inicia:</strong></td>
       <td>43:05</td>
