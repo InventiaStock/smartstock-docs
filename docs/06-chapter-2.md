@@ -454,6 +454,10 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 <table border="1" cellspacing="0" cellpadding="8">
   <tbody>
     <tr>
+      <td><strong>URL:</strong></td>
+      <td>upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 </td>
+    </tr>
+    <tr>
       <td><strong>Inicia:</strong></td>
       <td>00:00</td>
     </tr>
@@ -491,6 +495,10 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 <table border="1" cellspacing="0" cellpadding="8">
   <tbody>
     <tr>
+      <td><strong>URL:</strong></td>
+      <td>upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 </td>
+    </tr>
+    <tr>
       <td><strong>Inicia:</strong></td>
       <td>17:16</td>
     </tr>
@@ -527,6 +535,10 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 <table border="1" cellspacing="0" cellpadding="8">
   <tbody>
+    <tr>
+      <td><strong>URL:</strong></td>
+      <td>upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 </td>
+    </tr>
     <tr>
       <td><strong>Inicia:</strong></td>
       <td>23:46</td>
@@ -567,6 +579,10 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 <table border="1" cellspacing="0" cellpadding="8">
   <tbody>
     <tr>
+      <td><strong>URL:</strong></td>
+      <td>upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 </td>
+    </tr>
+    <tr>
       <td><strong>Inicia:</strong></td>
       <td>31:08</td>
     </tr>
@@ -604,6 +620,10 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 <table border="1" cellspacing="0" cellpadding="8">
   <tbody>
     <tr>
+      <td><strong>URL:</strong></td>
+      <td>upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 </td>
+    </tr>
+    <tr>
       <td><strong>Inicia:</strong></td>
       <td>37:52</td>
     </tr>
@@ -640,6 +660,10 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 <table border="1" cellspacing="0" cellpadding="8">
   <tbody>
+    <tr>
+      <td><strong>URL:</strong></td>
+      <td>upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 </td>
+    </tr>
     <tr>
       <td><strong>Inicia:</strong></td>
       <td>43:05</td>
