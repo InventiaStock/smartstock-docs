@@ -1006,25 +1006,49 @@ Se utilizó la guía de Philippe Bourgau, proporcionada en la rúbrica del Final
 
 ![Figura 70. C4 Component Diagram 1.](../assets/chapter-4/c4componentdiagram1.png)
 
+**Descripción:** IAM es un módulo del Backend API previsto en ASP.NET Core para el Sprint 3. Gestiona el registro, la autenticación y la recuperación de contraseña desde Vue, con persistencia en MySQL y un servicio externo de correo. BusinessType determina el menú según el negocio. En el Sprint 2 se utiliza una Fake API.
+
+**Leyenda:** Azul oscuro: frontend; azul claro: componentes IAM; verde: base de datos; amarillo: servicio externo. Los recuadros delimitan el sistema, el contenedor y el módulo; las flechas indican sus relaciones.
+
 **Figura 71. C4 Component Diagram 2.**
 
 ![Figura 71. C4 Component Diagram 2.](../assets/chapter-4/c4componentdiagram2.png)
+
+**Descripción:** Product Catalog es un módulo del Backend API previsto en ASP.NET Core para el Sprint 3. Gestiona los productos, sus precios de venta, costos de compra, referencias al proveedor habitual y umbrales mínimos, con persistencia en MySQL. Proporciona información a Inventory Monitoring para Compras y Ventas, y a IoT Device para vincular y monitorear sensores. Los proveedores se gestionan en Inventory Monitoring.
+
+**Leyenda:** Azul oscuro: frontend Vue; azul claro: componentes del catálogo; morado: módulos relacionados; verde: base de datos MySQL. Los recuadros delimitan el sistema, el contenedor y los módulos; las flechas indican solicitudes y dependencias.
 
 **Figura 72. C4 Component Diagram 3.**
 
 ![Figura 72. C4 Component Diagram 3.](../assets/chapter-4/c4componentdiagram3.png)
 
+**Descripción:** IoT Device es un módulo del Backend API previsto en ASP.NET Core para el Sprint 3. Gestiona la vinculación de sensores con productos, registra sus lecturas y considera desconectado un sensor tras cinco minutos sin recibir datos. Consulta el peso unitario en Product Catalog y comunica las lecturas a Inventory Monitoring para comparar el stock físico con el registrado, sin modificar este último. Los datos se almacenan en MySQL.
+
+**Leyenda:** Azul oscuro: frontend Vue; azul claro: componentes IoT; morado: módulos relacionados; amarillo: sensores externos; verde: base de datos MySQL. Los recuadros delimitan el sistema, el contenedor y los módulos; las flechas indican solicitudes, lecturas y eventos internos.
+
 **Figura 73. C4 Component Diagram 4.**
 
 ![Figura 73. C4 Component Diagram 4.](../assets/chapter-4/c4componentdiagram4.png)
+
+**Descripción:** Inventory Monitoring es un módulo del Backend API previsto en ASP.NET Core para el Sprint 3. Gestiona Compras, Ventas, Proveedores y movimientos de inventario, con persistencia en MySQL. Las ventas generan salidas de stock y las compras generan entradas al confirmar su recepción. Recibe lecturas de IoT Device para comparar el stock físico con el registrado, sin modificar este último, y comunica los cambios y discrepancias a Alerts & Restocking.
+
+**Leyenda:** Azul oscuro: frontend Vue; azul claro: componentes de inventario; morado: módulos relacionados; verde: base de datos MySQL. Los recuadros delimitan el sistema, el contenedor y los módulos; las flechas indican solicitudes y eventos internos.
 
 **Figura 74. C4 Component Diagram 5.**
 
 ![Figura 74. C4 Component Diagram 5.](../assets/chapter-4/c4componentdiagram5.png)
 
+**Descripción:** Alerts & Restocking es un módulo del Backend API previsto en ASP.NET Core para el Sprint 3. Evalúa los umbrales del catálogo usando el stock físico cuando el sensor está en línea y el registrado cuando no hay sensor o está desconectado. Gestiona alertas, notificaciones por correo y WhatsApp y necesidades de reposición vinculadas con Compras en Inventory Monitoring. El usuario confirma la compra; su registro y recepción permiten actualizar la reposición y resolver la alerta asociada. Los datos se almacenan en MySQL.
+
+**Leyenda:** Azul oscuro: frontend Vue; azul claro: componentes de alertas y reposición; morado: módulos relacionados; amarillo: servicio externo de notificaciones; verde: base de datos MySQL. Los recuadros delimitan el sistema, el contenedor y los módulos; las flechas indican solicitudes y eventos internos.
+
 **Figura 75. C4 Component Diagram 6.**
 
 ![Figura 75. C4 Component Diagram 6.](../assets/chapter-4/c4componentdiagram6.png)
+
+**Descripción:** Analytics & Reporting es un módulo de consulta del Backend API previsto en ASP.NET Core para el Sprint 3. Construye el dashboard y los reportes por periodo con información de stock, Compras, Ventas y movimientos de Inventory Monitoring, y alertas activas de Alerts & Restocking. Consulta los datos mediante estos módulos, sin modificar el inventario ni mantener agregados propios.
+
+**Leyenda:** Azul oscuro: frontend Vue; azul claro: componentes de análisis y reportes; morado: módulos consultados; verde: base de datos MySQL. Los recuadros delimitan el sistema, el contenedor y los módulos; las flechas indican solicitudes y consultas.
 
 ---
 
