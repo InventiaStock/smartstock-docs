@@ -28,17 +28,17 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
   <thead>
     <tr>
       <th>SmartStock</th>
-      <th>Trax Retail</th>
-      <th>Trigo Retail</th>
-      <th>Pensa Systems</th>
+      <th>FacilVenta</th>
+      <th>Adiasoft</th>
+      <th>PACAY</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center"><img src="../assets/chapter-2/smartstocklogo.png" width="130"></td>
-      <td align="center"><img src="../assets/chapter-2/traxlogo.png" width="130"></td>
-      <td align="center"><img src="../assets/chapter-2/trigologo.png" width="130"></td>
-      <td align="center"><img src="../assets/chapter-2/pensalogo.png" width="130"></td>
+      <td align="center"><img src="../assets/chapter-2/facilventa.jpg" width="130"></td>
+      <td align="center"><img src="../assets/chapter-2/adiasoft.png" width="130"></td>
+      <td align="center"><img src="../assets/chapter-2/pacay.png" width="130"></td>
     </tr>
   </tbody>
 </table>
@@ -50,18 +50,18 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
     <tr>
       <th></th>
       <th>SmartStock</th>
-      <th>Trax Retail</th>
-      <th>Trigo Retail</th>
-      <th>Pensa Systems</th>
+      <th>FacilVenta</th>
+      <th>Adiasoft</th>
+      <th>PACAY</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>Overview</strong></td>
       <td>SmartStock es una plataforma web orientada a bodegas y minimarkets que utiliza sensores de peso IoT para monitorear el inventario físico, compararlo con el stock registrado y generar alertas ante faltantes o niveles bajos. Además, incorpora funcionalidades para facilitar la coordinación con proveedores.</td>
-      <td>Trax Retail ofrece soluciones de reconocimiento de imágenes, visión computacional e inteligencia artificial para analizar productos en tiendas. Permite obtener información sobre disponibilidad en estantes, ubicación de productos, cumplimiento de planogramas, precios y promociones.</td>
-      <td>Trigo Retail desarrolla soluciones para tiendas físicas mediante Computer Vision AI. Su tecnología utiliza cámaras e infraestructura de visión computacional para reconocer productos y actividades dentro de la tienda y proporcionar información operacional en tiempo real.</td>
-      <td>Pensa Systems utiliza Vision AI para digitalizar los estantes de tiendas físicas. Su tecnología identifica productos, disponibilidad, ubicación, stockouts y condiciones del estante, convirtiendo esta información en acciones y análisis para retailers y marcas</td>
+      <td>FacilVenta es un sistema POS con facturación electrónica e inventario orientado a bodegas, minimarkets y tiendas en Perú. Permite gestionar ventas, compras, proveedores, stock, productos, caja y facturación, además de trabajar con lectores de código de barras.</td>
+      <td>Adiasoft es un ERP orientado, entre otros sectores, a minimarkets, bodegas y comercios retail. Integra ventas, compras, inventario, POS, facturación, Kardex, almacenes y reportes. También contempla integraciones opcionales con balanzas, lectores de código de barras y cámaras.</td>
+      <td>PACAY es un ERP dirigido a MYPE peruanas que integra ventas, compras, inventario, caja, bancos, contabilidad, producción y reportes en una sola plataforma. Está orientado a emprendedores y negocios peruanos.</td>
     </tr>
     <tr>
       <td><strong>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</strong></td>
@@ -69,26 +69,33 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
         • Monitoreo mediante sensores de peso IoT.<br>
         • Alertas de stock bajo.<br>
         • Comparación entre inventario físico y registrado.<br>
-        • Gestión de reposición mediante alertas y notificaciones automáticas<br>
+        • Gestión de reposición mediante alertas y notificaciones automáticas.<br>
         • Enfoque específico en bodegas y minimarkets.
       </td>
       <td>
-        • Reconocimiento de productos mediante IA.<br>
-        • Información sobre disponibilidad, distribución, precios y promociones.<br>
-        • Analítica avanzada para la ejecución comercial.<br>
-        • Experiencia con grandes marcas y cadenas de retail.
+        • POS para ventas rápidas.<br>
+        • Control de inventario en tiempo real.<br>
+        • Compras y proveedores.<br>
+        • Alertas de stock mínimo y vencimientos.<br>
+        • Facturación electrónica SUNAT.<br>
+        • Compatibilidad con lectores de código de barras.
       </td>
       <td>
-        • Computer Vision AI.<br>
-        • Puede aprovechar infraestructura CCTV existente.<br>
-        • Procesamiento en tiempo real.<br>
-        • Alta escalabilidad y adaptación a operaciones de retail.
+        • Gestión integrada de ventas, compras e inventario.<br>
+        • POS con código de barras.<br>
+        • Stock en tiempo real.<br>
+        • Reposición automática.<br>
+        • Kardex valorizado.<br>
+        • Predicción de demanda y reposición con IA en planes superiores.<br>
+        • Integración IoT opcional con balanzas, lectores y cámaras.
       </td>
       <td>
-        • Digitalización del estante físico.<br>
-        • Detección de stockouts.<br>
-        • Análisis de ubicación y surtido.<br>
-        • Información accionable para corregir problemas de disponibilidad.
+        • Integración de ventas, compras e inventario.<br>
+        • Stock en tiempo real.<br>
+        • Alertas de reorden.<br>
+        • Facturación electrónica SUNAT.<br>
+        • Gestión de caja, bancos y contabilidad.<br>
+        • Acceso desde cualquier dispositivo.
       </td>
     </tr>
   </tbody>
@@ -101,18 +108,18 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
     <tr>
       <th></th>
       <th>SmartStock</th>
-      <th>Trax Retail</th>
-      <th>Trigo Retail</th>
-      <th>Pensa Systems</th>
+      <th>FacilVenta</th>
+      <th>Adiasoft</th>
+      <th>PACAY</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>Mercado Objetivo</strong></td>
       <td>Propietarios y administradores de minimarkets como segmento principal y propietarios y administradores de bodegas de barrio como segmento secundario. Ambos requieren mejorar el control del inventario físico y detectar oportunamente productos con bajo stock.</td>
-      <td>Empresas de productos de consumo masivo, retailers, supermercados, tiendas de conveniencia y equipos encargados de ejecución comercial.</td>
-      <td>Retailers y cadenas de tiendas físicas interesadas en automatización, inteligencia operacional, prevención de pérdidas y soluciones de retail autónomo.</td>
-      <td>Retailers, empresas de productos de consumo masivo y marcas que necesitan conocer con mayor precisión la disponibilidad y ejecución de sus productos en estantes.</td>
+      <td>Propietarios y administradores de bodegas, minimarkets, tiendas y pequeños comercios en Perú que necesitan gestionar ventas, inventario, compras y facturación.</td>
+      <td>Propietarios y administradores de minimarkets, bodegas y comercios retail que requieren una solución integrada para ventas, compras, inventario y administración del negocio.</td>
+      <td>Emprendedores y propietarios de MYPE peruanas que buscan centralizar ventas, compras, inventario, facturación y administración financiera en una sola plataforma.</td>
     </tr>
     <tr>
       <td><strong>Estrategias de Marketing</strong></td>
@@ -124,22 +131,26 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
         • Modelo de suscripción adaptable al tamaño del negocio.
       </td>
       <td>
+        • Marketing digital dirigido a negocios peruanos.<br>
+        • Pruebas gratuitas.<br>
+        • Contenido orientado a bodegas, minimarkets y comercios.<br>
+        • Prueba/demo del sistema.<br>
+        • Soporte local y comunicación mediante WhatsApp.
+      </td>
+      <td>
         • Marketing B2B.<br>
-        • Casos de éxito.<br>
-        • Demostraciones y contacto comercial.<br>
-        • Contenido especializado sobre retail, IA y disponibilidad de productos.
+        • Pruebas comerciales.<br>
+        • Segmentación por rubro.<br>
+        • Oferta de planes según tamaño del negocio.<br>
+        • Postura como ERP multirubro.<br>
+        • Soporte y asesoría comercial.
       </td>
       <td>
-        • Alianzas estratégicas.<br>
-        • Venta empresarial.<br>
-        • Ecosistemas tecnológicos y cloud.<br>
-        • Posicionamiento en innovación aplicada al retail.
-      </td>
-      <td>
-        • Demostraciones comerciales.<br>
-        • Casos de estudio, webinars y recursos especializados.<br>
-        • Marketing B2B para retailers y empresas CPG.<br>
-        • Alianzas tecnológicas
+        • Prueba gratuita de 15 días.<br>
+        • Marketing digital dirigido a emprendedores.<br>
+        • Pruebas de los módulos.<br>
+        • Propuesta de planes según el régimen tributario.<br>
+        • Comunicación directa mediante WhatsApp y correo.
       </td>
     </tr>
   </tbody>
@@ -152,25 +163,38 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
     <tr>
       <th></th>
       <th>SmartStock</th>
-      <th>Trax Retail</th>
-      <th>Trigo Retail</th>
-      <th>Pensa Systems</th>
+      <th>FacilVenta</th>
+      <th>Adiasoft</th>
+      <th>PACAY</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>Productos y Servicios</strong></td>
       <td>Plataforma web para monitorear inventarios mediante sensores de peso IoT. Incluye niveles de stock, comparación entre inventario físico y registrado, alertas, historial de movimientos, reportes de rotación y mermas, y funcionalidades para gestionar la reposición y coordinar pedidos con proveedores externos.</td>
-      <td>Plataforma de reconocimiento de imágenes e inteligencia de retail para analizar disponibilidad, ubicación de SKU, precios, promociones, cumplimiento de exhibiciones y otros indicadores de ejecución comercial.</td>
-      <td>Soluciones de Computer Vision AI para retail, incluyendo inteligencia operacional, prevención de pérdidas y retail autónomo. Analiza imágenes de cámaras para identificar productos y actividades dentro de las tiendas.</td>
-      <td>Soluciones de Vision AI orientadas a Shelf Intelligence. Permite identificar disponibilidad, stockouts, ubicación, surtido, cumplimiento de planogramas y condiciones físicas del estante.</td>
+      <td>Sistema POS y de gestión para bodegas y minimarkets. Incluye ventas, compras y proveedores, inventario, kardex, stock mínimo, control de vencimientos, caja, facturación electrónica SUNAT y compatibilidad con lectores de código de barras.</td>
+      <td>ERP para minimarkets, bodegas y retail que incluye POS, ventas, compras, inventario, kardex, almacenes, facturación, promociones, reportes y reposición. En planes superiores contempla predicción de demanda, control de balanza e integración IoT opcional.</td>
+      <td>ERP para MYPE que incluye ventas, compras, inventario, caja, bancos, cuentas por cobrar y pagar, contabilidad, producción, facturación SUNAT y reportes. También ofrece POS y alertas de reorden del inventario.</td>
     </tr>
     <tr>
       <td><strong>Precios y costos</strong></td>
       <td>Se plantea un modelo de suscripción cuyos planes podrán variar según la cantidad de productos, sensores y funcionalidades contratadas. También debe considerarse el costo inicial de los dispositivos IoT.</td>
-      <td>No presenta precios públicos estandarizados. El servicio se comercializa mediante contacto y reuniones con clientes empresariales.</td>
-      <td>No presenta un tarifario público; la solución se adapta a la infraestructura y necesidades de cada retailer.</td>
-      <td>No publica precios estandarizados. Los clientes pueden solicitar una demostración y contactar directamente con el equipo comercial.</td>
+      <td>
+        Plan Lite: S/140/mes.<br>
+        Plan Pro: S/210/mes.<br>
+        Plan Enterprise: S/380/mes.<br><br>
+        Los precios incluyen IGV. El plan Pro incorpora compras y proveedores, inventario completo, kardex valorizado y control de stock mínimo.
+      </td>
+      <td>
+        Plan Elemental: desde S/150/mes.<br>
+        Plan Pyme: desde S/350/mes.<br>
+        Plan Corporativo: desde S/750/mes.<br><br>
+        La integración IoT se cotiza según los equipos y operación de la empresa.
+      </td>
+      <td>
+        Planes publicados desde S/29/mes.<br>
+        Cuenta con prueba gratuita de 15 días y permite contratar módulos adicionales según las necesidades del negocio.
+      </td>
     </tr>
     <tr>
       <td><strong>Canales de distribución<br>(Web y/o móvil)</strong></td>
@@ -178,9 +202,20 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
         Web: plataforma principal para propietarios y administradores de minimarkets y bodegas de barrio.<br><br>
         IoT: sensores instalados físicamente en los establecimientos.
       </td>
-      <td>Web/Cloud y móvil: plataforma, dashboards y aplicaciones utilizadas por personal de campo y administradores.</td>
-      <td>Plataforma empresarial: integración con infraestructura de tiendas, cámaras CCTV y sistemas de procesamiento; también puede operar mediante ecosistemas cloud.</td>
-      <td>Web/Plataforma: dashboards y herramientas de análisis conectados a su sistema de captura y Vision AI.</td>
+      <td>
+        Web/POS: sistema de gestión y punto de venta.<br><br>
+        Hardware: lectores de códigos de barras y dispositivos compatibles.<br><br>
+        También ofrece funcionamiento offline.
+      </td>
+      <td>
+        Web/Cloud: plataforma ERP y POS.<br><br>
+        Móvil: aplicación móvil disponible según plan/integración.<br><br>
+        Hardware/IoT: balanzas, lectores de código de barras y cámaras mediante integración opcional.
+      </td>
+      <td>
+        Web/Cloud: plataforma ERP accesible desde dispositivos conectados a Internet.<br><br>
+        La empresa indica acceso desde cualquier dispositivo.
+      </td>
     </tr>
   </tbody>
 </table>
@@ -192,9 +227,9 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
     <tr>
       <th></th>
       <th>SmartStock</th>
-      <th>Trax Retail</th>
-      <th>Trigo Retail</th>
-      <th>Pensa Systems</th>
+      <th>FacilVenta</th>
+      <th>Adiasoft</th>
+      <th>PACAY</th>
     </tr>
   </thead>
   <tbody>
@@ -206,25 +241,31 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
         • Alertas automáticas de stock bajo.<br>
         • Integración entre inventario físico y digital.<br>
         • Coordinación con proveedores durante el proceso de reposición.<br>
-        • Plataforma web sencilla y accesible
+        • Plataforma web sencilla y accesible.
       </td>
       <td>
-        • Tecnología consolidada de visión computacional e IA.<br>
-        • Reconocimiento detallado de SKU y condiciones de estante.<br>
-        • Amplia variedad de indicadores y análisis.<br>
-        • Experiencia con grandes marcas y empresas internacionales.
+        • Especialización en bodegas y minimarkets.<br>
+        • Compras, ventas e inventario integrados.<br>
+        • Modo offline.<br>
+        • Alertas de stock mínimo y vencimientos.<br>
+        • Facturación SUNAT integrada.<br>
+        • Compatible con lectores de códigos de barras.
       </td>
       <td>
-        • Tecnología avanzada de Computer Vision AI.<br>
-        • Procesamiento en tiempo real.<br>
-        • Puede aprovechar infraestructura CCTV existente.<br>
-        • Alta escalabilidad y adaptación a grandes operaciones de retail.
+        • Amplia integración de módulos empresariales.<br>
+        • Compras, ventas e inventario.<br>
+        • POS y código de barras.<br>
+        • Stock en tiempo real y reposición automática.<br>
+        • Integración IoT opcional.<br>
+        • Multisucursal.
       </td>
       <td>
-        • Especialización en inteligencia de estantes.<br>
-        • Detección de disponibilidad y stockouts.<br>
-        • Información sobre ubicación y desempeño de productos.<br>
-        • Automatización de tareas relacionadas con auditorías físicas.
+        • Amplia cobertura administrativa.<br>
+        • Ventas, compras e inventario integrados.<br>
+        • Facturación SUNAT.<br>
+        • Contabilidad, caja y bancos.<br>
+        • Alertas de reorden.<br>
+        • Orientación específica al mercado peruano.
       </td>
     </tr>
     <tr>
@@ -236,19 +277,20 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
         • Menor experiencia y volumen de datos al ser una propuesta nueva.
       </td>
       <td>
-        • Dependencia de imágenes y condiciones adecuadas de captura.<br>
-        • Puede resultar más compleja que lo requerido por una bodega pequeña.<br>
-        • Su enfoque empresarial puede representar una barrera para pequeños negocios.
+        • El monitoreo del stock depende principalmente del registro de operaciones comerciales.<br>
+        • No se identifica un sistema propio de sensores de peso IoT para verificar automáticamente el stock físico.
       </td>
       <td>
-        • Requiere infraestructura de cámaras y procesamiento de visión computacional.<br>
-        • Está enfocada principalmente en operaciones de retail de mayor escala.<br>
-        • La complejidad técnica puede dificultar su implementación en pequeños establecimientos
+        • Algunas funciones de compras y gestión avanzada requieren planes superiores.<br>
+        • La propuesta puede resultar más amplia de lo necesario para negocios pequeños.<br>
+        • Algunas funciones avanzadas requieren planes superiores.<br>
+        • La integración IoT depende de equipos y una implementación adicional.
       </td>
       <td>
-        • Dependencia de visión artificial y captura adecuada de imágenes.<br>
-        • Propuesta dirigida principalmente a retailers y empresas CPG.<br>
-        • Puede ofrecer más funcionalidades de las necesarias para pequeños comercios.
+        • El costo puede aumentar según las necesidades de implementación.<br>
+        • Su alcance como ERP puede incluir funciones que no todos los pequeños negocios necesitan.<br>
+        • La propuesta está más orientada a la administración integral que al monitoreo físico mediante sensores.<br>
+        • No se identifica una funcionalidad propia equivalente al monitoreo de peso IoT de SmartStock.
       </td>
     </tr>
     <tr>
@@ -259,22 +301,25 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
         • Necesidad de mejorar el control de inventarios en pequeños negocios.<br>
         • Alianzas con distribuidores y proveedores.<br>
         • Expansión futura hacia recomendaciones automáticas y análisis predictivo.<br>
-        • Integración con nuevos tipos de sensores
+        • Integración con nuevos tipos de sensores.
       </td>
       <td>
-        • Mayor adopción de IA en retail.<br>
-        • Crecimiento de la demanda por información de disponibilidad en tiempo real.<br>
-        • Expansión hacia nuevas cadenas y mercados.
+        • Crecimiento de la digitalización de pequeños comercios.<br>
+        • Mayor adopción de facturación electrónica.<br>
+        • Expansión hacia nuevos tipos de negocios.<br>
+        • Incorporación de nuevas herramientas de análisis e inventario.
       </td>
       <td>
-        • Crecimiento de tiendas inteligentes y retail autónomo.<br>
-        • Mayor utilización de cámaras e IA para analizar operaciones.<br>
-        • Integración con ecosistemas cloud y plataformas empresariales.
+        • Crecimiento del comercio digital y la gestión omnicanal.<br>
+        • Mayor adopción de soluciones ERP en pequeños negocios.<br>
+        • Integración de nuevas tecnologías IoT e IA.<br>
+        • Expansión hacia nuevos mercados y sectores.
       </td>
       <td>
-        • Mayor interés por digitalizar los estantes físicos.<br>
-        • Expansión de soluciones de IA para gestión de inventarios.<br>
-        • Integración de Vision AI con dispositivos móviles y otras tecnologías de retail.
+        • Crecimiento de la digitalización de las MYPE peruanas.<br>
+        • Mayor necesidad de automatización contable y tributaria.<br>
+        • Expansión de módulos especializados.<br>
+        • Mayor adopción de soluciones de gestión en la nube.
       </td>
     </tr>
     <tr>
@@ -287,19 +332,21 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
         • Rápida evolución de tecnologías de visión artificial que podrían ofrecer alternativas sin sensores de peso.
       </td>
       <td>
-        • Aparición de tecnologías alternativas de monitoreo sin reconocimiento de imágenes.<br>
-        • Competencia creciente en Computer Vision para retail.<br>
-        • Cambios rápidos en tecnologías de inteligencia artificial.
+        • Aparición de soluciones gratuitas o de menor costo.<br>
+        • Evolución de tecnologías de automatización e IoT.<br>
+        • Cambios en las necesidades de pequeños comercios.
       </td>
       <td>
-        • Alta competencia en automatización y visión computacional aplicada al retail.<br>
-        • Costos y complejidad de implementaciones empresariales.<br>
-        • Aparición de soluciones más simples y económicas para pequeños establecimientos.
+        • Competencia de otros ERP y plataformas especializadas.<br>
+        • Rápida evolución de soluciones de IA e IoT.<br>
+        • Costos de implementación para empresas pequeñas.<br>
+        • Aparición de soluciones más simples y económicas.
       </td>
       <td>
-        • Crecimiento de competidores con funcionalidades similares mediante Vision AI.<br>
-        • Rápida evolución de sistemas de monitoreo IoT y visión artificial.<br>
-        • Dependencia de la capacidad de los retailers para adoptar e integrar nuevas tecnologías.
+        • Alta competencia entre ERP y sistemas de gestión para MYPE.<br>
+        • Aparición de soluciones gratuitas o de bajo costo.<br>
+        • Cambios en requisitos tributarios y tecnológicos.<br>
+        • Necesidad de mantener actualizados múltiples módulos y servicios.
       </td>
     </tr>
   </tbody>
@@ -455,7 +502,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
   <tbody>
     <tr>
       <td><strong>URL:</strong></td>
-      <td>upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 </td>
+      <td>[upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)</td>
     </tr>
     <tr>
       <td><strong>Inicia:</strong></td>
@@ -496,7 +543,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
   <tbody>
     <tr>
       <td><strong>URL:</strong></td>
-      <td>upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 </td>
+      <td>[upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)</td>
     </tr>
     <tr>
       <td><strong>Inicia:</strong></td>
@@ -537,7 +584,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
   <tbody>
     <tr>
       <td><strong>URL:</strong></td>
-      <td>upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 </td>
+      <td>[upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)</td>
     </tr>
     <tr>
       <td><strong>Inicia:</strong></td>
@@ -580,7 +627,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
   <tbody>
     <tr>
       <td><strong>URL:</strong></td>
-      <td>upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 </td>
+      <td>[upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)</td>
     </tr>
     <tr>
       <td><strong>Inicia:</strong></td>
@@ -621,7 +668,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
   <tbody>
     <tr>
       <td><strong>URL:</strong></td>
-      <td>upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 </td>
+      <td>[upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)</td>
     </tr>
     <tr>
       <td><strong>Inicia:</strong></td>
@@ -662,7 +709,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
   <tbody>
     <tr>
       <td><strong>URL:</strong></td>
-      <td>upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 </td>
+      <td>[upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)</td>
     </tr>
     <tr>
       <td><strong>Inicia:</strong></td>
