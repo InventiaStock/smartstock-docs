@@ -1089,4 +1089,5 @@ Se utilizó la guía de Philippe Bourgau, proporcionada en la rúbrica del Final
 El diagrama de base de datos representa las entidades, atributos y relaciones necesarias para almacenar la información gestionada por SmartStock.
 
 ![Database Diagram de SmartStock.](../assets/chapter-4/databasediagrams.png)
-a
+
+El diseño de la base de datos organiza las tablas por bounded context. Los negocios se relacionan con usuarios, productos, proveedores y operaciones de inventario. Cada venta y compra contiene sus ítems, que conservan el precio o costo de la operación: las ventas generan movimientos de salida y las compras generan entradas al confirmar su recepción. Los sensores registran lecturas para verificar el stock físico, sin modificar el registrado. Las alertas se vinculan con necesidades de reposición y compras asociadas, mientras que las preferencias y notificaciones permiten gestionar los canales de aviso. Analytics & Reporting consulta estos datos para construir el dashboard y los reportes.
