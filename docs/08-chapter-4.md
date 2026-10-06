@@ -1046,11 +1046,11 @@ Se utilizó la guía de Philippe Bourgau, proporcionada en la rúbrica del Final
 
 **Figura 79. Class Diagram - Bounded Context 4.**
 
-![Figura 79. Class Diagram del Bounded Context 4.](../assets/chapter-4/boundedcontext4.png)
+![Figura 79. Class Diagram del Bounded Context 4.](../assets/chapter-4/boundedcontext44.png)
 
 **Figura 80. Class Diagram - Bounded Context 5.**
 
-![Figura 80. Class Diagram del Bounded Context 5.](../assets/chapter-4/boundedcontext5.png)
+![Figura 80. Class Diagram del Bounded Context 5.](../assets/chapter-4/boundedcontext55.png)
 
 **Figura 81. Class Diagram - Bounded Context 6.**
 
