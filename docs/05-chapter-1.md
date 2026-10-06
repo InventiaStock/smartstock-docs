@@ -26,9 +26,14 @@ De esta manera, InventiaStock busca contribuir a una gestión de inventarios má
 
 A continuación, se presentan la misión, visión y valores que guían a nuestra startup:
 
+**Tabla 1**
+
+*Misión, visión y valores de InventiaStock*
+
 | Misión | Visión | Valores |
 |---|---|---|
 | Brindar soluciones tecnológicas que permitan a bodegas y minimarkets gestionar sus inventarios de manera eficiente mediante tecnologías web e IoT, facilitando el monitoreo de productos y el envío de alertas oportunas para su reposición. | Convertirnos en una startup referente en soluciones inteligentes para la gestión de inventarios en pequeños comercios, contribuyendo a su transformación digital, eficiencia operativa y crecimiento sostenible. | **Innovación:** buscamos mejorar continuamente nuestras soluciones tecnológicas.<br><br>**Confianza:** brindamos información clara y confiable para la toma de decisiones.<br><br>**Eficiencia:** promovemos una mejor gestión de recursos e inventarios.<br><br>**Responsabilidad:** desarrollamos soluciones orientadas a las necesidades reales de los usuarios.<br><br>**Colaboración:** fomentamos una mejor comunicación entre los comercios y sus proveedores mediante información oportuna. |
+Nota. Elaboración propia
 
 ---
 
