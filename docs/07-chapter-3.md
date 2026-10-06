@@ -61,32 +61,29 @@ comportamiento sí difiere por segmento (US11, US31) especifican el rol concreto
 
 ## 3.2. Impact Mapping
 
-El Impact Mapping desarrollado para SmartStock tiene como propósito alinear las
-funcionalidades del sistema con nuestros objetivos estratégicos de negocio, asegurando que
-cada línea de código aporte valor real.
+El Impact Mapping de SmartStock relaciona las metas del negocio con las personas, los cambios esperados en su comportamiento, los entregables y las historias de usuario.
 
-Para este mapa, hemos definido la siguiente estructura:
+**Business Goals (¿Por qué?):** Se mantienen cuatro metas propuestas: alcanzar información consistente entre el stock físico y registrado en el 80 % de los productos monitoreados durante los primeros tres meses de cada negocio (BG1); lograr que el 80 % de los usuarios considere que las alertas permiten anticipar la reposición durante su primer mes de uso (BG2); y alcanzar 300 minimarkets y 150 bodegas como negocios activos durante los primeros seis meses de operación (BG3 y BG4). Estas metas orientan la evaluación futura y no representan resultados alcanzados.
 
-**Business Goal (¿Por qué?):** Mejorar la gestión del inventario físico en minimarkets y
-bodegas de barrio mediante el monitoreo automatizado con sensores IoT, aumentando la
-adopción de SmartStock y la confiabilidad de la información que reciben sus usuarios para
-tomar decisiones de reposición.
+**Actors (¿Quiénes?):** Yngrid Ruiz representa al segmento de minimarkets y Lincoln Bruno al segmento de bodegas de barrio.
 
-**Actors (¿Quiénes?):** Propietarios y administradores de minimarkets (segmento principal) y
-propietarios y administradores de bodegas de barrio (segmento secundario).
+**Impacts (¿Cómo?):** Se busca que los usuarios revisen las alertas y gestionen la reposición antes de que los productos se agoten, registren sus ventas y la recepción de compras, y consulten los movimientos de inventario. Para minimarkets, se contempla también revisar los sensores y las discrepancias entre el stock físico y registrado. La comunicación de la propuesta de valor apoya la decisión de registrarse.
 
-**Impacts (¿Cómo?):** Buscamos que ambos perfiles puedan vincular y monitorear sus
-productos mediante sensores IoT sin fricción, configurar alertas que les permitan anticipar la
-reposición antes de que un producto se agote, y conocer la propuesta de valor de SmartStock
-desde el sitio web para decidir registrarse.
-
-**Deliverables (¿Qué?):** Las soluciones técnicas que construirán este impacto incluyen la
-vinculación y monitoreo de sensores de peso IoT, la comparación automática entre inventario
-físico y registrado con alertas de discrepancia, las notificaciones automáticas de stock bajo
-por correo electrónico y WhatsApp, y el sitio web estático (Landing Page) con contenido
-diferenciado por segmento.
+**Deliverables (¿Qué?):** Monitoreo de sensores, configuración de umbrales y notificaciones, comparación de inventario para minimarkets y Landing Page. Se incorporan el registro y consulta de compras y ventas (US26–US31), y el inicio de una compra desde una alerta de stock bajo (US32). Las ventas descuentan el stock registrado; las compras lo aumentan al confirmar su recepción.
 
 ![Impact Mapping de SmartStock](../assets/chapter-3/impactmapping1.png)
+
+**Medición de las metas**
+
+Para BG1, se propone comparar el stock físico y el registrado de los productos monitoreados, expresados en la misma unidad, y calcular el porcentaje que presenta coincidencia al finalizar los primeros tres meses de cada negocio. Para BG2, se aplicará una encuesta al terminar el primer mes de uso y se calculará el porcentaje de usuarios que afirme que las alertas le permiten anticipar la reposición. Para BG3 y BG4, se propone considerar activo a un negocio que registre al menos una compra o venta durante el último mes, diferenciando minimarkets y bodegas.
+
+**Decisiones eficientes**
+
+Se priorizan Compras y Ventas porque permiten registrar las entradas y salidas del inventario y explicar sus cambios. La compra iniciada desde una alerta reutiliza el formulario de Compras y precarga los datos del producto, reduciendo el ingreso repetido de información. Las alertas utilizan el stock del sensor cuando está en línea y el stock registrado cuando no hay sensor o está desconectado, permitiendo operar sin depender permanentemente del dispositivo. En el Sprint 2 se utiliza una Fake API para comprobar los flujos del frontend antes de implementar los Web Services en ASP.NET Core en el Sprint 3.
+
+**Viabilidad económica**
+
+SmartStock plantea un modelo de suscripción cuyo precio dependerá de las funcionalidades y la cantidad de sensores contratados. Para evaluar su viabilidad económica se deberán considerar los costos de alojamiento, mantenimiento, soporte, notificaciones y adquisición e instalación de dispositivos IoT. El uso del inventario registrado permite comenzar sin sensores e incorporarlos posteriormente, reduciendo la inversión inicial del negocio. El beneficio esperado es disminuir faltantes y tiempo de control manual. La rentabilidad deberá validarse comparando los ingresos por suscripción con los costos operativos y la disposición a pagar de los usuarios; todavía no se cuenta con cifras suficientes para afirmarla.
 
 ## 3.3. Product Backlog
 
