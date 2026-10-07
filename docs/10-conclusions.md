@@ -12,7 +12,21 @@
 
 - **Sobre la gestión y colaboración del equipo:** El uso de Trello, GitHub, GitFlow y Conventional Commits permitió organizar las tareas del Sprint, mantener un control de los cambios realizados y registrar la participación de los integrantes del equipo. La utilización de ramas `feature`, `develop` y `main` permitió mantener un flujo de trabajo estructurado y evidenciar los aportes realizados durante el desarrollo del Landing Page.
 
+## Sprint 2 – Frontend Web Application
+
+- **Sobre la implementación del frontend y el cumplimiento del objetivo del sprint:** Se concluye que el equipo logró entregar la primera versión navegable y desplegada de la Frontend Web Application de SmartStock, desarrollada en Vue 3 en el repositorio InventiaStock/smartstock-frontend. Las 23 User Stories del Product Backlog que no corresponden al Landing Page (84 Story Points) se implementaron en seis bounded contexts: IAM, IoT Device, Alerts & Restocking, Product Catalog, Inventory Monitoring y Analytics & Reporting. De este modo, un usuario puede registrarse, iniciar sesión, registrar productos, proveedores, compras y ventas, y consultar su stock, sus alertas, el dashboard y los reportes.
+
+- **Sobre el núcleo funcional de Compras y Ventas:** La incorporación de las pantallas de Ventas, Proveedores y Compras permitió que SmartStock controle lo que entra y sale del inventario, que es el registro que luego el sensor IoT verifica. Reglas como el rechazo de una venta cuando la cantidad supera el stock disponible, el aumento del stock solo al marcar una compra como recibida y el registro de cada operación como movimiento de stock permitieron mantener coherente el inventario y sentaron la base para la comparación entre el peso físico y el stock registrado.
+
+- **Sobre el uso de servicios simulados y la documentación de contratos:** Durante el sprint, las pantallas consumieron una Fake API desarrollada con json-server y desplegada en Render, lo que permitió avanzar con el frontend sin esperar a los Web Services reales. Los contratos que esta API implementa se documentaron en OpenAPI 3.0.3 con Swagger Editor y Swagger UI, en 21 operaciones que cubren las Technical Stories TS01 a TS15 y la autenticación. Esta decisión permite que los Web Services del Sprint 3 se construyan sobre el mismo contrato, sin modificar las pantallas ya desarrolladas.
+
+- **Sobre el despliegue y la entrega de la versión 1.0.0:** La publicación de la aplicación en GitHub Pages mediante GitHub Actions, a partir de la rama `release/1.0.0` integrada en `main` y etiquetada como v1.0.0, permitió contar con una versión accesible públicamente. La verificación de la URL pública, de la recarga de páginas mediante `404.html` y de las peticiones hacia la Fake API permitió validar el despliegue. Asimismo, el rechazo inicial del job de despliegue por las reglas del entorno `github-pages` y su posterior corrección dejaron como aprendizaje la importancia de revisar la configuración del entorno antes de cada entrega.
+
+- **Sobre la gestión y colaboración del equipo:** La aplicación de GitFlow y Conventional Commits se consolidó durante el Sprint 2: cada tarea se trabajó en una rama corta `feature/<contexto>-<tarea>` creada desde `develop`, integrada mediante pull request revisado por otro integrante y con merge commit, sin commits directos en `main` ni en `develop`. La asignación de un integrante líder por contexto, junto con el uso de Trello, el Sprint Backlog y las vistas Contributors, Pulse y Network graph de GitHub, permitió distribuir la carga de trabajo y evidenciar el aporte de cada miembro. Como aspecto a mejorar, el uso de un correo de git mal configurado impidió que algunos commits se atribuyeran a su autor, situación que ya fue corregida.
+
 # Recomendaciones
+
+## Sprint 1 – Landing Page y documentación del proyecto
 
 - **Sobre la continuidad del desarrollo del sistema:** Se recomienda continuar con la implementación progresiva de las funcionalidades definidas en el Product Backlog, priorizando aquellas relacionadas con el monitoreo del inventario físico, vinculación de sensores IoT, configuración de niveles mínimos de stock, alertas automáticas y comparación entre el inventario físico y el registrado. Estas funcionalidades representan una parte importante de la propuesta de valor de SmartStock.
 
@@ -27,3 +41,17 @@
 - **Sobre reportes y toma de decisiones:** A mediano plazo, se recomienda implementar los reportes de consumo, movimientos, rotación e historial del inventario planteados en el proyecto. Estos reportes permitirán complementar el monitoreo en tiempo real y brindar información útil para planificar las compras, identificar productos de mayor rotación y mejorar las decisiones de reposición.
 
 - **Sobre la escalabilidad del proyecto:** Finalmente, se recomienda mantener una arquitectura modular que permita ampliar SmartStock progresivamente, incorporando nuevos tipos de sensores, más funcionalidades de análisis, nuevos canales de notificación y mejoras en la aplicación web sin afectar los módulos existentes.
+
+## Sprint 2 – Frontend Web Application
+
+- **Sobre la implementación de los Web Services reales:** Se recomienda construir en el Sprint 3 los Web Services reales a partir del contrato OpenAPI documentado, de modo que reemplacen a la Fake API sin cambios en las pantallas. Se sugiere implementar primero los endpoints de autenticación, productos, ventas y compras, ya que sostienen el núcleo funcional del producto, y validar cada uno con Postman antes de integrarlo con el frontend.
+
+- **Sobre la persistencia y la seguridad de los datos:** Dado que la Fake API guarda los datos en memoria y almacena las contraseñas de prueba en texto plano, se recomienda que los Web Services reales utilicen una base de datos persistente, cifrado de contraseñas y autenticación con tokens. También se recomienda definir roles y permisos por tipo de negocio, para proteger la información de cada propietario.
+
+- **Sobre el despliegue y la disponibilidad:** Debido a que el plan gratuito de Render suspende el servicio tras unos 15 minutos sin uso y la primera petición puede demorar cerca de un minuto, se recomienda abrir la URL de la Fake API antes de cada demostración o evaluar un plan que mantenga el servicio activo. Asimismo, se recomienda mantener el flujo de despliegue con GitHub Actions y verificar las URLs y las reglas del entorno antes de cada entrega.
+
+- **Sobre la integración del IoT:** Se recomienda reemplazar el simulador de lecturas por la comunicación real entre los sensores de peso y la plataforma, validando la estabilidad de la conexión, el comportamiento ante sensores desconectados y la conversión de peso a unidades. Esta integración permitirá que la comparación entre el inventario físico y el registrado y las alertas por discrepancia se basen en datos reales.
+
+- **Sobre las pruebas y la calidad del producto:** Se recomienda incorporar pruebas automáticas de las vistas, stores y servicios, y ejecutarlas en el flujo de GitHub Actions antes de cada integración a `develop`. Del mismo modo, se recomienda validar las pantallas con usuarios reales de bodegas y minimarkets para ajustar la navegación, los mensajes de error y la claridad de los reportes.
+
+- **Sobre la gestión del equipo y la configuración de Git:** Se recomienda que cada integrante verifique su correo de git antes de comenzar un sprint para que todos sus commits queden atribuidos a su cuenta, y que se mantengan las revisiones cruzadas de pull requests y el uso de Conventional Commits. También se recomienda planificar el Sprint 3 equilibrando la carga entre los integrantes, considerando que las Technical Stories, con endpoints y modelo de datos, se incorporan al alcance.
