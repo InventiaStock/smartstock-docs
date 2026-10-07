@@ -118,17 +118,21 @@ esfuerzo se utilizó Planning Poker, empleando la secuencia de Fibonacci modific
 100 Puntos, permitiendo identificar y consensuar las historias que tendrían mayor prioridad
 dentro del desarrollo del producto.
 
-Las 30 User Stories fueron organizadas en el Product Backlog y registradas en Trello,
-incluyendo su respectiva descripción y Story Points. Asimismo, las historias relacionadas con
-la construcción del sitio web estático (Landing Page) fueron consideradas dentro de las
-prioridades iniciales debido a que forman parte del alcance establecido para el Sprint 1.
+Las 32 User Stories y las 15 Technical Stories fueron organizadas en el Product Backlog y
+registradas en Trello, incluyendo su respectiva descripción y Story Points. Las historias
+relacionadas con la construcción del sitio web estático (Landing Page) fueron consideradas
+dentro de las prioridades iniciales debido a que forman parte del alcance establecido para el
+Sprint 1. Posteriormente, el equipo incorporó las historias de Compras y Ventas (US26 a
+US32) y sus Technical Stories, y las ubicó en la parte alta del backlog pendiente, por ser el
+núcleo funcional del producto: el registro de lo que entra y sale del inventario, que luego el
+sensor IoT verifica.
 
 Como evidencia de la organización y gestión del Product Backlog, se presenta a continuación
 la captura del tablero utilizado en Trello y el enlace de acceso correspondiente.
 
 **Enlace del Product Backlog en Trello:**
 
-https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba8336b688a97353B8B08C/trello
+https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba8336b688a97353B8B08C/trello-web
 
 ![Organización del Product Backlog en Trello](../assets/chapter-3/organizacionproductbacklog.png)
 
@@ -149,47 +153,63 @@ https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba833
 | 7 | US22 | Testimonios de dueños de bodega | Como visitante del segmento bodegas, deseo ver testimonios de otros clientes. | 2 |
 | 8 | US23 | Comparación frente a otras soluciones | Como visitante del segmento minimarkets, deseo ver una comparación frente a otras soluciones. | 3 |
 | 9 | US24 | Acceso a registro desde el sitio web | Como visitante, deseo acceder a la opción de registro desde cualquier sección. | 1 |
-| 10 | US01 | Registro de cuenta | Como dueño de bodega/administrador, deseo registrarme con mi correo y datos de mi negocio. | 5 |
-| 11 | US02 | Inicio de sesión | Como dueño de bodega/administrador, deseo iniciar sesión para acceder al panel. | 3 |
-| 12 | US03 | Recuperación de contraseña | Como dueño de bodega/administrador, deseo recuperar mi contraseña vía correo. | 3 |
-| 13 | US28 | Endpoint de autenticación (API) | Como developer, deseo exponer POST `/api/auth/login` para validar credenciales. | 3 |
-| 14 | US13 | Registro de nuevo producto | Como dueño de bodega/administrador, deseo registrar un producto con nombre, categoría y peso. | 3 |
-| 15 | US14 | Edición de producto del catálogo | Como dueño de bodega/administrador, deseo editar la información de un producto existente. | 2 |
-| 16 | US04 | Vinculación de sensor IoT a un producto | Como dueño de bodega/administrador, deseo vincular un sensor de peso a un producto. | 5 |
-| 17 | US05 | Configuración de umbral mínimo de stock | Como dueño de bodega/administrador, deseo configurar el umbral mínimo por producto. | 3 |
-| 18 | US06 | Estado de conexión de sensores | Como dueño de bodega/administrador, deseo ver el estado de conexión de cada sensor. | 3 |
-| 19 | US25 | Endpoint de recepción de lecturas (API) | Como developer, deseo exponer POST `/api/sensores/{id}/lecturas`. | 3 |
-| 20 | US29 | Endpoint de estado de sensor (API) | Como developer, deseo exponer GET `/api/sensores/{id}/estado`. | 2 |
-| 21 | US07 | Visualización del peso actual | Como dueño de bodega/administrador, deseo ver el peso actual registrado por el sensor. | 3 |
-| 22 | US08 | Listado de productos por nivel de stock | Como dueño de bodega/administrador, deseo ver un listado con el nivel de stock de mis productos. | 3 |
-| 23 | US26 | Endpoint de consulta de stock (API) | Como developer, deseo exponer GET `/api/productos/{id}/stock`. | 2 |
-| 24 | US09 | Notificación por correo de stock bajo | Como dueño de bodega/administrador, deseo recibir un correo cuando el stock llegue al umbral. | 5 |
-| 25 | US10 | Notificación por WhatsApp de stock bajo | Como dueño de bodega/administrador, deseo recibir WhatsApp cuando el stock llegue al umbral. | 5 |
-| 26 | US27 | Endpoint de notificación de stock bajo (API) | Como developer, deseo exponer POST `/api/notificaciones/stock-bajo`. | 3 |
-| 27 | US11 | Comparación inventario físico vs. registrado | Como administrador de minimarket, deseo comparar el peso físico con lo registrado. | 5 |
-| 28 | US12 | Alerta por discrepancia de inventario | Como dueño de bodega/administrador, deseo recibir alerta si la discrepancia supera 10%. | 3 |
-| 29 | US30 | Endpoint de comparación de inventario (API) | Como developer, deseo exponer GET `/api/inventario/comparacion/{productoId}`. | 3 |
-| 30 | US15 | Dashboard resumen de inventario | Como dueño de bodega/administrador, deseo ver un dashboard resumen del inventario. | 5 |
-| 31 | US31 | Reportes de consumo y movimientos de inventario | Como administrador de minimarket, deseo generar reportes de consumo y movimientos por periodo, para tomar mejores decisiones de reposición y compra. | 5 |
+| 10 | US01 | Registro de cuenta | Como administrador de mi negocio, deseo registrarme con mi correo y datos de mi negocio. | 5 |
+| 11 | US02 | Inicio de sesión | Como administrador de mi negocio, deseo iniciar sesión para acceder al panel. | 3 |
+| 12 | US03 | Recuperación de contraseña | Como administrador de mi negocio, deseo recuperar mi contraseña vía correo. | 3 |
+| 13 | TS04 | Endpoint de autenticación (API) | Como developer, deseo exponer POST `/api/auth/login` para validar credenciales. | 3 |
+| 14 | US13 | Registro de nuevo producto | Como administrador de mi negocio, deseo registrar un producto con nombre, categoría y peso. | 3 |
+| 15 | US14 | Edición de producto del catálogo | Como administrador de mi negocio, deseo editar la información de un producto existente, incluido su precio de venta, costo y proveedor habitual. | 2 |
+| 16 | US29 | Registro de proveedor | Como administrador de mi negocio, deseo registrar a mis proveedores con su nombre, teléfono y correo opcional. | 2 |
+| 17 | US30 | Registro y recepción de compra | Como administrador de mi negocio, deseo registrar una compra a un proveedor y marcarla como recibida para aumentar mi stock. | 5 |
+| 18 | US26 | Registro de venta | Como administrador de mi negocio, deseo registrar una venta con productos y cantidades para mantener mi stock actualizado. | 5 |
+| 19 | TS13 | Modelo de datos y migraciones de ventas y compras | Como developer, deseo crear las tablas de ventas, compras, proveedores y movimientos de stock mediante migraciones. | 5 |
+| 20 | TS14 | Registro automático de movimientos de stock | Como developer, deseo que cada venta, compra recibida o ajuste genere un movimiento de stock. | 5 |
+| 21 | TS09 | Endpoints de proveedores | Como developer, deseo exponer POST y GET `/api/proveedores`. | 2 |
+| 22 | TS10 | Endpoint de registro de compras | Como developer, deseo exponer POST `/api/compras`. | 3 |
+| 23 | TS11 | Endpoint de recepción de compras | Como developer, deseo exponer PATCH `/api/compras/{id}/recepcion`. | 3 |
+| 24 | TS07 | Endpoint de registro de ventas | Como developer, deseo exponer POST `/api/ventas`. | 3 |
+| 25 | US32 | Registro de compra desde una alerta de stock bajo | Como administrador de mi negocio, deseo registrar una compra desde una alerta de stock bajo, con el producto y proveedor precargados. | 3 |
+| 26 | US27 | Historial de ventas | Como administrador de mi negocio, deseo consultar el historial de mis ventas por rango de fechas. | 3 |
+| 27 | US28 | Detalle de una venta | Como administrador de mi negocio, deseo ver el detalle de una venta. | 2 |
+| 28 | US31 | Historial de compras | Como administrador de mi negocio, deseo consultar el historial de mis compras por rango de fechas. | 3 |
+| 29 | TS08 | Endpoints de consulta de ventas | Como developer, deseo exponer GET `/api/ventas` y GET `/api/ventas/{id}`. | 3 |
+| 30 | TS12 | Endpoints de consulta de compras | Como developer, deseo exponer GET `/api/compras` y GET `/api/compras/{id}`. | 2 |
+| 31 | US04 | Vinculación de sensor IoT a un producto | Como administrador de mi negocio, deseo vincular un sensor de peso a un producto. | 5 |
+| 32 | US05 | Configuración de umbral mínimo de stock | Como administrador de mi negocio, deseo configurar el umbral mínimo por producto. | 3 |
+| 33 | US06 | Estado de conexión de sensores | Como administrador de mi negocio, deseo ver el estado de conexión de cada sensor. | 3 |
+| 34 | TS01 | Endpoint de recepción de lecturas (API) | Como developer, deseo exponer POST `/api/sensores/{id}/lecturas`. | 3 |
+| 35 | TS05 | Endpoint de estado de sensor (API) | Como developer, deseo exponer GET `/api/sensores/{id}/estado`. | 2 |
+| 36 | US07 | Visualización del peso actual | Como administrador de mi negocio, deseo ver el peso actual registrado por el sensor. | 3 |
+| 37 | US08 | Listado de productos por nivel de stock | Como administrador de mi negocio, deseo ver un listado con el nivel de stock de mis productos. | 3 |
+| 38 | TS02 | Endpoint de consulta de stock (API) | Como developer, deseo exponer GET `/api/productos/{id}/stock`. | 2 |
+| 39 | US09 | Notificación por correo de stock bajo | Como administrador de mi negocio, deseo recibir un correo cuando el stock llegue al umbral. | 5 |
+| 40 | US10 | Notificación por WhatsApp de stock bajo | Como administrador de mi negocio, deseo recibir WhatsApp cuando el stock llegue al umbral. | 5 |
+| 41 | TS03 | Endpoint de notificación de stock bajo (API) | Como developer, deseo exponer POST `/api/notificaciones/stock-bajo`. | 3 |
+| 42 | US11 | Comparación inventario físico vs. registrado | Como administrador de minimarket, deseo comparar el peso físico con lo registrado. | 5 |
+| 43 | US12 | Alerta por discrepancia de inventario | Como administrador de mi negocio, deseo recibir alerta si la discrepancia supera 10%. | 3 |
+| 44 | TS06 | Endpoint de comparación de inventario (API) | Como developer, deseo exponer GET `/api/inventario/comparacion/{productoId}`. | 3 |
+| 45 | US15 | Dashboard resumen de inventario | Como administrador de mi negocio, deseo ver un dashboard resumen del inventario, con las ventas y compras del día. | 5 |
+| 46 | US25 | Reportes de consumo y movimientos de inventario | Como administrador de minimarket, deseo generar reportes de consumo, ventas, compras y movimientos por periodo, para tomar mejores decisiones de reposición y compra. | 5 |
+| 47 | TS15 | Endpoint de movimientos de stock | Como developer, deseo exponer GET `/api/movimientos-stock` con filtro por periodo. | 3 |
+
+Nota. Tabla a base de la info de US elaboración propia
 
 ### Evidencia de la técnica de priorización — Método de los 100 puntos
 
-El equipo aplicó Dot Voting mediante el Método de los 100 Puntos en 5 sesiones, una por
-lote de historias.
-
-Cada integrante distribuyó su propio total de 100 puntos entre las 31 historias. A
-continuación, se muestra el detalle por lote, ordenado por ID de historia para facilitar la
-lectura.
-
-#### Lote 1: Método de los 100 puntos (US01–US11)
+El equipo aplicó Dot Voting mediante el Método de los 100 Puntos en 3 sesiones, una por
+lote de historias. Cada integrante distribuyó su propio total de 100 puntos entre las 31 historias
+vigentes a la fecha de la votación (25 User Stories y las 6 historias de API que luego se
+reclasificaron como TS01–TS06). Las historias de Compras y Ventas (US26–US32) y las
+Technical Stories TS07–TS15 se incorporaron después de la votación y se ubicaron en la
+parte alta del backlog por ser el núcleo del producto, por lo que no figuran en los gráficos.
 
 **Figura 17.**
 
-*Lote 1: Método de los 100 puntos (US01–US011)*
+*Lote 1: Método de los 100 puntos (US01–US10)*
 
 ![Método de los 100 puntos - Lote 1](../assets/chapter-3/lote1metodo100puntos.png)
 
-#### Lote 2: Método de los 100 puntos (US11–US20)
+Nota. Evidencia de priorización mediante el Método de los 100 puntos — Lote 1.
 
 **Figura 18.**
 
@@ -197,10 +217,12 @@ lectura.
 
 ![Método de los 100 puntos - Lote 2](../assets/chapter-3/lote2metodo100puntos.png)
 
-#### Lote 3: Método de los 100 puntos (US21–US31)
+Nota. Evidencia de priorización mediante el Método de los 100 puntos — Lote 2.
 
 **Figura 19.**
 
 *Lote 3: Método de los 100 puntos (US21–US31)*
 
 ![Método de los 100 puntos - Lote 3](../assets/chapter-3/lote3metodo100puntos.png)
+
+Nota. Evidencia de priorización mediante el Método de los 100 puntos — Lote 3.
