@@ -742,22 +742,22 @@ En este sprint el frontend alcanzó las vistas de los seis contextos funcionando
 
 | Contexto | Historia | Ruta | La captura debe mostrar | Figura |
 |---|---|---|---|---:|
-| IAM | US01 Registro de cuenta | `/sign-up` | Formulario con tipo de negocio y el error de correo en uso | 161 |
-| IAM | US02 Inicio de sesión | `/sign-in` | Login y el mensaje de credenciales incorrectas | 162 |
-| IAM | US03 Recuperación de contraseña | `/forgot-password` | Solicitud del enlace y restablecimiento | 163 |
-| Ventas | US26, US27 y US28 | `/sales`, `/sales/new`, `/sales/:id` | Venta registrada, rechazo por stock insuficiente, historial por fechas y detalle | 164 |
-| IoT Device | US04 Vinculación de sensor | `/sensors/link` | Selección de sensor y producto, y error de sensor en uso | 165 |
-| IoT Device | US06 y US07 Estado y peso actual | `/sensors` | Sensores en línea y desconectados, y peso con su equivalente en unidades | 166 |
-| Alerts & Restocking | US09 y US10 Notificaciones | `/settings` | Canales de correo y WhatsApp configurados | 167 |
-| Alerts & Restocking | US12 y US32 Alertas y compra desde alerta | `/alerts` | Alerta de stock bajo o discrepancia y el botón que abre el registro de compra | 168 |
-| Product Catalog | US13, US14 y US05 Productos | `/products` | Registro, edición y umbral mínimo con su error de validación | 169 |
-| Proveedores y Compras | US29, US30 y US31 | `/purchases`, `/purchases/new`, `/purchases/suppliers` | Proveedor creado, compra pendiente, compra recibida e historial por fechas | 170 |
-| Inventory Monitoring | US08 y US11 | `/products`, `/comparison` | Niveles de stock y comparación físico vs. registrado (solo minimarket) | 171 |
-| Analytics & Reporting | US15 y US25 | `/dashboard`, `/reports` | Tarjetas del día con ventas y compras, y reporte por período | 172 |
+| IAM | US01 Registro de cuenta | `/sign-up` | Formulario con tipo de negocio y el error de correo en uso | 171 |
+| IAM | US02 Inicio de sesión | `/sign-in` | Login y el mensaje de credenciales incorrectas | 172 |
+| IAM | US03 Recuperación de contraseña | `/forgot-password` | Solicitud del enlace y restablecimiento | 173 |
+| Ventas | US26, US27 y US28 | `/sales`, `/sales/new`, `/sales/:id` | Venta registrada, rechazo por stock insuficiente, historial por fechas y detalle | 174 |
+| IoT Device | US04 Vinculación de sensor | `/sensors/link` | Selección de sensor y producto, y error de sensor en uso | 175 |
+| IoT Device | US06 y US07 Estado y peso actual | `/sensors` | Sensores en línea y desconectados, y peso con su equivalente en unidades | 176 |
+| Alerts & Restocking | US09 y US10 Notificaciones | `/settings` | Canales de correo y WhatsApp configurados | 177 |
+| Alerts & Restocking | US12 y US32 Alertas y compra desde alerta | `/alerts` | Alerta de stock bajo o discrepancia y el botón que abre el registro de compra | 178 |
+| Product Catalog | US13, US14 y US05 Productos | `/products` | Registro, edición y umbral mínimo con su error de validación | 179 |
+| Proveedores y Compras | US29, US30 y US31 | `/purchases`, `/purchases/new`, `/purchases/suppliers` | Proveedor creado, compra pendiente, compra recibida e historial por fechas | 180 |
+| Inventory Monitoring | US08 y US11 | `/products`, `/comparison` | Niveles de stock y comparación físico vs. registrado (solo minimarket) | 181 |
+| Analytics & Reporting | US15 y US25 | `/dashboard`, `/reports` | Tarjetas del día con ventas y compras, y reporte por período | 182 |
 
 Nota. Elaboración propia
 
-**Figura 161**
+**Figura 171**
 
 *Registro de cuenta con selección de tipo de negocio (US01)*
 
@@ -765,7 +765,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 162**
+**Figura 172**
 
 *Inicio de sesión con mensaje de credenciales incorrectas (US02)*
 
@@ -773,7 +773,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 163**
+**Figura 173**
 
 *Recuperación de contraseña: solicitud del enlace y confirmación de envío (US03)*
 
@@ -781,7 +781,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 164**
+**Figura 174**
 
 *Ventas: (a) venta registrada, (b) rechazo por stock insuficiente, (c) historial por fechas y (d) detalle con movimiento de salida (US26, US27, US28)*
 
@@ -795,7 +795,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 165**
+**Figura 175**
 
 *Vinculación de sensor a un producto y error de sensor en uso (US04)*
 
@@ -805,7 +805,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 166**
+**Figura 176**
 
 *Estado de conexión de sensores en línea y desconectados (US06)*
 
@@ -813,7 +813,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 167**
+**Figura 177**
 
 *Configuración de notificaciones por correo y WhatsApp (US09, US10)*
 
@@ -821,7 +821,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 168**
+**Figura 178**
 
 *Alertas activas y botón de compra desde una alerta de stock bajo (US12, US32)*
 
@@ -829,7 +829,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 169**
+**Figura 179**
 
 *Catálogo: (a) registro de producto, (b) edición con stock de solo lectura (US13, US14)*
 
@@ -839,7 +839,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 170**
+**Figura 180**
 
 *Proveedores y compras: (a) proveedor creado, (b) compra pendiente, (c) compra recibida y (d) historial por fechas (US29, US30, US31)*
 
@@ -853,7 +853,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 171**
+**Figura 181**
 
 *Monitoreo de inventario: (a) productos por nivel de stock, (b) detalle con peso actual y (c) comparación físico vs. registrado (US07, US08, US11)*
 
@@ -865,7 +865,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 172**
+**Figura 182**
 
 *Dashboard con ventas y compras del día, y reporte por período (US15, US25)*
 
@@ -875,7 +875,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 173**
+**Figura 183**
 
 *Menú lateral según tipo de negocio: (a) bodega y (b) minimarket (US01)*
 
@@ -887,7 +887,7 @@ Nota. Elaboración propia
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-En el Sprint 2 el equipo documentó con OpenAPI los contratos de los endpoints que las pantallas consumen a través de la Fake API: los de las Technical Stories TS01 a TS15 y los de autenticación que usan las pantallas de registro y recuperación (21 operaciones). Los Web Services reales (ASP.NET Core) se implementarán en el Sprint 3 con el mismo contrato; por eso aún no existe el repositorio de Web Services ni hay commits de documentación en este sprint. La especificación de los Web Services se redactó en formato OpenAPI 3.0.3 utilizando Swagger Editor y se visualiza mediante Swagger UI (Figuras 174 y 175). Los endpoints documentados corresponden a los contratos que el frontend consume actualmente a través de la Fake API; su implementación real en el backend se realizará en el Sprint 3. Los contratos se documentan con el prefijo `/api` del backend real; la Fake API desplegada los expone en la raíz, sin ese prefijo (por ejemplo, `POST /auth/login`).
+En el Sprint 2 el equipo documentó con OpenAPI los contratos de los endpoints que las pantallas consumen a través de la Fake API: los de las Technical Stories TS01 a TS15 y los de autenticación que usan las pantallas de registro y recuperación (21 operaciones). Los Web Services reales (ASP.NET Core) se implementarán en el Sprint 3 con el mismo contrato; por eso aún no existe el repositorio de Web Services ni hay commits de documentación en este sprint. La especificación de los Web Services se redactó en formato OpenAPI 3.0.3 utilizando Swagger Editor y se visualiza mediante Swagger UI (Figuras 184 y 185). Los endpoints documentados corresponden a los contratos que el frontend consume actualmente a través de la Fake API; su implementación real en el backend se realizará en el Sprint 3. Los contratos se documentan con el prefijo `/api` del backend real; la Fake API desplegada los expone en la raíz, sin ese prefijo (por ejemplo, `POST /auth/login`).
 
 **Tabla 41**
 
@@ -940,7 +940,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 174**
+**Figura 184**
 
 *Documentación OpenAPI de los endpoints del Sprint 2 en Swagger Editor*
 
@@ -948,7 +948,7 @@ Nota. Elaboración propia
 
 Nota. Elaboración propia
 
-**Figura 175**
+**Figura 185**
 
 *Detalle del endpoint POST /api/ventas con ejemplo de solicitud y respuestas documentadas*
 
@@ -979,7 +979,7 @@ Como json-server no corre en GitHub Pages, la Fake API se publicó como Web Serv
 
 El despliegue se verificó abriendo la URL pública, iniciando sesión, navegando a Ventas y recargando la página (lo que prueba el `404.html`), registrando una venta de prueba y confirmando en la pestaña Network que las peticiones van a la Fake API.
 
-**Figura 176**
+**Figura 186**
 
 *Configuración de GitHub Pages con GitHub Actions como fuente*
 
@@ -987,7 +987,7 @@ El despliegue se verificó abriendo la URL pública, iniciando sesión, navegand
 
 *Nota.* Pages del repositorio InventiaStock/smartstock-frontend; la aplicación se publica con el workflow `deploy.yml` al integrar en main.
 
-**Figura 177**
+**Figura 187**
 
 *Ejecución del workflow «Deploy frontend to GitHub Pages» con los jobs build y deploy exitosos*
 
@@ -995,7 +995,7 @@ El despliegue se verificó abriendo la URL pública, iniciando sesión, navegand
 
 *Nota.* Ejecución disparada por el merge del PR #20 en main. En la primera corrida, deploy fue rechazado por las reglas del entorno github-pages (no permitían main); tras permitirla, la reejecución terminó con éxito en 19 s.
 
-**Figura 178**
+**Figura 188**
 
 *Fake API desplegada en Render (Live, rama main)*
 
@@ -1003,7 +1003,7 @@ El despliegue se verificó abriendo la URL pública, iniciando sesión, navegand
 
 *Nota.* Web Service de Node, plan Free, repositorio InventiaStock/smartstock-frontend, rama main, URL https://smartstock-fake-api.onrender.com.
 
-**Figura 179**
+**Figura 189**
 
 *Verificación de la Fake API desplegada*
 
@@ -1011,7 +1011,7 @@ El despliegue se verificó abriendo la URL pública, iniciando sesión, navegand
 
 *Nota.* `POST /auth/forgot-password` responde `sent: True` y `expiresInHours: 24`.
 
-**Figura 180**
+**Figura 190**
 
 *Frontend Web Application funcionando en su URL pública*
 
@@ -1046,7 +1046,7 @@ Los mensajes de commit siguen Conventional Commits (`feat`, `fix`, `docs`, `refa
 
 La vista de contribuyentes de GitHub muestra a cuatro de los cinco integrantes. Los seis commits de @leonardoXd1323 (ramas feature/alerts-email y feature/alerts-active-list) no se atribuyen a su cuenta porque se realizaron con un correo de git mal configurado; su participación se evidencia en la vista Pulse (cinco autores), en los pull requests #12 y #17 y en la tabla 39. El correo ya fue corregido para los siguientes sprints.
 
-**Figura 181**
+**Figura 191**
 
 *Contributors del repositorio InventiaStock/smartstock-frontend*
 
@@ -1054,7 +1054,7 @@ La vista de contribuyentes de GitHub muestra a cuatro de los cinco integrantes. 
 
 *Nota.* Elaboración propia
 
-**Figura 183**
+**Figura 192**
 
 *Pulse del repositorio InventiaStock/smartstock-frontend: cinco autores y 67 commits*
 
@@ -1066,7 +1066,7 @@ La vista de contribuyentes de GitHub muestra a cuatro de los cinco integrantes. 
 
 El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature nacen de develop, se integran nuevamente a ella mediante merge commits, y la rama main recibe únicamente las versiones publicadas.
 
-**Figura 184**
+**Figura 193**
 
 *Network graph del repositorio InventiaStock/smartstock-frontend*
 
