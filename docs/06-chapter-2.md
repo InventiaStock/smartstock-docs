@@ -507,7 +507,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 ### 2.2.2. Registro de entrevistas
 
-**Needfinding Interviews Link:** [upc-pre-202620-1asi0730-8168-inventiastock-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)
+**Needfinding Interviews Link:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)
 
 <p align="center">
   <img src="../assets/chapter-2/portadaneedfinding.png" width="800">
@@ -529,7 +529,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
   <td><strong>URL:</strong></td>
   <td>
     <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
-      upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1
+      https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
     </a>
   </td>
 </tr>
@@ -574,7 +574,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
   <td><strong>URL:</strong></td>
   <td>
     <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
-      upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1
+      https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
     </a>
   </td>
 </tr>
@@ -619,7 +619,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
   <td><strong>URL:</strong></td>
   <td>
     <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
-      upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1
+      https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
     </a>
   </td>
 </tr>
@@ -666,7 +666,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
   <td><strong>URL:</strong></td>
   <td>
     <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
-      upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1
+      https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
     </a>
   </td>
 </tr>
@@ -711,7 +711,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
   <td><strong>URL:</strong></td>
   <td>
     <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
-      upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1
+      https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
     </a>
   </td>
 </tr>
@@ -756,7 +756,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
   <td><strong>URL:</strong></td>
   <td>
     <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
-      upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1
+      https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAX9mzcaHzdQ2Go56O3CE8lM?e=XvedES&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
     </a>
   </td>
 </tr>
