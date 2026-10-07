@@ -11,6 +11,10 @@ comportamiento sí difiere por segmento (US11, US31) especifican el rol concreto
 
 ### Epics
 
+**Tabla 16**
+
+*Epics de SmartStock*
+
 | Epic ID | Título | Descripción |
 | --- | --- | --- |
 | EP01 | Gestión de cuenta y autenticación de usuarios | Como administrador de mi negocio, quiero registrarme, iniciar sesión y recuperar el acceso a mi cuenta de forma segura, para gestionar mi inventario en SmartStock en cualquier momento. |
@@ -22,8 +26,13 @@ comportamiento sí difiere por segmento (US11, US31) especifican el rol concreto
 | EP07 | Reportes y dashboard de inventario | Como administrador de mi negocio, quiero visualizar un dashboard con el resumen general del estado de mi inventario, para tener una vista rápida de mi negocio sin revisar producto por producto. Como administrador de minimarket, quiero además generar reportes de consumo y movimientos de inventario, para analizar tendencias y tomar mejores decisiones de reposición y compra. |
 | EP08 | Sitio web estático (Landing Page) | Como visitante del sitio web de SmartStock, general o de un segmento específico (bodegas de barrio o minimarkets), quiero conocer la propuesta de valor, casos de uso, planes y evidencia social del producto, para decidir si me registro o solicito una demostración. |
 | EP09 | Servicios RESTful de la API | Como developer, quiero exponer los servicios RESTful necesarios para la recepción de lecturas de sensores, autenticación, consulta de stock, estado de sensores, notificaciones y comparación de inventario, para soportar el funcionamiento de las aplicaciones web y de los dispositivos IoT. |
+Nota. Elaboración propia 
 
 ### User Stories
+
+**Tabla 17**
+
+*User Stories y Technical Stories de SmartStock*
 
 | Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 | --- | --- | --- | --- | --- |
@@ -58,6 +67,7 @@ comportamiento sí difiere por segmento (US11, US31) especifican el rol concreto
 | US29 | Endpoint de estado de conexión de un sensor | Como developer, quiero exponer un endpoint GET `/api/sensores/{id}/estado` que retorne si un sensor está en línea o desconectado, para que el frontend muestre el estado de conexión en tiempo real. | **Escenario 1: Sensor con lectura reciente**<br>Dado que el sensor consultado envió una lectura en los últimos 5 minutos,<br>Cuando el cliente envía una solicitud GET a `/api/sensores/{id}/estado`,<br>Entonces el sistema responde con el código de estado 200 y el estado "en línea".<br><br>**Escenario 2: Sensor sin lectura reciente**<br>Dado que el sensor consultado no envió ninguna lectura en los últimos 5 minutos,<br>Cuando el cliente envía una solicitud GET a `/api/sensores/{id}/estado`,<br>Entonces el sistema responde con el código de estado 200 y el estado "desconectado". | EP09 |
 | US30 | Endpoint de comparación de inventario físico y registrado | Como developer, quiero exponer un endpoint GET `/api/inventario/comparacion/{productoId}` que retorne la diferencia entre el peso físico detectado y la cantidad registrada, para que el sistema calcule automáticamente posibles mermas. | **Escenario 1: Diferencia calculada correctamente**<br>Dado que el producto consultado tiene una cantidad registrada manualmente y al menos una lectura de sensor,<br>Cuando el cliente envía una solicitud GET a `/api/inventario/comparacion/{productoId}`,<br>Entonces el sistema responde con el código de estado 200 y el porcentaje de diferencia entre ambos valores.<br><br>**Escenario 2: Producto sin cantidad registrada**<br>Dado que el producto consultado no tiene una cantidad registrada manualmente,<br>Cuando el cliente envía una solicitud GET a `/api/inventario/comparacion/{productoId}`,<br>Entonces el sistema responde con el código de estado 409 e indica que no puede calcularse la comparación sin una cantidad registrada. | EP09 |
 | US31 | Reportes de consumo y movimientos de inventario | Como administrador de minimarket, quiero generar reportes de consumo y movimientos de inventario por periodo, para analizar tendencias y tomar mejores decisiones de reposición y compra. | **Escenario 1: Reporte con datos disponibles**<br>Dado que existen movimientos de inventario registrados en el periodo seleccionado,<br>Cuando el administrador solicita el reporte de consumo,<br>Entonces el sistema muestra el consumo total y los movimientos por producto.<br><br>**Escenario 2: Periodo sin movimientos**<br>Dado que no existen movimientos registrados en el periodo,<br>Cuando el administrador solicita el reporte,<br>Entonces el sistema indica que no hay datos disponibles para dicho periodo. | EP07 |
+Nota. Elaboración propia 
 
 ## 3.2. Impact Mapping
 
@@ -71,7 +81,12 @@ El Impact Mapping de SmartStock relaciona las metas del negocio con las personas
 
 **Deliverables (¿Qué?):** Monitoreo de sensores, configuración de umbrales y notificaciones, comparación de inventario para minimarkets y Landing Page. Se incorporan el registro y consulta de compras y ventas (US26–US31), y el inicio de una compra desde una alerta de stock bajo (US32). Las ventas descuentan el stock registrado; las compras lo aumentan al confirmar su recepción.
 
+**Figura 16**
+
+*Impact Map de SmartStock*
+
 ![Impact Mapping de SmartStock](../assets/chapter-3/impactmapping1.png)
+Nota. Elaboración propia 
 
 #### **Medición de las metas**
 Para BG1, se propone comparar el stock físico y el registrado de los productos monitoreados, expresados en la misma unidad, y calcular el porcentaje que presenta coincidencia al finalizar los primeros tres meses de cada negocio. Para BG2, se aplicará una encuesta al terminar el primer mes de uso y se calculará el porcentaje de usuarios que afirme que las alertas le permiten anticipar la reposición. Para BG3 y BG4, se propone considerar activo a un negocio que registre al menos una compra o venta durante el último mes, diferenciando minimarkets y bodegas.
@@ -105,6 +120,10 @@ https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba833
 ![Organización del Product Backlog en Trello](../assets/chapter-3/organizacionproductbacklog.png)
 
 ### Product Backlog priorizado
+
+**Tabla 18**
+
+*Product Backlog de SmartStock*
 
 | # | User Story ID | Título | Descripción | Story Points |
 | ---: | --- | --- | --- | ---: |
@@ -151,18 +170,24 @@ lectura.
 
 #### Lote 1: Método de los 100 puntos (US01–US11)
 
-![Método de los 100 puntos - Lote 1](../assets/chapter-3/lote1metodo100puntos.png)
+**Figura 17.**
 
-**Figura 1. Evidencia de priorización mediante el Método de los 100 puntos — Lote 1.**
+*Lote 1: Método de los 100 puntos (US01–US011)*
+
+![Método de los 100 puntos - Lote 1](../assets/chapter-3/lote1metodo100puntos.png)
 
 #### Lote 2: Método de los 100 puntos (US11–US20)
 
-![Método de los 100 puntos - Lote 2](../assets/chapter-3/lote2metodo100puntos.png)
+**Figura 18.**
 
-**Figura 2. Evidencia de priorización mediante el Método de los 100 puntos — Lote 2.**
+*Lote 2: Método de los 100 puntos (US11–US20)*
+
+![Método de los 100 puntos - Lote 2](../assets/chapter-3/lote2metodo100puntos.png)
 
 #### Lote 3: Método de los 100 puntos (US21–US31)
 
-![Método de los 100 puntos - Lote 3](../assets/chapter-3/lote3metodo100puntos.png)
+**Figura 19.**
 
-**Figura 3. Evidencia de priorización mediante el Método de los 100 puntos — Lote 3.**
+*Lote 3: Método de los 100 puntos (US21–US31)*
+
+![Método de los 100 puntos - Lote 3](../assets/chapter-3/lote3metodo100puntos.png)
