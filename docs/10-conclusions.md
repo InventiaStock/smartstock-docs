@@ -1,0 +1,29 @@
+# Conclusiones
+
+## Sprint 1 – Landing Page y documentación del proyecto
+
+- **Sobre el análisis del problema y la investigación del usuario:** Se concluye que el análisis realizado sobre propietarios y administradores de minimarkets y bodegas de barrio permitió identificar problemas recurrentes relacionados con el control manual del inventario, las diferencias entre el stock registrado y las existencias físicas, la detección tardía de productos con bajo stock y el tiempo invertido en verificaciones manuales. Esta etapa permitió comprender las necesidades de ambos segmentos y orientar la propuesta de SmartStock hacia una gestión de inventario más automatizada mediante tecnologías web e IoT.
+
+- **Sobre la propuesta de valor y validación inicial:** La elaboración e implementación de la Landing Page permitió comunicar de manera clara la propuesta de valor de SmartStock, presentando el problema que busca resolver, los casos de uso para bodegas y minimarkets, los planes y precios, testimonios, preguntas frecuentes, comparación con otras soluciones y el formulario para solicitar una demostración. De esta manera, el Landing Page funciona como un primer medio de presentación y validación de la solución propuesta para los potenciales usuarios.
+
+- **Sobre la documentación y modelado del proyecto:** La elaboración del reporte permitió consolidar los resultados obtenidos mediante herramientas y técnicas como Lean UX, User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, Big Picture Event Storming y Ubiquitous Language. Asimismo, el modelado realizado permitió estructurar de manera progresiva el dominio de SmartStock y definir una base para el diseño de la arquitectura, la interfaz y las funcionalidades que serán desarrolladas durante los siguientes sprints.
+
+- **Sobre la definición de requerimientos:** La definición de Epics, User Stories, criterios de aceptación y Product Backlog permitió transformar las necesidades identificadas en funcionalidades concretas y organizadas. Asimismo, la priorización de las historias correspondientes al Landing Page permitió establecer un alcance claro para el Sprint 1, concentrando el desarrollo en las User Stories US16 hasta US24.
+
+- **Sobre la gestión y colaboración del equipo:** El uso de Trello, GitHub, GitFlow y Conventional Commits permitió organizar las tareas del Sprint, mantener un control de los cambios realizados y registrar la participación de los integrantes del equipo. La utilización de ramas `feature`, `develop` y `main` permitió mantener un flujo de trabajo estructurado y evidenciar los aportes realizados durante el desarrollo del Landing Page.
+
+# Recomendaciones
+
+- **Sobre la continuidad del desarrollo del sistema:** Se recomienda continuar con la implementación progresiva de las funcionalidades definidas en el Product Backlog, priorizando aquellas relacionadas con el monitoreo del inventario físico, vinculación de sensores IoT, configuración de niveles mínimos de stock, alertas automáticas y comparación entre el inventario físico y el registrado. Estas funcionalidades representan una parte importante de la propuesta de valor de SmartStock.
+
+- **Sobre la integración de la Frontend Web Application y los Web Services:** Se recomienda implementar en los siguientes sprints la conexión entre la aplicación web y los RESTful Web Services, ya que durante el Sprint 1 el alcance estuvo enfocado principalmente en la Landing Page y los servicios backend todavía no formaron parte de la implementación realizada. Esta integración permitirá gestionar la autenticación, productos, sensores, lecturas de stock, alertas y comparación de inventario de manera centralizada.
+
+- **Sobre la integración de sensores IoT:** Se recomienda desarrollar y validar progresivamente la comunicación entre los sensores de peso y la plataforma SmartStock, asegurando que las lecturas obtenidas puedan ser utilizadas para conocer las existencias físicas de los productos. También será importante evaluar la estabilidad de la conexión y el comportamiento del sistema ante sensores desconectados o lecturas no disponibles.
+
+- **Sobre la experiencia de usuario (UX/UI):** Se recomienda continuar mejorando la interfaz de la aplicación web teniendo en cuenta las características de los dos segmentos objetivo. La navegación debe mantenerse sencilla, clara y accesible, especialmente para usuarios de bodegas de barrio que pueden presentar distintos niveles de experiencia con herramientas digitales.
+
+- **Sobre las alertas y la gestión preventiva del inventario:** Se recomienda fortalecer el sistema de alertas para que los propietarios y administradores puedan identificar oportunamente productos con bajo stock, diferencias entre las existencias físicas y las registradas, y necesidades de reposición. Esto permitirá que SmartStock evolucione de un modelo de control reactivo hacia una gestión preventiva del inventario.
+
+- **Sobre reportes y toma de decisiones:** A mediano plazo, se recomienda implementar los reportes de consumo, movimientos, rotación e historial del inventario planteados en el proyecto. Estos reportes permitirán complementar el monitoreo en tiempo real y brindar información útil para planificar las compras, identificar productos de mayor rotación y mejorar las decisiones de reposición.
+
+- **Sobre la escalabilidad del proyecto:** Finalmente, se recomienda mantener una arquitectura modular que permita ampliar SmartStock progresivamente, incorporando nuevos tipos de sensores, más funcionalidades de análisis, nuevos canales de notificación y mejoras en la aplicación web sin afectar los módulos existentes.
