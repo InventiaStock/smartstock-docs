@@ -7,7 +7,7 @@
 |---|---|---|
 | AV1 | upc-pre-202620-1asi0730-8168-inventiastock-expo-av1 | https://upcedupe-my.sharepoint.com/personal/u202421125_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202421125%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0730%2D8168%2Dinventiastock%2Dexpo%2Dav1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E5b2f7f7a%2Df9cb%2D48c1%2Daa22%2D0c1baeaa618d |
 | TB | upc-pre-202620-1asi0730-8168-inventiastock-expo-tb1 | https://upcedupe-my.sharepoint.com/personal/u20241f205_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f205%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0730%2D8168%2Dinventiastock%2Dexpo%2Dtb1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea8a52d19%2D8ff0%2D48c6%2Da6f5%2D65f57b816e72 |
-| AV2 | upc-pre-202620-1asi0730-8168-inventiastock-expo-av2 | Pendiente |
+| AV2 | upc-pre-202620-1asi0730-8168-inventiastock-expo-av2 | https://upcedupe-my.sharepoint.com/personal/u20241f205_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f205%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0730%2D8168%2Dinventiastock%2Dexpo%2Dav2%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea60c761a%2Dff74%2D4b7a%2Db5d3%2D661d5259bcfd |
 
 
 ## Anexo B. Enlaces de los artefactos elaborados
