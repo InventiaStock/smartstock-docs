@@ -1,4 +1,4 @@
-# **Capítulo V: Product Implementation, Validation & Deployment**
+# Capítulo V: Product Implementation, Validation & Deployment
 
 En este capítulo se explica y evidencia el proceso de implementar, comprobar, desplegar y validar la solución de SmartStock, compuesta por el Landing Page, los RESTful Web Services y la Frontend Web Application, todos ellos con diseño web responsive. El Landing Page presenta el modelo de negocio y da acceso a la aplicación web. Los procesos del negocio digital, tanto los procesos core como los de soporte (autenticación y autorización, suscripciones, entre otros), están soportados por la Frontend Web Application y los RESTful Web Services.
 
@@ -6,7 +6,7 @@ En este capítulo se explica y evidencia el proceso de implementar, comprobar, d
 
 En esta sección se establecen las decisiones y convenciones que permiten mantener la consistencia del producto durante todo su ciclo de vida, abarcando la configuración del ambiente de desarrollo, la gestión del código fuente, las convenciones de estilo de código y la configuración del despliegue.
 
-### 5.1.1. Software Development Environment Configuration 
+### 5.1.1. Software Development Environment Configuration
 
 A continuación se detallan los productos de software que utilizan los miembros del equipo para colaborar en el ciclo de vida del producto digital, agrupados por tipo de actividad, indicando el propósito de uso en el proyecto y la ruta de referencia o de descarga según corresponda.
 
@@ -18,8 +18,8 @@ A continuación se detallan los productos de software que utilizan los miembros 
 
 | **Producto**    | **Propósito de uso en el proyecto**                                                                                               | **Ruta**                                                                                      |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| Trello          | Gestión del Product Backlog y de los Sprint Backlogs mediante tableros por sprint, con el registro de los work-items y su estado. | https://trello.com                                              |
-| Microsoft Teams | Realización de las sesiones síncronas del equipo, incluyendo Sprint Planning, Sprint Review y Retrospective.                      | https://www.microsoft.com/microsoft-teams |
+| Trello          | Gestión del Product Backlog y de los Sprint Backlogs mediante tableros por sprint, con el registro de los work-items y su estado. | <span style="word-break:break-all">https://trello.com</span>                                              |
+| Microsoft Teams | Realización de las sesiones síncronas del equipo, incluyendo Sprint Planning, Sprint Review y Retrospective.                      | <span style="word-break:break-all">https://www.microsoft.com/microsoft-teams</span> |
 
 *Nota.* Elaboración propia
 
@@ -31,8 +31,8 @@ A continuación se detallan los productos de software que utilizan los miembros 
 
 | Producto  | Propósito de uso en el proyecto                                                                            | Ruta                                                   |
 |-----------|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
-| UXPressia | Elaboración de los User Personas, Empathy Maps, User Journey Maps e Impact Maps de los segmentos objetivo. | https://uxpressia.com |
-| Miro      | Realización de las sesiones de Big Picture Event Storming y Design-Level Event Storming.                   | https://miro.com           |
+| UXPressia | Elaboración de los User Personas, Empathy Maps, User Journey Maps e Impact Maps de los segmentos objetivo. | <span style="word-break:break-all">https://uxpressia.com</span> |
+| Miro      | Realización de las sesiones de Big Picture Event Storming y Design-Level Event Storming.                   | <span style="word-break:break-all">https://miro.com</span>           |
 
 *Nota.* Elaboración propia
 
@@ -44,10 +44,10 @@ A continuación se detallan los productos de software que utilizan los miembros 
 
 | Producto    | Propósito de uso en el proyecto                                                                                                                    | Ruta                                                                |
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| Figma       | Elaboración de los wireframes, mock-ups y prototipos del Landing Page y de la Web Application, en sus versiones para Desktop y Mobile Web Browser. | https://www.figma.com              |
-| FigJam      | Elaboración de los Wireflow Diagrams y de los User Flow Diagrams de la Web Application.                                                            | https://www.figma.com/figjam |
-| LucidChart  | Elaboración de los Class Diagrams de UML y de los Database Diagrams de cada bounded context.                                                       | https://www.lucidchart.com    |
-| Structurizr | Elaboración de los diagramas de C4 Model en sus niveles de Context, Container y Component.                                                         | https://structurizr.com          |
+| Figma       | Elaboración de los wireframes, mock-ups y prototipos del Landing Page y de la Web Application, en sus versiones para Desktop y Mobile Web Browser. | <span style="word-break:break-all">https://www.figma.com</span>              |
+| FigJam      | Elaboración de los Wireflow Diagrams y de los User Flow Diagrams de la Web Application.                                                            | <span style="word-break:break-all">https://www.figma.com/figjam</span> |
+| LucidChart  | Elaboración de los Class Diagrams de UML y de los Database Diagrams de cada bounded context.                                                       | <span style="word-break:break-all">https://www.lucidchart.com</span>    |
+| Structurizr | Elaboración de los diagramas de C4 Model en sus niveles de Context, Container y Component.                                                         | <span style="word-break:break-all">https://structurizr.com</span>          |
 
 *Nota.* Elaboración propia
 
@@ -59,17 +59,17 @@ A continuación se detallan los productos de software que utilizan los miembros 
 
 | **Producto**                               | **Propósito de uso en el proyecto**                                              | **Ruta**                                                                                                                                            |
 |--------------------------------------------|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| JetBrains Rider (o Visual Studio 2022)     | IDE para implementar los Web Services en C# con ASP.NET Core. Licencia educativa | https://www.jetbrains.com/rider/                                                                         |
-| WebStorm (o Visual Studio Code)            | IDE de la Frontend Web Application en Vue y del Landing Page                     | https://www.jetbrains.com/webstorm/                                                                   |
-| .NET 9 SDK                                 | Compilación y ejecución de los Web Services                                      | https://dotnet.microsoft.com/download/dotnet/9.0                                         |
-| ASP.NET Core 9 y Entity Framework Core 9   | Framework del RESTful API y persistencia de datos                                | https://learn.microsoft.com/aspnet/core                                                           |
-| Pomelo.EntityFrameworkCore.MySql           | Proveedor de EF Core para MySQL                                                  | https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql |
-| MySQL Community Server 8 y MySQL Workbench | Base de datos relacional y diagramas de base de datos                            | https://dev.mysql.com/downloads/                                                                         |
-| Node.js y npm                              | Entorno de ejecución del frontend y del simulador IoT                            | https://nodejs.org/en/download                                                                             |
-| Vue 3 y Vite                               | Framework y empaquetador de la Frontend Web Application                          | https://vuejs.org                                                                                                       |
-| PrimeVue                                   | Biblioteca de componentes de interfaz basada en Material Design                  | https://primevue.org                                                                                                 |
-| Postman y archivos .http                   | Verificación manual de solicitudes y respuestas de los endpoints                 | https://www.postman.com/downloads                                                                       |
-| xUnit                                      | Pruebas unitarias de las reglas de negocio                                       | https://xunit.net                                                                                                       |
+| JetBrains Rider (o Visual Studio 2022)     | IDE para implementar los Web Services en C# con ASP.NET Core. Licencia educativa | <span style="word-break:break-all">https://www.jetbrains.com/rider/</span>                                                                         |
+| WebStorm (o Visual Studio Code)            | IDE de la Frontend Web Application en Vue y del Landing Page                     | <span style="word-break:break-all">https://www.jetbrains.com/webstorm/</span>                                                                   |
+| .NET 9 SDK                                 | Compilación y ejecución de los Web Services                                      | <span style="word-break:break-all">https://dotnet.microsoft.com/download/dotnet/9.0</span>                                         |
+| ASP.NET Core 9 y Entity Framework Core 9   | Framework del RESTful API y persistencia de datos                                | <span style="word-break:break-all">https://learn.microsoft.com/aspnet/core</span>                                                           |
+| Pomelo.EntityFrameworkCore.MySql           | Proveedor de EF Core para MySQL                                                  | <span style="word-break:break-all">https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql</span> |
+| MySQL Community Server 8 y MySQL Workbench | Base de datos relacional y diagramas de base de datos                            | <span style="word-break:break-all">https://dev.mysql.com/downloads/</span>                                                                         |
+| Node.js y npm                              | Entorno de ejecución del frontend y del simulador IoT                            | <span style="word-break:break-all">https://nodejs.org/en/download</span>                                                                             |
+| Vue 3 y Vite                               | Framework y empaquetador de la Frontend Web Application                          | <span style="word-break:break-all">https://vuejs.org</span>                                                                                                       |
+| PrimeVue                                   | Biblioteca de componentes de interfaz basada en Material Design                  | <span style="word-break:break-all">https://primevue.org</span>                                                                                                 |
+| Postman y archivos .http                   | Verificación manual de solicitudes y respuestas de los endpoints                 | <span style="word-break:break-all">https://www.postman.com/downloads</span>                                                                       |
+| xUnit                                      | Pruebas unitarias de las reglas de negocio                                       | <span style="word-break:break-all">https://xunit.net</span>                                                                                                       |
 
 *Nota.* Elaboración propia
 
@@ -81,8 +81,8 @@ A continuación se detallan los productos de software que utilizan los miembros 
 
 | **Producto**                                    | **Propósito de uso en el proyecto**                                                                                 | **Ruta**                                                                        |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| OpenAPI (Microsoft.AspNetCore.OpenApi) y Scalar | Generación y publicación de la documentación del RESTful API bajo la especificación OpenAPI, visualizada con Scalar | https://scalar.com/docs-for/dotnet |
-| GitHub                                          | Alojamiento del informe en Markdown y de la documentación de cada repositorio                                       | https://github.com/InventiaStock     |
+| OpenAPI (Microsoft.AspNetCore.OpenApi) y Scalar | Generación y publicación de la documentación del RESTful API bajo la especificación OpenAPI, visualizada con Scalar | <span style="word-break:break-all">https://scalar.com/docs-for/dotnet</span> |
+| GitHub                                          | Alojamiento del informe en Markdown y de la documentación de cada repositorio                                       | <span style="word-break:break-all">https://github.com/InventiaStock</span>     |
 
 *Nota.* Elaboración propia
 
@@ -94,17 +94,15 @@ A continuación se detallan los productos de software que utilizan los miembros 
 
 | **Producto**                  | **Propósito de uso en el proyecto**                              | **Ruta**                                                              |
 |-------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------------|
-| GitHub Pages y GitHub Actions | Publicación del Landing Page y de la Frontend Web Application    | https://pages.github.com           |
-| Render (Docker)               | Despliegue de los Web Services                                   | https://render.com                       |
-| Aiven for MySQL               | Base de datos MySQL gestionada para los Web Services desplegados | https://aiven.io                           |
-| Docker                        | Contenedor de los Web Services y entorno local con MySQL         | https://www.docker.com               |
-| Git                           | Sistema de control de versiones de cada integrante               | https://git-scm.com/downloads |
+| GitHub Pages y GitHub Actions | Publicación del Landing Page y de la Frontend Web Application    | <span style="word-break:break-all">https://pages.github.com</span>           |
+| Render (Docker)               | Despliegue de los Web Services                                   | <span style="word-break:break-all">https://render.com</span>                       |
+| Aiven for MySQL               | Base de datos MySQL gestionada para los Web Services desplegados | <span style="word-break:break-all">https://aiven.io</span>                           |
+| Docker                        | Contenedor de los Web Services y entorno local con MySQL         | <span style="word-break:break-all">https://www.docker.com</span>               |
+| Git                           | Sistema de control de versiones de cada integrante               | <span style="word-break:break-all">https://git-scm.com/downloads</span> |
 
 *Nota.* Elaboración propia
 
-### 
-
-### 5.1.2. Source Code Management 
+### 5.1.2. Source Code Management
 
 El equipo utiliza GitHub como plataforma de alojamiento y Git como sistema de control de versiones. Los repositorios del proyecto pertenecen a la organización pública InventiaStock y se organizan en un repositorio por producto, además del repositorio de documentación del informe.
 
@@ -114,10 +112,10 @@ El equipo utiliza GitHub como plataforma de alojamiento y Git como sistema de co
 
 | **Producto**             | **Repositorio**                                                                                                                     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Project Report           | https://github.com/InventiaStock/smartstock-docs.git                 |
-| Landing Page             | https://github.com/InventiaStock/smartstock-landing-page.git |
-| Frontend Web Application | https://github.com/InventiaStock/smartstock-frontend                 |
-| Web Services             | https://github.com/InventiaStock/smartstock-backend                   |
+| Project Report           | <span style="word-break:break-all">https://github.com/InventiaStock/smartstock-docs.git</span>                 |
+| Landing Page             | <span style="word-break:break-all">https://github.com/InventiaStock/smartstock-landing-page.git</span> |
+| Frontend Web Application | <span style="word-break:break-all">https://github.com/InventiaStock/smartstock-frontend</span>                 |
+| Web Services             | <span style="word-break:break-all">https://github.com/InventiaStock/smartstock-backend</span>                   |
 
 *Nota.* Elaboración propia
 
@@ -165,7 +163,7 @@ Los mensajes de commit siguen la especificación de Conventional Commits, bajo l
 
 La descripción se redacta en inglés, en modo imperativo y en minúsculas, sin punto final. El scope identifica la sección del informe o el módulo del producto afectado.
 
-### 5.1.3. Source Code Style Guide & Conventions 
+### 5.1.3. Source Code Style Guide & Conventions
 
 El equipo adopta la nomenclatura en inglés para todos los lenguajes utilizados en la solución, así como las siguientes convenciones estándar de codificación:
 
@@ -178,12 +176,12 @@ El equipo adopta la nomenclatura en inglés para todos los lenguajes utilizados 
 | HTML                              | HTML Style Guide and Coding Conventions (W3Schools) / Google HTML/CSS Style Guide                     |
 | CSS                               | Google HTML/CSS Style Guide                                                                           |
 | JavaScript                        | Google JavaScript Style Guide / MDN JavaScript Guidelines / Vue Style Guide                           |
-| C#                                | C# Coding Conventions (Microsoft) / Microsoft ASP.NET (http://asp.net) Core Coding Guidelines |
+| C#                                | C# Coding Conventions (Microsoft) / Microsoft ASP.NET (<span style="word-break:break-all">http://asp.net</span>) Core Coding Guidelines |
 | Gherkin (criterios de aceptación) | Gherkin Conventions for Readable Specifications                                                       |
 
 *Nota.* Elaboración propia
 
-### 5.1.4. Software Deployment Configuration 
+### 5.1.4. Software Deployment Configuration
 
 **Landing Page**
 
@@ -213,13 +211,11 @@ Nota: *Configuración de GitHub Pages para el repositorio smartstock-landing-pag
 
 Nota*:* *Landing page de SmartStock desplegada y accesible públicamente en GitHub Pages.*
 
-## 
-
 ## 5.2. Landing Page, Services & Applications Implementation
 
 En esta sección se explica y evidencia el proceso de implementación, pruebas, documentación y despliegue del Landing Page, los Web Services y la Frontend Web Application, organizado por sprints.
 
-### 5.2.1. Sprint 1 
+### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
 
@@ -389,7 +385,7 @@ Durante el Sprint 1 se implementó la primera versión del sitio web estático (
 
 Durante el Sprint 1 se implementó y desplegó la primera versión del Landing Page, que cubre las User Stories del sitio web estático especificadas en la sección 3.1. El sitio se encuentra accesible en https://inventiastock.github.io/smartstock-landing-page/ .
 
-Landing Page Demonstration Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA-Q3weXz9fQKE42Q-KkgoIAadgYrZxWARopglSvgvHunk?e=hNwpTf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Landing Page Demonstration Video: https://upcedupe-my.sharepoint.com/&#58;v&#58;/g/personal/u20241f205_upc_edu_pe/IQA-Q3weXz9fQKE42Q-KkgoIAadgYrZxWARopglSvgvHunk?e=hNwpTf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 A continuación se presentan las principales vistas implementadas.
 
@@ -513,8 +509,8 @@ Durante el Sprint 1, el alcance de despliegue correspondió al Landing Page. El 
 
 | **Producto**             | **Repositorio**                                                                                                             | **URL desplegado**                                                                                                          | **Estado**                     |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-| Landing Page             | https://github.com/InventiaStock/smartstock-landing-page | https://inventiastock.github.io/smartstock-landing-page/ | Desplegado                     |
-| Frontend Web Application | https://github.com/InventiaStock/smartstock-frontend         | —                                                                                                                           | Desplegado                     |
+| Landing Page             | <span style="word-break:break-all">https://github.com/InventiaStock/smartstock-landing-page</span> | <span style="word-break:break-all">https://inventiastock.github.io/smartstock-landing-page/</span> | Desplegado                     |
+| Frontend Web Application | <span style="word-break:break-all">https://github.com/InventiaStock/smartstock-frontend</span>         | —                                                                                                                           | Desplegado                     |
 | Web Services             | Pendiente de despliegue.                                                                                                    | —                                                                                                                           | Fuera del alcance del Sprint 2 |
 
 *Nota.* Elaboración propia
@@ -577,9 +573,7 @@ El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature
 
 Nota: *Comparación de commits entre la primera rama de trabajo y main, mostrando la autoría real de cada commit (autor original y quien lo integró).*
 
-# 
-
-### 5.2.2. Sprint 2 
+### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
 
@@ -824,7 +818,7 @@ En el repositorio InventiaStock/smartstock-landing-page se registró además un 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-En este sprint el frontend alcanzó las vistas de los seis contextos funcionando con datos simulados: registro e inicio de sesión, ventas, productos, proveedores y compras, sensores, alertas, stock, dashboard y reportes. Cada captura se rotula con la historia que cubre. El video que muestra la visualización y la navegación logradas en el sprint está en upc-pre-202620-1asi0730-8168-inventiastock-product-navigation-sprint-2.mp4 (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421125_upc_edu_pe/IQA0X9BfccMdRJeE63zaQfNvARW9W4pA0re8x3wlKPuZiqU?e=fPJy8k&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+En este sprint el frontend alcanzó las vistas de los seis contextos funcionando con datos simulados: registro e inicio de sesión, ventas, productos, proveedores y compras, sensores, alertas, stock, dashboard y reportes. Cada captura se rotula con la historia que cubre. El video que muestra la visualización y la navegación logradas en el sprint está en upc-pre-202620-1asi0730-8168-inventiastock-product-navigation-sprint-2.mp4 (https://upcedupe-my.sharepoint.com/&#58;v&#58;/g/personal/u202421125_upc_edu_pe/IQA0X9BfccMdRJeE63zaQfNvARW9W4pA0re8x3wlKPuZiqU?e=fPJy8k&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **  
 Tabla 40**
@@ -997,9 +991,9 @@ Durante el Sprint 2 el alcance de despliegue correspondió a la primera versión
 
 | **Producto**             | **Repositorio**                                                                                                                                       | **URL desplegada**                                                                                                          | **Versión** | **Estado**                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-------------|------------------------------------------------------------------------------------|
-| Landing Page             | https://github.com/InventiaStock/smartstock-landing-page                           | https://inventiastock.github.io/smartstock-landing-page/ | v1.1.0      | Desplegado en el Sprint 1; actualizado en el Sprint 2 (registro hacia el frontend) |
-| Frontend Web Application | https://github.com/InventiaStock/smartstock-frontend                               | https://inventiastock.github.io/smartstock-frontend/         | v1.0.0      | Primera versión desplegada                                                         |
-| Fake API (json-server)   | https://github.com/InventiaStock/smartstock-frontend/tree/main/server | https://smartstock-fake-api.onrender.com                                 | v1.0.0      | Desplegada                                                                         |
+| Landing Page             | <span style="word-break:break-all">https://github.com/InventiaStock/smartstock-landing-page</span>                           | <span style="word-break:break-all">https://inventiastock.github.io/smartstock-landing-page/</span> | v1.1.0      | Desplegado en el Sprint 1; actualizado en el Sprint 2 (registro hacia el frontend) |
+| Frontend Web Application | <span style="word-break:break-all">https://github.com/InventiaStock/smartstock-frontend</span>                               | <span style="word-break:break-all">https://inventiastock.github.io/smartstock-frontend/</span>         | v1.0.0      | Primera versión desplegada                                                         |
+| Fake API (json-server)   | <span style="word-break:break-all">https://github.com/InventiaStock/smartstock-frontend/tree/main/server</span> | <span style="word-break:break-all">https://smartstock-fake-api.onrender.com</span>                                 | v1.0.0      | Desplegada                                                                         |
 | Web Services             | \[aún no creado; ASP.NET Core\]                                                                                                                       | —                                                                                                                           | —           | Previsto para el Sprint 3                                                          |
 
 *Nota.* Elaboración propia
@@ -1280,7 +1274,7 @@ Commits relacionados con la implementación del Sprint 3
 
 En este sprint la Frontend Web Application (v1.1.0) quedó conectada a los Web Services reales: las vistas de IoT Device, Alerts & Restocking, Product Catalog, Inventory Monitoring (incluidas ventas, compras y proveedores) y Analytics & Reporting funcionan con datos persistentes en MySQL en lugar de la Fake API, sin cambios en la interfaz (solo cambió la variable VITE_API_BASE_URL). La autenticación real (login y JWT) está planificada para el Sprint 4; en esta entrega los endpoints son abiertos, la aplicación opera con un negocio fijo y el frontend usa un acceso de demostración. Cada captura se rotula con la historia que cubre. El video que muestra la visualización y la navegación logradas en el sprint está en upc-pre-202620-1asi0730-8168-inventiastock-product-navigation-sprint-3.mp4
 
-Link en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f946_upc_edu_pe/IQBdzCqqjN2bRZw1igPd50NKAcr_uPD4Xa5YEMWKscZGjGA?e=OLh1PM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Link en Microsoft Stream: https://upcedupe-my.sharepoint.com/&#58;v&#58;/g/personal/u20241f946_upc_edu_pe/IQBdzCqqjN2bRZw1igPd50NKAcr_uPD4Xa5YEMWKscZGjGA?e=OLh1PM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 **Tabla 50**  
 Evidencia de ejecución por contexto e historia de usuario del Sprint 3
@@ -1587,9 +1581,9 @@ Evidencia de despliegue del Sprint 3
 
 | **Producto**                | **Repositorio**                                                                                                     | **URL desplegada**                                                                                                                                                                                                                     | **Versión**                       | **Estado**                  |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------------------------|
-| Web Services (ASP.NET Core) | https://github.com/InventiaStock/smartstock-backend   | https://smartstock-backend-kj6m.onrender.com (documentación: https://smartstock-backend-kj6m.onrender.com/scalar) | v1.0.0 (+ hotfix PR \#16)         | Desplegado (Live en Render) |
-| Base de datos MySQL (Aiven) | https://github.com/InventiaStock/smartstock-backend   | MySQL en Aiven: smartstock-db-sanchezosorioruth4-3d9d.i.aivencloud.com:22200 (http://smartstock-db-sanchezosorioruth4-3d9d.i.aivencloud.com:22200) (servicio smartstock-db, DigitalOcean nyc, conexión con SSL)                | MySQL 8 · migración InitialCreate | Running                     |
-| Frontend Web Application    | https://github.com/InventiaStock/smartstock-frontend | https://inventiastock.github.io/smartstock-frontend/                                                                                                                    | v1.1.0                            | Desplegado (GitHub Pages)   |
+| Web Services (ASP.NET Core) | <span style="word-break:break-all">https://github.com/InventiaStock/smartstock-backend</span>   | <span style="word-break:break-all">https://smartstock-backend-kj6m.onrender.com</span> (documentación: <span style="word-break:break-all">https://smartstock-backend-kj6m.onrender.com/scalar</span>) | v1.0.0 (+ hotfix PR \#16)         | Desplegado (Live en Render) |
+| Base de datos MySQL (Aiven) | <span style="word-break:break-all">https://github.com/InventiaStock/smartstock-backend</span>   | MySQL en Aiven: smartstock-db-sanchezosorioruth4-3d9d.i.aivencloud.com:22200 (<span style="word-break:break-all">http://smartstock-db-sanchezosorioruth4-3d9d.i.aivencloud.com:22200</span>) (servicio smartstock-db, DigitalOcean nyc, conexión con SSL)                | MySQL 8 · migración InitialCreate | Running                     |
+| Frontend Web Application    | <span style="word-break:break-all">https://github.com/InventiaStock/smartstock-frontend</span> | <span style="word-break:break-all">https://inventiastock.github.io/smartstock-frontend/</span>                                                                                                                    | v1.1.0                            | Desplegado (GitHub Pages)   |
 
 *Nota.* Elaboración propia
 
@@ -1678,8 +1672,8 @@ Elementos de la sesión de validación
 
 | **Elemento**    | **Qué se evalúa**                                                                                   | **Enlace**                                               |
 |-----------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| Landing Page    | Comprensión de la propuesta de valor, planes, preguntas frecuentes y acceso al registro o contacto. | https://inventiastock.github.io/smartstock-landing-page/ |
-| Web Application | Los cuatro user flows de cada segmento (ver tablas más abajo).                                      | https://inventiastock.github.io/smartstock-frontend/     |
+| Landing Page    | Comprensión de la propuesta de valor, planes, preguntas frecuentes y acceso al registro o contacto. | <span style="word-break:break-all">https://inventiastock.github.io/smartstock-landing-page/</span> |
+| Web Application | Los cuatro user flows de cada segmento (ver tablas más abajo).                                      | <span style="word-break:break-all">https://inventiastock.github.io/smartstock-frontend/</span>     |
 
 **Preparación de la sesión**
 
@@ -1723,13 +1717,13 @@ Se indicará: «Ahora le mostraré la aplicación. Iré presentando una pantalla
 
 Al terminar la demostración, se indicará: «Gracias. Ahora quisiéramos conocer su opinión sobre la experiencia.»
 
-> 1\. ¿Qué entiende que ofrece SmartStock y qué información le resultó confusa o considera que falta?
->
-> 2\. ¿Qué parte de la aplicación le resultó más clara y cuál le generó más dudas?
->
-> 3\. ¿Confiaría en las alertas para decidir cuándo reponer un producto? ¿Por qué?
->
-> 4\. ¿Qué precio mensual consideraría razonable por esta solución y por qué?
+1\. ¿Qué entiende que ofrece SmartStock y qué información le resultó confusa o considera que falta?
+
+2\. ¿Qué parte de la aplicación le resultó más clara y cuál le generó más dudas?
+
+3\. ¿Confiaría en las alertas para decidir cuándo reponer un producto? ¿Por qué?
+
+4\. ¿Qué precio mensual consideraría razonable por esta solución y por qué?
 
 **Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)**
 
@@ -1758,13 +1752,13 @@ Se indicará: «Ahora le mostraré la aplicación. Iré presentando una pantalla
 
 Al terminar la demostración, se indicará: «Gracias. Ahora quisiéramos conocer su opinión sobre la experiencia.»
 
-> 1\. ¿Qué entiende que ofrece SmartStock en su bodega y qué dudas le quedan sobre los sensores?
->
-> 2\. ¿Qué parte de la aplicación le resultó más clara y cuál le generó más dudas?
->
-> 3\. ¿Qué entendió de la alerta de stock bajo y qué decisión tomaría al verla?
->
-> 4\. Viendo el plan Inicial, ¿qué precio mensual consideraría razonable por esta solución y por qué?
+1\. ¿Qué entiende que ofrece SmartStock en su bodega y qué dudas le quedan sobre los sensores?
+
+2\. ¿Qué parte de la aplicación le resultó más clara y cuál le generó más dudas?
+
+3\. ¿Qué entendió de la alerta de stock bajo y qué decisión tomaría al verla?
+
+4\. Viendo el plan Inicial, ¿qué precio mensual consideraría razonable por esta solución y por qué?
 
 **Indicaciones de observación (comunes para ambos segmentos)**
 
@@ -1772,7 +1766,7 @@ Antes de ejecutar cada acción en la aplicación, la persona entrevistadora espe
 
 ### 5.3.2. Registro de Entrevistas.
 
-**Needfinding Interviews Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQCD31owQgSgTZFdrCyY4KOZAU7JcAG4oKshYrSLWzAkljE?e=TSODlh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Needfinding Interviews Link:** https://upcedupe-my.sharepoint.com/&#58;v&#58;/g/personal/u20241f205_upc_edu_pe/IQCD31owQgSgTZFdrCyY4KOZAU7JcAG4oKshYrSLWzAkljE?e=TSODlh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Entrevista 01: 00:05 - 07:42
 
@@ -1826,7 +1820,7 @@ Entrevista 05: 27:13 - 39:48
 
 | Screenshot:      | ![sin-figura_09_005.png](../assets/chapter-5/sin-figura_09_005.png)                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| URL:             | upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 (https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd)                                                                                                         |
+| URL:             | upc-pre-202620-1asi0730-8168-inventiastock- needfinding-sprint-1.mp4 (<span style="word-break:break-all">https://upcedupe-my.sharepoint.com/&#58;v&#58;/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd</span>)                                                                                                         |
 | Inicia:          | 14:28                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Duración:        | 06:08                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Nombre completo: | Yngrid Ruiz                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -2024,8 +2018,6 @@ Las entrevistas muestran que la propuesta de control de inventario resulta compr
 
 Las mejoras prioritarias son aclarar los estados y el funcionamiento de los dispositivos, hacer más comprensible el recorrido de compras y facilitar el registro de productos. Estos hallazgos sirven como insumo para la evaluación de usabilidad y las propuestas de mejora de la interfaz. Las opiniones favorables expresadas durante una demostración guiada no permiten afirmar, por sí solas, que todos los participantes puedan completar las tareas sin ayuda.
 
-### 
-
 ### 5.3.3. Evaluaciones según heurísticas
 
 **Site o app a evaluar**
@@ -2210,9 +2202,7 @@ Captura del video About-the-Product de SmartStock (2:56)
 
 **Duración:** 2:56
 
-**Video About-the-Product (Microsoft Stream):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQDt74urtMRpQq5e6TGbpgsGAXq2FqEG-uEW2QSq1XAW85Y?e=U39l7V&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Video About-the-Product (Microsoft Stream):** https://upcedupe-my.sharepoint.com/&#58;v&#58;/g/personal/u20241f205_upc_edu_pe/IQDt74urtMRpQq5e6TGbpgsGAXq2FqEG-uEW2QSq1XAW85Y?e=U39l7V&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 **Video About-the-Product (YouTube):** https://youtu.be/SkEUuXnyouY
-
-#  
 

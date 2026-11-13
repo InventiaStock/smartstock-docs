@@ -1,6 +1,6 @@
-# **Capítulo IV: Product Design** 
+# Capítulo IV: Product Design
 
-## 4.1. Style Guidelines 
+## 4.1. Style Guidelines
 
 En este apartado estableceremos los criterios visuales y de comunicación que se utilizarán en el diseño del Landing Page y de la Web Application,. El diseño estará centrado en transmitir una imagen simple, moderna y confiable, utilizando colores, tipografías, botones e iconos que permitan entender fácilmente la información. Como SmartStock está dirigido a propietarios y administradores de minimarkets y bodegas de barrio, se evitará un diseño demasiado complejo y se priorizará una interfaz sencilla y fácil de usar para los usuarios
 
@@ -95,7 +95,7 @@ El tono de comunicación definido es cercano, práctico y directo, priorizando l
 
 - **Objetivo:** facilitar la comprensión del producto y conectar con los usuarios sin recurrir a tecnicismos innecesarios.
 
-### 4.1.2. Web Style Guidelines 
+### 4.1.2. Web Style Guidelines
 
 - **Botones:** se definieron tres variantes: .btn como botón primario, con relleno en degradado de navy y estado hover con elevación (desplazamiento sutil hacia arriba) y sombra reforzada; .btn.ghost como botón secundario, con borde y sin relleno; y .btn.block como botón de ancho completo, utilizado en las tarjetas de planes. Las tres variantes cuentan con un estado hover definido.
 
@@ -103,7 +103,7 @@ El tono de comunicación definido es cercano, práctico y directo, priorizando l
 
 *Botones del Landing Page: primario, secundario y de selección de plan*
 
-> ![Figura 21](../assets/chapter-4/Figura_21_sec4_1_2.png)
+![Figura 21](../assets/chapter-4/Figura_21_sec4_1_2.png)
 
 *Nota.* Elaboración propia
 
@@ -113,7 +113,7 @@ El tono de comunicación definido es cercano, práctico y directo, priorizando l
 
 *Estado de error de validación en el formulario de demostración del Landing Page*
 
-> ![Figura 22](../assets/chapter-4/Figura_22_sec4_1_2.png)
+![Figura 22](../assets/chapter-4/Figura_22_sec4_1_2.png)
 
 *Nota.* Elaboración propia
 
@@ -125,7 +125,7 @@ El tono de comunicación definido es cercano, práctico y directo, priorizando l
 
 - **Reduced motion:** se respeta la configuración prefers-reduced-motion: reduce, desactivando las transiciones y animaciones para los usuarios que tienen activada esta preferencia en su sistema, como parte del compromiso de accesibilidad e inclusión declarado en el propio sitio (sección 6 de Términos y Condiciones).
 
-## 4.2. Information Architecture 
+## 4.2. Information Architecture
 
 La arquitectura de información de SmartStock integra tanto el Landing Page como la Web Application dentro de una misma estructura, debido a que ambos productos comparten una lógica de navegación coherente, una misma preferencia de idioma almacenada en el navegador y un lenguaje visual y de interacción consistente.
 
@@ -143,7 +143,7 @@ Ambos productos utilizan la misma preferencia de idioma mediante localStorage, u
 
 El mapa de arquitectura de información representa la organización de ambos productos y muestra también las conexiones existentes entre ellos. Asimismo, permite identificar visualmente la navegación que ya se encuentra implementada y aquella integración que todavía se encuentra pendiente.
 
-### 4.2.1. Organization Systems 
+### 4.2.1. Organization Systems
 
 Para la organización visual del contenido, SmartStock utiliza diferentes esquemas dependiendo del tipo de información y del flujo que realiza el usuario.
 
@@ -305,7 +305,7 @@ Los siguientes botones continúan utilizando enlaces temporales href="#":
 
 Por este motivo, esta funcionalidad se considera una limitación conocida del alcance actual del proyecto y no una integración completamente implementada.
 
-### 4.2.2. Labeling Systems 
+### 4.2.2. Labeling Systems
 
 Las etiquetas utilizadas en SmartStock fueron diseñadas buscando mantener textos simples, cortos y fáciles de comprender.
 
@@ -381,7 +381,7 @@ Mientras que para los usuarios del segmento **Minimarket**, la misma sección se
 
 Esta diferencia fue implementada de manera intencional para utilizar una terminología más sencilla en el segmento de negocio más pequeño.
 
-### 4.2.3. SEO Tags and Meta Tags 
+### 4.2.3. SEO Tags and Meta Tags
 
 **Landing Page**
 
@@ -433,7 +433,7 @@ De manera opcional, también puede utilizarse:
 
 Esta etiqueta puede emplearse para indicar que la Web Application, al tratarse de un sistema protegido o autenticado, no está destinada a ser indexada por los motores de búsqueda.
 
-### 4.2.4. Searching Systems 
+### 4.2.4. Searching Systems
 
 El sistema de búsqueda de SmartStock se encuentra implementado principalmente dentro de la Web Application, mientras que el Landing Page no requiere un mecanismo de búsqueda debido a su estructura de navegación por secciones.
 
@@ -549,9 +549,7 @@ Los contadores de cada categoría se actualizan según las alertas disponibles. 
 
 *Nota.* Elaboración propia
 
-### 
-
-### 4.2.5. Navigation Systems 
+### 4.2.5. Navigation Systems
 
 SmartStock utiliza diferentes sistemas de navegación para facilitar el desplazamiento del usuario tanto dentro del Landing Page como dentro de la Web Application.
 
@@ -631,11 +629,11 @@ Sin embargo, desde el Landing Page todavía no existe una conexión funcional ha
 
 Esta situación se considera una limitación conocida correspondiente al estado actual del proyecto.
 
-## 4.3. Landing Page UI Design 
+## 4.3. Landing Page UI Design
 
 El diseño de la interfaz de usuario (UI) de la página de inicio de SmartStock es clave para captar la atención de los administradores y propietarios de bodegas y minimarkets, ya que los guía hacia una acción clara: comprender y adoptar una solución inteligente de gestión de inventarios. Se ha priorizado una experiencia continua, de modo que cada elemento de la página sea accesible, interactivo y fácil de usar, transmitiendo confianza, mientras refleja el compromiso de SmartStock con la innovación tecnológica y la claridad en la comunicación.
 
-### 4.3.1. Landing Page Wireframe 
+### 4.3.1. Landing Page Wireframe
 
 El wireframe de SmartStock organiza de forma clara la página de inicio, mostrando la secuencia lógica de secciones: desde el problema de la gestión del inventario, pasando por las funcionalidades principales, hasta los beneficios que ofrece la plataforma.
 
@@ -787,7 +785,7 @@ El wireframe de SmartStock organiza de forma clara la página de inicio, mostran
 
 *Nota.*Wireframe de la estructura del menú de navegación de SmartStock adaptado para dispositivos móviles.
 
-### 4.3.2. Landing Page Mock-up 
+### 4.3.2. Landing Page Mock-up
 
 El mock-up de la página de inicio de SmartStock actúa como un mapa visual que organiza la estructura y el flujo de la información, mientras cada sección conduce al usuario desde la identificación del problema hasta la presentación de las funcionalidades y beneficios de la plataforma.
 
@@ -939,11 +937,11 @@ El mock-up de la página de inicio de SmartStock actúa como un mapa visual que 
 
 *Nota.* Mockup del menú de navegación del landing page de SmartStock adaptado para dispositivos móviles.
 
-## 4.4. Web Applications UX/UI Design 
+## 4.4. Web Applications UX/UI Design
 
 En esta sección se presentan los wireframes, wireflows, mock-ups y diagramas de flujo de usuario desarrollados para los dos segmentos objetivo de SmartStock: propietarios y administradores de minimarkets, y propietarios y administradores de bodegas de barrio.
 
-### 4.4.1. Web Applications Wireframes 
+### 4.4.1. Web Applications Wireframes
 
 - **Dueños y administradores de Minimarkets**
 
@@ -1229,7 +1227,7 @@ En esta sección se presentan los wireframes, wireflows, mock-ups y diagramas de
 
 *Nota.* Elaboración propia.
 
-### 4.4.2. Web Applications Wireflow Diagrams 
+### 4.4.2. Web Applications Wireflow Diagrams
 
 Los wireflows muestran las rutas que siguen los usuarios entre las diferentes pantallas de la aplicación según su segmento. Cada wireflow parte de un objetivo del usuario (User Goal), presenta las pantallas involucradas con su código, indica la ruta esperada con una línea azul y las rutas alternativas o de error con una línea roja discontinua, y se acompaña de una explicación del flujo y de su condición principal.
 
@@ -1428,7 +1426,7 @@ Para este segmento se presentan 11 wireflows. Son los mismos flujos que en minim
 
 *Nota.* Elaboración propia.
 
-### 4.4.3. Web Applications Mock-ups 
+### 4.4.3. Web Applications Mock-ups
 
 - **Dueños y administradores de minimarkets**
 
@@ -1644,7 +1642,7 @@ Para este segmento se presentan 11 wireflows. Son los mismos flujos que en minim
 
 *Nota.* Elaboración propia.
 
-### 4.4.4. Web Applications User Flow Diagrams 
+### 4.4.4. Web Applications User Flow Diagrams
 
 Los user flows muestran, desde el punto de vista del usuario, el recorrido que sigue para lograr un objetivo concreto dentro de la aplicación según su segmento. Cada user flow parte de un objetivo del usuario (User Goal) e indica las pantallas por las que pasa con su código, la ruta esperada con una línea azul y las rutas alternativas o de error con una línea roja discontinua, además de una explicación del flujo y su condición principal.
 
@@ -1846,7 +1844,7 @@ Para este segmento se presentan 11 user flows, que cubren el acceso a la cuenta,
 
 *Nota.* Elaboración propia.
 
-## 4.5. Web Applications Prototyping 
+## 4.5. Web Applications Prototyping
 
 **Prototipo Desktop**
 
@@ -1862,9 +1860,9 @@ Link: https://www.figma.com/proto/2LwKTN6fwKJFIL49MOMgnh/Untitled?node-id=77-110
 
 Link: https://www.figma.com/design/ZXJ7Yk6gBQYIItE5B7hcvj/Wireframes-y-mockup-Mobile?node-id=0-1&t=gTdd0STYXGH6kUgr-1
 
-## 4.6. Domain-Driven Software Architecture 
+## 4.6. Domain-Driven Software Architecture
 
-### 4.6.1. Design-Level Event Storming 
+### 4.6.1. Design-Level Event Storming
 
 Se utilizó la guía de Philippe Bourgau, proporcionada en la rúbrica del Final Problem Statement, para llevar a cabo el proceso de Design-Level EventStorming, con el objetivo de identificar los Bounded Contexts, siguiendo sus etapas:
 
@@ -1900,7 +1898,7 @@ https://miro.com/welcomeonboard/WXlEQy9hRngvZnRPQkVlR3pJMDN5M25TTmpLSUY1Rk1kckJO
 
 *Nota.* Elaboración propia.
 
-### 4.6.2. Software Architecture Context Diagram 
+### 4.6.2. Software Architecture Context Diagram
 
 **Figura 139**
 
@@ -1910,7 +1908,7 @@ https://miro.com/welcomeonboard/WXlEQy9hRngvZnRPQkVlR3pJMDN5M25TTmpLSUY1Rk1kckJO
 
 **Descripción:** El diagrama de contexto muestra a SmartStock como un único sistema de software que utiliza el propietario de un minimarket o bodega para registrar ventas y compras, gestionar su inventario, vincular sensores IoT y consultar su estado. El microcontrolador con balanza IoT envía lecturas de peso para verificar el stock físico frente al registrado, sin modificarlo. SmartStock se comunica con dos sistemas externos: un servicio de notificaciones que envía alertas por correo o WhatsApp, y un servicio de correo para la confirmación de cuenta y la recuperación de contraseña.
 
-### 4.6.3. Software Architecture Container Diagrams 
+### 4.6.3. Software Architecture Container Diagrams
 
 **Figura 140**
 
@@ -1922,7 +1920,7 @@ https://miro.com/welcomeonboard/WXlEQy9hRngvZnRPQkVlR3pJMDN5M25TTmpLSUY1Rk1kckJO
 
 **Descripción:** SmartStock se compone de tres contenedores. La interfaz web, implementada en Vue 3 con PrimeVue, es utilizada por el propietario del negocio y consume el Backend API mediante solicitudes HTTP. El Backend API, implementado en ASP.NET Core, es un monolito modular que integra los seis contextos delimitados (IAM, Product Catalog, Inventory Monitoring, IoT Device, Alerts & Restocking y Analytics & Reporting) y expone sus servicios documentados con OpenAPI. La base de datos MySQL, desplegada en Aiven, almacena usuarios, productos, ventas, compras, proveedores, movimientos de inventario, sensores y alertas. Los sensores IoT envían sus lecturas de peso al Backend API y no modifican el stock registrado. El Backend API envía las alertas por correo (SMTP) y por WhatsApp (Twilio).
 
-### 4.6.4. Software Architecture Components Diagrams 
+### 4.6.4. Software Architecture Components Diagrams
 
 **Figura 141**
 
@@ -1996,9 +1994,9 @@ https://miro.com/welcomeonboard/WXlEQy9hRngvZnRPQkVlR3pJMDN5M25TTmpLSUY1Rk1kckJO
 
 **Leyenda:** Azul oscuro: frontend Vue; azul claro: componentes de análisis y reportes; morado: módulos consultados; verde: base de datos MySQL. Los recuadros delimitan el sistema, el contenedor y los módulos; las flechas indican solicitudes y consultas.
 
-## 4.7. Software Object-Oriented Design 
+## 4.7. Software Object-Oriented Design
 
-### 4.7.1. Class Diagrams 
+### 4.7.1. Class Diagrams
 
 **Figura 147**
 
@@ -2048,9 +2046,9 @@ https://miro.com/welcomeonboard/WXlEQy9hRngvZnRPQkVlR3pJMDN5M25TTmpLSUY1Rk1kckJO
 
 *Nota.* Elaboración propia
 
-## 4.8. Database Design 
+## 4.8. Database Design
 
-### 4.8.1. Database Diagrams 
+### 4.8.1. Database Diagrams
 
 **Figura 153**
 
@@ -2061,6 +2059,4 @@ https://miro.com/welcomeonboard/WXlEQy9hRngvZnRPQkVlR3pJMDN5M25TTmpLSUY1Rk1kckJO
 *Nota.* Elaboración propia
 
 El diseño de la base de datos organiza las tablas por bounded context. Los negocios se relacionan con usuarios, productos, proveedores y operaciones de inventario. Cada venta y compra contiene sus ítems, que conservan el precio o costo de la operación: las ventas generan movimientos de salida y las compras generan entradas al confirmar su recepción. Los sensores registran lecturas para verificar el stock físico, sin modificar el registrado. Las alertas se vinculan con necesidades de reposición y compras asociadas, mientras que las preferencias y notificaciones permiten gestionar los canales de aviso. Analytics & Reporting consulta estos datos para construir el dashboard y los reportes.
-
-#  
 

@@ -1,8 +1,6 @@
-# **Capítulo II: Requirements Elicitation & Analysis** 
+# Capítulo II: Requirements Elicitation & Analysis
 
-## 
-
-## 2.1. Competidores 
+## 2.1. Competidores
 
 - **FacilVenta:**
 
@@ -18,7 +16,7 @@ PACAY es una solución tecnológica orientada a la gestión de negocios y al con
 
 A partir del análisis de estas soluciones, se observa que los competidores ofrecen funcionalidades relevantes para la gestión comercial y el control de inventarios. Sin embargo, SmartStock busca diferenciarse mediante la integración del monitoreo físico del stock con sensores IoT, la detección de diferencias entre inventario físico y registrado, la generación de alertas y el apoyo a los procesos de reposición en bodegas de barrio y minimarkets.
 
-### 2.1.1. Análisis competitivo 
+### 2.1.1. Análisis competitivo
 
 **  
 Competitive Analysis Landscape**
@@ -324,11 +322,11 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 
 *Nota*. Elaboración propia
 
-### 2.1.2. Estrategias y tácticas frente a competidores 
+### 2.1.2. Estrategias y tácticas frente a competidores
 
 1.  **Gestión integrada de compras, ventas e inventario como núcleo de la solución:** Smartstock tendrá como núcleo la gestión de las operaciones que generan el movimiento del stock: compras y ventas. Las compras permitirán incrementar las existencias registradas, mientras las ventas disminuirán el stock disponible. De esta manera, el sistema mantendrá un sistema actualizado.
 
-> Esta información se puede observar en soluciones como FácilVenta, Adiasoft Y PACAY, que integran módulos de ventas, compras e inventario dentro de sus plataformas.
+Esta información se puede observar en soluciones como FácilVenta, Adiasoft Y PACAY, que integran módulos de ventas, compras e inventario dentro de sus plataformas.
 
 SmartStock completará este núcleo con las siguientes caracteristicas:
 
@@ -340,11 +338,11 @@ SmartStock completará este núcleo con las siguientes caracteristicas:
 
 - Consulta del stock registrado en tiempo real.
 
-> De esta manera, la solución no se limita al monitoreo físico de productos, sino que aparte de la gestión que origina el movimiento del stock y posteriormente incorpora el monitoreo físico mediante IoT.
+De esta manera, la solución no se limita al monitoreo físico de productos, sino que aparte de la gestión que origina el movimiento del stock y posteriormente incorpora el monitoreo físico mediante IoT.
 
 2.  **Diferenciación mediante sensores IoT y comparación del inventario físico:** Aunque las soluciones analizadas ofrecen funcionalidades de gestión de ventas, compras e inventario, SmartStock busca diferenciarse mediante el monitoreo físico del inventario utilizando sensores de peso IoT.
 
-> Los sensores estarán instalados en espacios destinados al almacenamiento o exhibición de determinados productos y permitirán obtener información sobre las existencias físicas. Esta información podrá compararse con el stock registrado en la plataforma.
+Los sensores estarán instalados en espacios destinados al almacenamiento o exhibición de determinados productos y permitirán obtener información sobre las existencias físicas. Esta información podrá compararse con el stock registrado en la plataforma.
 
 SmartStock permitirá:
 
@@ -358,7 +356,7 @@ SmartStock permitirá:
 
 - Generar alertas cuando se identifiquen niveles críticos.
 
-> Así, el IoT funcionará como una capa complementaria al sistema de compras, ventas e inventario, permitiendo contrastar lo que el sistema registra con lo que realmente existe físicamente en el negocio.
+Así, el IoT funcionará como una capa complementaria al sistema de compras, ventas e inventario, permitiendo contrastar lo que el sistema registra con lo que realmente existe físicamente en el negocio.
 
 3.  **Solución accesible y escalable para pequeños comercios:** Smartstock estará orientado principalmente a bodegas y minimarkets, considerando que estos negocios requieren controlar sus compras ventas e inventario sin incorporar procesos tecnológicos excesivamente complejos.
 
@@ -374,7 +372,7 @@ La estrategia consiste en permitir una implementación progresiva de la solució
 
 - Crecimiento progresivo de las funcionalidades utilizadas.
 
-> Este enfoque busca facilitar la adopción de SmartStock por pequeños comercios, manteniendo como base las operaciones de compras, ventas e inventario y permitiendo incorporar capacidades IoT conforme me aumenten las necesidades del negocio.
+Este enfoque busca facilitar la adopción de SmartStock por pequeños comercios, manteniendo como base las operaciones de compras, ventas e inventario y permitiendo incorporar capacidades IoT conforme me aumenten las necesidades del negocio.
 
 4.  **Experiencia de usuario centrada en información inmediata:** La plataforma busca facilitar la toma de decisiones mediante una interfaz web sencilla e intuitiva que permita consultar rápidamente:
 
@@ -388,7 +386,7 @@ La estrategia consiste en permitir una implementación progresiva de la solució
 
 - Información relevante según el tipo de usuario.
 
-> De esta manera, los propietarios y administradores de minimarkets y bodegas de barrio podrán acceder a la información necesaria sin realizar procesos complejos de consulta.
+De esta manera, los propietarios y administradores de minimarkets y bodegas de barrio podrán acceder a la información necesaria sin realizar procesos complejos de consulta.
 
 5.  **Gestión preventiva del inventario mediante alertas**: SmartStock busca reemplazar un modelo reactivo de reposición por uno preventivo mediante la detección anticipada de niveles bajos de inventario. El sistema permitirá:
 
@@ -400,7 +398,7 @@ La estrategia consiste en permitir una implementación progresiva de la solució
 
 - Anticipar necesidades de reposición antes de que un producto se agote.
 
-> Este enfoque puede contribuir a reducir quiebres de stock y mejorar la disponibilidad de productos en bodegas y minimarkets.
+Este enfoque puede contribuir a reducir quiebres de stock y mejorar la disponibilidad de productos en bodegas y minimarkets.
 
 6.  **Analítica de inventario y apoyo a la toma de decisiones**: SmartStock incorporará información histórica que permita a los administradores analizar el comportamiento de sus productos mediante:
 
@@ -414,17 +412,13 @@ La estrategia consiste en permitir una implementación progresiva de la solució
 
 - Seguimiento del comportamiento del inventario.
 
-> Esta información permitirá complementar el monitoreo en tiempo real con datos que apoyen la planificación del abastecimiento y la toma de decisiones.
+Esta información permitirá complementar el monitoreo en tiempo real con datos que apoyen la planificación del abastecimiento y la toma de decisiones.
 
 En precio, el plan de entrada de SmartStock, Starter (S/ 49 al mes), queda por debajo de los planes iniciales de los sistemas POS y ERP para minimarkets analizados (S/ 140 y S/ 150 al mes), cuya integración con sensores es opcional y se cotiza aparte. Solo el ERP general para MYPE tiene un plan inicial menor (desde S/ 29 al mes), pero no ofrece monitoreo con sensores ni comparación del stock físico con el registrado. Los sensores de SmartStock se pagan una sola vez, por lo que el costo mensual recurrente se mantiene bajo. La ventaja de precio se orienta por segmento: Starter para bodegas de barrio, que necesitan un control simple de pocos productos; y Growth (S/ 129) para minimarkets, que requieren alertas por WhatsApp y comparación de inventario físico contra registrado, a un precio menor que los planes intermedios de los competidores (S/ 210 y S/ 350).
 
-## 
+## 2.2. Entrevistas
 
-## 2.2. Entrevistas 
-
-### 
-
-### 2.2.1. Diseño de entrevistas 
+### 2.2.1. Diseño de entrevistas
 
 Las guías de entrevista para ambos segmentos combinan preguntas demográficas con preguntas sobre gestión del inventario y comportamiento del negocio, orientadas a sustentar la construcción de los User Persona.
 
@@ -534,7 +528,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 ### 2.2.2. Registro de entrevistas
 
-**Needfinding Interviews Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd
+**Needfinding Interviews Link:** https://upcedupe-my.sharepoint.com/&#58;v&#58;/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WkYEGd
 
 Entrevista 01: 0:06 - 17:16
 
@@ -644,9 +638,7 @@ Entrevista 06: 43:10 - 51:37
 
 *Nota*. Elaboración propia
 
-### 
-
-### 2.2.3. Análisis de entrevistas 
+### 2.2.3. Análisis de entrevistas
 
 **Primer Segmento Objetivo (Propietarios y administradores de minimarkets)**
 
@@ -700,9 +692,7 @@ En cuanto a las características objetivas, los entrevistados utilizan principal
 
 En conclusión, los resultados muestran que el 100% de los entrevistados presentan preocupación por las diferencias entre el stock registrado y el físico, consideran útiles las alertas de bajo stock, prefieren una herramienta sencilla y fácil de aprender y buscan ahorrar tiempo durante el control del inventario. Además, el 66.7% manifestó preocupación por las pérdidas ocasionadas por productos agotados o de alta demanda y consideró importante que la solución tenga un precio accesible.
 
-## 2.3. Needfinding 
-
-### 
+## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
@@ -725,7 +715,7 @@ En conclusión, los resultados muestran que el 100% de los entrevistados present
 
 *Nota*. Elaboración propia
 
-### 2.3.2. User Task Matrix 
+### 2.3.2. User Task Matrix
 
 **Primer Segmento Objetivo (Propietarios y administradores de minimarkets)**
 
@@ -747,7 +737,7 @@ En conclusión, los resultados muestran que el 100% de los entrevistados present
 
 *Nota*. Elaboración propia
 
-### 2.3.3. User Journey Mapping 
+### 2.3.3. User Journey Mapping
 
 **Primer Segmento Objetivo (Propietarios y administradores de minimarkets)**
 
@@ -769,7 +759,7 @@ En conclusión, los resultados muestran que el 100% de los entrevistados present
 
 *Nota*. Elaboración propia
 
-### 2.3.4. Empathy Mapping 
+### 2.3.4. Empathy Mapping
 
 **Figura 13**
 
@@ -787,7 +777,7 @@ En conclusión, los resultados muestran que el 100% de los entrevistados present
 
 *Nota*. Elaboración propia
 
-## 2.4. Big Picture Event Storming 
+## 2.4. Big Picture Event Storming
 
 Para el desarrollo del Big Picture Event Storming se aplicó la guía *Step-by-Step Guide* de Philippe Bourgault, indicada en la rúbrica del Final Problem Statement, siguiendo sus tres etapas:
 
@@ -807,8 +797,6 @@ Para el desarrollo del Big Picture Event Storming se aplicó la guía *Step-by-S
 ![Figura 15](../assets/chapter-2/Figura_15.png)
 
 *Nota.* Elaboración propia
-
-## 
 
 ## 2.5. Ubiquitous Language
 

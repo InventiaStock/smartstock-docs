@@ -1,10 +1,8 @@
-# 
 
-#  
 
-# **Capítulo I: Introducción** 
+# Capítulo I: Introducción
 
-## 1.1. Startup Profile 
+## 1.1. Startup Profile
 
 Actualmente, muchas bodegas y minimarkets realizan el control de sus productos mediante registros manuales o sistemas que no reflejan de manera inmediata la cantidad física disponible en sus estantes. Esta situación puede generar diferencias entre el inventario registrado y el inventario real, dificultando la identificación de productos agotados o con niveles bajos de stock y afectando la planificación del abastecimiento.
 
@@ -16,11 +14,7 @@ Como parte de esta propuesta, desarrollamos **SmartStock**, una plataforma web q
 
 Además, SmartStock busca mejorar el proceso de reposición mediante alertas automáticas y notificaciones. A partir de las alertas generadas por la plataforma, los propietarios y administradores podrán identificar los productos que requieren abastecimiento y recibir un aviso oportuno (por correo o WhatsApp) para coordinar externamente la reposición con sus proveedores.
 
-### 
-
-###  
-
-### 1.1.1. Descripción de la Startup 
+### 1.1.1. Descripción de la Startup
 
 **InventiaStock** es una startup tecnológica orientada al desarrollo de soluciones digitales para mejorar la gestión de inventarios en bodegas y minimarkets. Nuestra propuesta integra tecnologías web e Internet de las Cosas (IoT) para conectar la información registrada en el sistema con la cantidad física de productos disponible en los establecimientos.
 
@@ -78,9 +72,7 @@ A continuación, se presentan la misión, visión y valores que guían a nuestra
 
 ![sin-figura_05_005.png](../assets/chapter-1/sin-figura_05_005.png)
 
-##  
-
-## 1.2. Solution Profile 
+## 1.2. Solution Profile
 
 Nuestra solución, **SmartStock**, es una plataforma web inteligente orientada a mejorar la gestión de inventarios en bodegas y minimarkets mediante el uso de tecnologías web e Internet de las Cosas (IoT). La plataforma utiliza sensores de peso conectados a dispositivos IoT para obtener información sobre la cantidad física disponible de determinados productos y compararla con el stock registrado en el sistema.
 
@@ -90,9 +82,7 @@ Además, la plataforma incorpora funcionalidades orientadas a la gestión de la 
 
 El principal valor diferencial de **SmartStock** radica en integrar el monitoreo del inventario físico mediante dispositivos IoT con una plataforma web que centraliza la información y facilita su consulta. A diferencia de los métodos tradicionales basados principalmente en revisiones manuales o registros que pueden no reflejar inmediatamente la cantidad física disponible, SmartStock busca proporcionar información actualizada que contribuya a reducir pérdidas económicas, mejorar la disponibilidad de productos y facilitar una gestión de inventarios más eficiente.
 
-###  
-
-### 1.2.1 Antecedentes y problemática 
+### 1.2.1 Antecedentes y problemática
 
 En el contexto de las bodegas y minimarkets, el control de inventarios constituye una actividad crítica para garantizar la disponibilidad de productos, reducir pérdidas y coordinar de manera oportuna el abastecimiento. Sin embargo, en muchos pequeños comercios el seguimiento del stock todavía depende de conteos manuales, registros parciales o verificaciones periódicas que no siempre reflejan con precisión la cantidad física disponible en los estantes o zonas de almacenamiento.
 
@@ -213,8 +203,6 @@ Equipo InventiaStock. The 5 W’s y 2H’s sobre la problemática de la gestión
 
 *Nota*. Elaboración propia.
 
-### 
-
 ### 1.2.2 Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
@@ -247,9 +235,7 @@ Consideraremos que la solución es exitosa cuando los usuarios de ambos segmento
 
 **De acuerdo con lo anterior, planteamos el siguiente Problem Statement:**
 
-> ¿De qué manera podríamos mejorar la gestión de inventarios en minimarkets y bodegas de barrio para que sus propietarios y administradores puedan conocer oportunamente los niveles reales de stock, detectar faltantes y diferencias de inventario, y gestionar la reposición de productos mediante una solución automatizada basada en tecnologías IoT?
-
-#### 
+¿De qué manera podríamos mejorar la gestión de inventarios en minimarkets y bodegas de barrio para que sus propietarios y administradores puedan conocer oportunamente los niveles reales de stock, detectar faltantes y diferencias de inventario, y gestionar la reposición de productos mediante una solución automatizada basada en tecnologías IoT?
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -419,9 +405,7 @@ Para este propósito, se considerará como Definition of Done el cumplimiento de
 
 - Las pruebas realizadas con usuarios permiten recopilar evidencia suficiente para validar o rechazar los principales supuestos de negocio, usuario y funcionalidades.
 
-#### 
-
-#### 1.2.2.3. Lean UX Hypothesis Statements 
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
 De acuerdo con los supuestos definidos previamente, se plantean las siguientes hipótesis con el propósito de validar si las funcionalidades propuestas de SmartStock, producto desarrollado por InventiaStock, generan beneficios para los propietarios y administradores de minimarkets y bodegas de barrio.
 
@@ -435,65 +419,65 @@ A continuación, se plantean los Hypothesis Statements correspondientes a las pr
 
 1.  **Monitoreo del inventario físico mediante sensores IoT**
 
-> Creemos que reducir las diferencias entre el inventario físico y el inventario registrado para los propietarios y administradores de minimarkets y bodegas de barrio se logrará mediante el monitoreo de determinados productos utilizando sensores de peso conectados mediante tecnologías IoT.
->
-> Sabremos que nuestra hipótesis es válida cuando al menos el 80 % de los productos monitoreados presente información consistente entre las existencias físicas detectadas por los sensores y las registradas en la plataforma durante las pruebas de validación.
+Creemos que reducir las diferencias entre el inventario físico y el inventario registrado para los propietarios y administradores de minimarkets y bodegas de barrio se logrará mediante el monitoreo de determinados productos utilizando sensores de peso conectados mediante tecnologías IoT.
+
+Sabremos que nuestra hipótesis es válida cuando al menos el 80 % de los productos monitoreados presente información consistente entre las existencias físicas detectadas por los sensores y las registradas en la plataforma durante las pruebas de validación.
 
 2.  **Comparación entre stock físico y stock registrado**
 
-> Creemos que identificar con mayor rapidez las diferencias de inventario para los propietarios y administradores se logrará mediante una funcionalidad que permita comparar la información del stock físico con el stock registrado en SmartStock.
->
-> Sabremos que nuestra hipótesis es válida cuando al menos el 75 % de los usuarios logre identificar correctamente una diferencia de inventario mediante la plataforma sin necesidad de realizar previamente un conteo manual completo.
+Creemos que identificar con mayor rapidez las diferencias de inventario para los propietarios y administradores se logrará mediante una funcionalidad que permita comparar la información del stock físico con el stock registrado en SmartStock.
+
+Sabremos que nuestra hipótesis es válida cuando al menos el 75 % de los usuarios logre identificar correctamente una diferencia de inventario mediante la plataforma sin necesidad de realizar previamente un conteo manual completo.
 
 3.  **Alertas automáticas de stock bajo**
 
-> Creemos que anticipar las necesidades de reposición antes de que un producto se agote para los propietarios y administradores se logrará mediante alertas automáticas de stock bajo.
->
-> Sabremos que nuestra hipótesis es válida cuando al menos el 80 % de los usuarios considere que las alertas le permiten identificar oportunamente productos que requieren reposición antes de alcanzar un nivel de agotamiento.
+Creemos que anticipar las necesidades de reposición antes de que un producto se agote para los propietarios y administradores se logrará mediante alertas automáticas de stock bajo.
+
+Sabremos que nuestra hipótesis es válida cuando al menos el 80 % de los usuarios considere que las alertas le permiten identificar oportunamente productos que requieren reposición antes de alcanzar un nivel de agotamiento.
 
 4.  **Configuración de niveles mínimos de stock**
 
-> Creemos que mejorar la planificación preventiva de la reposición para los propietarios y administradores se logrará permitiendo configurar niveles mínimos de stock de acuerdo con las necesidades de cada establecimiento.
->
-> Sabremos que nuestra hipótesis es válida cuando al menos el 75 % de los usuarios logre configurar correctamente los niveles mínimos de sus productos y utilizar las alertas asociadas para determinar cuáles requieren reposición.
+Creemos que mejorar la planificación preventiva de la reposición para los propietarios y administradores se logrará permitiendo configurar niveles mínimos de stock de acuerdo con las necesidades de cada establecimiento.
+
+Sabremos que nuestra hipótesis es válida cuando al menos el 75 % de los usuarios logre configurar correctamente los niveles mínimos de sus productos y utilizar las alertas asociadas para determinar cuáles requieren reposición.
 
 5.  **Gestión de necesidades de reposición**
 
-> Creemos que organizar de manera más eficiente las necesidades de abastecimiento para los propietarios y administradores se logrará mediante una funcionalidad que permita registrar, consultar y dar seguimiento a las necesidades de reposición.
->
-> Sabremos que nuestra hipótesis es válida cuando al menos el 75 % de los usuarios logre identificar un producto que requiere reposición, registrar la necesidad de abastecimiento y consultar posteriormente su estado dentro de SmartStock.
+Creemos que organizar de manera más eficiente las necesidades de abastecimiento para los propietarios y administradores se logrará mediante una funcionalidad que permita registrar, consultar y dar seguimiento a las necesidades de reposición.
+
+Sabremos que nuestra hipótesis es válida cuando al menos el 75 % de los usuarios logre identificar un producto que requiere reposición, registrar la necesidad de abastecimiento y consultar posteriormente su estado dentro de SmartStock.
 
 **Hipótesis de usuario**
 
 1.  **Dashboard de inventario**
 
-> Creemos que consultar con mayor rapidez el estado general del inventario para los propietarios y administradores de minimarkets y bodegas de barrio se logrará mediante un dashboard que presente información clara sobre los productos registrados.
->
-> Sabremos que nuestra hipótesis es válida cuando al menos el 85 % de los usuarios logre identificar correctamente productos con stock suficiente, stock bajo o agotado desde el dashboard sin requerir asistencia.
+Creemos que consultar con mayor rapidez el estado general del inventario para los propietarios y administradores de minimarkets y bodegas de barrio se logrará mediante un dashboard que presente información clara sobre los productos registrados.
+
+Sabremos que nuestra hipótesis es válida cuando al menos el 85 % de los usuarios logre identificar correctamente productos con stock suficiente, stock bajo o agotado desde el dashboard sin requerir asistencia.
 
 2.  **Historial de movimientos, alertas y reportes**
 
-> Creemos que comprender mejor el comportamiento del inventario y apoyar la toma de decisiones de reposición para los propietarios y administradores se logrará mediante el acceso a información histórica de movimientos, alertas y reportes.
->
-> Sabremos que nuestra hipótesis es válida cuando al menos el 70 % de los usuarios considere que la información histórica presentada por SmartStock resulta útil para analizar el comportamiento de sus productos y planificar su abastecimiento.
+Creemos que comprender mejor el comportamiento del inventario y apoyar la toma de decisiones de reposición para los propietarios y administradores se logrará mediante el acceso a información histórica de movimientos, alertas y reportes.
+
+Sabremos que nuestra hipótesis es válida cuando al menos el 70 % de los usuarios considere que la información histórica presentada por SmartStock resulta útil para analizar el comportamiento de sus productos y planificar su abastecimiento.
 
 3.  **Notificaciones automáticas**
 
-> Creemos que informar oportunamente sobre eventos relevantes del inventario para los propietarios y administradores se logrará mediante notificaciones automáticas enviadas por correo electrónico o WhatsApp utilizando servicios externos.
->
-> Sabremos que nuestra hipótesis es válida cuando al menos el 75 % de los usuarios identifique correctamente una alerta recibida, comprenda el motivo de la notificación y determine la acción correspondiente sin necesidad de ingresar previamente al sistema para detectar el problema.
+Creemos que informar oportunamente sobre eventos relevantes del inventario para los propietarios y administradores se logrará mediante notificaciones automáticas enviadas por correo electrónico o WhatsApp utilizando servicios externos.
+
+Sabremos que nuestra hipótesis es válida cuando al menos el 75 % de los usuarios identifique correctamente una alerta recibida, comprenda el motivo de la notificación y determine la acción correspondiente sin necesidad de ingresar previamente al sistema para detectar el problema.
 
 4.  **Gestión y actualización de productos**
 
-> Creemos que mantener información confiable y actualizada del catálogo para los propietarios y administradores se logrará mediante funcionalidades que permitan registrar y editar la información de los productos y sus parámetros de inventario.
->
-> Sabremos que nuestra hipótesis es válida cuando al menos el 80 % de los usuarios logre registrar o modificar correctamente la información de un producto, incluyendo sus datos principales y nivel mínimo de stock, sin requerir asistencia.
+Creemos que mantener información confiable y actualizada del catálogo para los propietarios y administradores se logrará mediante funcionalidades que permitan registrar y editar la información de los productos y sus parámetros de inventario.
+
+Sabremos que nuestra hipótesis es válida cuando al menos el 80 % de los usuarios logre registrar o modificar correctamente la información de un producto, incluyendo sus datos principales y nivel mínimo de stock, sin requerir asistencia.
 
 **Criterio general de validación**
 
 Las hipótesis serán evaluadas mediante pruebas con usuarios pertenecientes a los segmentos objetivo, considerando las métricas definidas previamente para SmartStock. Los resultados permitirán determinar qué supuestos pueden considerarse validados, cuáles requieren ajustes y qué funcionalidades deben ser mejoradas antes de continuar con las siguientes etapas de desarrollo del producto.
 
-#### 1.2.2.4. Lean UX Canvas 
+#### 1.2.2.4. Lean UX Canvas
 
 **Figura 6**
 
@@ -531,8 +515,6 @@ Como contexto del sector comercial, el INEI señala que en Lima Metropolitana y 
 
 Fuente: https://www.gob.pe/institucion/inei/informes-publicaciones/6550169-demografia-empresarial-en-el-peru-iv-trimestre-2024
 
-# 
-
 **Relación con los User Personas**
 
 A partir de estos dos segmentos objetivo se desarrollaron los User Personas del proyecto, utilizando como base los hallazgos obtenidos durante las entrevistas a propietarios y administradores de minimarkets y bodegas de barrio.
@@ -540,6 +522,4 @@ A partir de estos dos segmentos objetivo se desarrollaron los User Personas del 
 Estos perfiles permiten representar de manera más concreta sus necesidades, frustraciones, comportamientos, expectativas y nivel de familiaridad con herramientas tecnológicas. Asimismo, sirven como base para la elaboración de los User Journey Maps, User Task Matrix, Empathy Maps y demás artefactos de Needfinding.
 
 De esta manera, las decisiones de diseño y desarrollo de SmartStock buscan mantenerse alineadas con las características reales de ambos segmentos, priorizando una experiencia de uso sencilla, información clara sobre el inventario, alertas oportunas y mecanismos que faciliten la planificación de la reposición.
-
-#  
 

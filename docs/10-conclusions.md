@@ -1,4 +1,4 @@
-# **Conclusiones** 
+# Conclusiones
 
 **Sprint 1 – Landing Page y documentación del proyecto**
 
@@ -57,6 +57,4 @@
 - **Sobre la experiencia de usuario (UX/UI):** Se recomienda mantener una interfaz sencilla, clara y accesible, considerando las características de los propietarios y administradores de minimarkets y bodegas de barrio. Es importante que las operaciones frecuentes, como consultar productos, registrar ventas, revisar alertas y gestionar compras, puedan realizarse de manera intuitiva.
 
 - **Sobre la escalabilidad y mantenimiento del proyecto:** Finalmente, se recomienda mantener la arquitectura modular y las convenciones de desarrollo utilizadas durante los sprints, documentando las modificaciones realizadas y manteniendo actualizados los servicios web. Esto permitirá incorporar nuevas funcionalidades, mejorar los módulos existentes y facilitar el mantenimiento de SmartStock sin afectar los componentes previamente implementados.
-
-#  
 

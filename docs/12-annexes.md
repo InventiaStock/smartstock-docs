@@ -1,4 +1,4 @@
-# **Anexos** 
+# Anexos
 
 **Anexo A. Videos de Exposiciones**
 
@@ -8,9 +8,9 @@
 
 | Entrega | Título del video                                        | Enlace                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |---------|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| AV1     | upc-pre-202620-1asi0730-8168-inventiastock-expo-av1     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421125_upc_edu_pe/IQCTM_wwFvpnS4VLs0e6ISbkAdHvnDClRJ0AtnvR19xZ9Z0?e=O7dX6y&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
-| TB1     | upc-pre-202620-1asi0730-8168-inventiastock-expo-tb1     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQAsdlMNf6kzRJQa_Yb26IMiAUH4gvtdRTnavjL1Fw-y80g?e=OPUQXc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
-| AV2     | upc-pre-202620-1asi0730-8168-inventiastock-expo-av2.mp4 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQCzUj1R6kxKQaAPz9zQcMbwAcQS4MwcO-EOgbG7zAkdkh0?e=vrfrwR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| AV1     | upc-pre-202620-1asi0730-8168-inventiastock-expo-av1     | <span style="word-break:break-all">https://upcedupe-my.sharepoint.com/&#58;v&#58;/g/personal/u202421125_upc_edu_pe/IQCTM_wwFvpnS4VLs0e6ISbkAdHvnDClRJ0AtnvR19xZ9Z0?e=O7dX6y&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</span> |
+| TB1     | upc-pre-202620-1asi0730-8168-inventiastock-expo-tb1     | <span style="word-break:break-all">https://upcedupe-my.sharepoint.com/&#58;v&#58;/g/personal/u20241f205_upc_edu_pe/IQAsdlMNf6kzRJQa_Yb26IMiAUH4gvtdRTnavjL1Fw-y80g?e=OPUQXc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</span> |
+| AV2     | upc-pre-202620-1asi0730-8168-inventiastock-expo-av2.mp4 | <span style="word-break:break-all">https://upcedupe-my.sharepoint.com/&#58;v&#58;/g/personal/u20241f205_upc_edu_pe/IQCzUj1R6kxKQaAPz9zQcMbwAcQS4MwcO-EOgbG7zAkdkh0?e=vrfrwR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</span> |
 
 *Nota.* Elaboración propia
 
@@ -74,7 +74,7 @@ https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba833
 <tr class="header">
 <th>InventiaStock Entrevistas</th>
 <th>Stream</th>
-<th><p>Entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&amp;e=WkYEGd</p>
+<th><p>Entrevistas: https://upcedupe-my.sharepoint.com/&#58;v&#58;/g/personal/u20241f205_upc_edu_pe/IQA4IrqakYdsTrXGXwgxBfpMAeXZO4Qjy8iYst_cz5SgEwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&amp;e=WkYEGd</p>
 <p>Entrevista 01: 0:06 - 17:16</p>
 <p>Entrevista 02: 17:21 - 23:46</p>
 <p>Entrevista 03: 23:51 - 31:07</p>
@@ -86,7 +86,7 @@ https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba833
 <th>Entrevistas de validación</th>
 <th>Stream</th>
 <th><p>Entrevistas:</p>
-<p>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQCD31owQgSgTZFdrCyY4KOZAU7JcAG4oKshYrSLWzAkljE?e=TSODlh&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</p>
+<p>https://upcedupe-my.sharepoint.com/&#58;v&#58;/g/personal/u20241f205_upc_edu_pe/IQCD31owQgSgTZFdrCyY4KOZAU7JcAG4oKshYrSLWzAkljE?e=TSODlh&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</p>
 <p>Entrevista 01: 00:05 - 07:42</p>
 <p>Entrevista 02: 07:47 - 14:23</p>
 <p>Entrevista 03: 14:28 - 20:36</p>
