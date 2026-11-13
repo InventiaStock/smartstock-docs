@@ -21,11 +21,6 @@
 *Enlaces de los artefactos elaborados*
 
 <table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 16%" />
-<col style="width: 63%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Artefacto</th>

@@ -40,13 +40,6 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 *Perfil general y ventaja competitiva de SmartStock y de sus competidores*
 
 <table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th></th>
@@ -101,13 +94,6 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 *Perfil de marketing de SmartStock y de sus competidores*
 
 <table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th></th>
@@ -159,13 +145,6 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 *Perfil de producto de SmartStock y de sus competidores*
 
 <table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th></th>
@@ -217,13 +196,6 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 *Análisis SWOT de SmartStock y de sus competidores*
 
 <table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th></th>

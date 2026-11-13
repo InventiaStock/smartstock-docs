@@ -1,12 +1,6 @@
 **Registro de Versiones del Informe**
 
 <table>
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 14%" />
-<col style="width: 34%" />
-<col style="width: 38%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><strong>Versión</strong></th>
@@ -18,21 +12,21 @@
 <th>1</th>
 <th>06/09/2026</th>
 <th><ul>
-<li><blockquote>
+<li>
 <p>Lopez Rimachi, Sebastian Leonardo</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Montañez Salinas, Lorena Ariana</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Sanchez Osorio, Ruth Yanira</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Suarez Chinga, Geraldine</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Vizcarra Mamani, Candy Milagros</p>
-</blockquote></li>
+</li>
 </ul></th>
 <th><p><strong>Adición de secciones:</strong></p>
 <p>Project Report Collaboration Insights</p>
@@ -121,21 +115,21 @@
 <th>2</th>
 <th>06/10/2026</th>
 <th><ul>
-<li><blockquote>
+<li>
 <p>Lopez Rimachi, Sebastian Leonardo</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Montañez Salinas, Lorena Ariana</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Sanchez Osorio, Ruth Yanira</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Suarez Chinga, Geraldine</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Vizcarra Mamani, Candy Milagros</p>
-</blockquote></li>
+</li>
 </ul></th>
 <th><strong>Adición de secciones:<br />
 <br />
@@ -158,21 +152,21 @@ Anexos</th>
 <th>3</th>
 <th>11/11/2026</th>
 <th><ul>
-<li><blockquote>
+<li>
 <p>Lopez Rimachi, Sebastian Leonardo</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Montañez Salinas, Lorena Ariana</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Sanchez Osorio, Ruth Yanira</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Suarez Chinga, Geraldine</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Vizcarra Mamani, Candy Milagros</p>
-</blockquote></li>
+</li>
 </ul></th>
 <th><p><strong>Adición de secciones:<br />
 <br />

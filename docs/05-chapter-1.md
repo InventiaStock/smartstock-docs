@@ -31,11 +31,6 @@ A continuación, se presentan la misión, visión y valores que guían a nuestra
 *Misión, visión y valores de InventiaStock*
 
 <table>
-<colgroup>
-<col style="width: 28%" />
-<col style="width: 33%" />
-<col style="width: 37%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><strong>Misión</strong></th>

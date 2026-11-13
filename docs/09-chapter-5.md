@@ -248,12 +248,6 @@ A continuación, se presenta la matriz de liderazgo y colaboración (LACX), cuyo
 *Matriz de liderazgo y colaboración (LACX) del Sprint 1*
 
 <table>
-<colgroup>
-<col style="width: 26%" />
-<col style="width: 19%" />
-<col style="width: 27%" />
-<col style="width: 25%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Team Member</th>
@@ -1883,99 +1877,94 @@ Hallazgos identificados en las entrevistas de validación de minimarkets
 **Tabla 60**
 
 <table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 55%" />
-<col style="width: 19%" />
-</colgroup>
 <thead>
 <tr class="header">
-<th><blockquote>
+<th>
 <p>Aspecto evaluado</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>Hallazgo identificado</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>Frecuencia</p>
-</blockquote></th>
+</th>
 </tr>
 <tr class="odd">
-<th><blockquote>
+<th>
 <p>Comprensión de la propuesta</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>Relacionaron SmartStock con el registro o control del inventario.</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>3 de 3 (100 %)</p>
-</blockquote></th>
+</th>
 </tr>
 <tr class="header">
-<th><blockquote>
+<th>
 <p>Confianza en las alertas</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>Expresaron que confiarían en las alertas para decidir cuándo reponer productos.</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>3 de 3 (100 %)</p>
-</blockquote></th>
+</th>
 </tr>
 <tr class="odd">
-<th><blockquote>
+<th>
 <p>Comprensión de los sensores</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>José manifestó explícitamente que no comprendía los estados mostrados.</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>1 de 3 (33,3 %)</p>
-</blockquote></th>
+</th>
 </tr>
 <tr class="header">
-<th><blockquote>
+<th>
 <p>Claridad del recorrido de compras</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>Cristopher solicitó mayor claridad sobre los pasos mostrados durante la demostración.</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>1 de 3 (33,3 %)</p>
-</blockquote></th>
+</th>
 </tr>
 <tr class="odd">
-<th><blockquote>
+<th>
 <p>Agilidad del registro</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>José propuso incorporar códigos de barras para reducir la digitación de productos.</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>1 de 3 (33,3 %)</p>
-</blockquote></th>
+</th>
 </tr>
 <tr class="header">
-<th><blockquote>
+<th>
 <p>Ausencia de dudas declaradas</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>Yngrid manifestó que no tenía dudas al finalizar la sesión.</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>1 de 3 (33,3 %)</p>
-</blockquote></th>
+</th>
 </tr>
 <tr class="odd">
-<th><blockquote>
+<th>
 <p>Referencia de precio mensual</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>Cristopher propuso aproximadamente S/ 100 y Yngrid, S/ 50.</p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p>2 de 3 (66,7 %)</p>
-</blockquote></th>
+</th>
 </tr>
 </thead>
 <tbody>

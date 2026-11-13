@@ -11,11 +11,6 @@ El curso contribuye al cumplimiento del Student Outcome ABET – EAC - Student O
 *Acciones realizadas y conclusiones por criterio específico del Student Outcome*
 
 <table>
-<colgroup>
-<col style="width: 21%" />
-<col style="width: 46%" />
-<col style="width: 32%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><strong>Criterio específico</strong></th>

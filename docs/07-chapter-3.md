@@ -31,13 +31,6 @@ Nota sobre roles: SmartStock cuenta con un único actor real, el Store Owner/Man
 *User Stories y Technical Stories de SmartStock*
 
 <table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 12%" />
-<col style="width: 34%" />
-<col style="width: 34%" />
-<col style="width: 11%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><strong>Story ID</strong></th>
