@@ -1,7 +1,9 @@
+
 **Registro de Versiones del Informe**
 
 <table>
-<thead>
+
+<tbody>
 <tr class="header">
 <th><strong>Versión</strong></th>
 <th><strong>Fecha</strong></th>
@@ -9,9 +11,9 @@
 <th><strong>Descripción de modificación</strong></th>
 </tr>
 <tr class="odd">
-<th>1</th>
-<th>06/09/2026</th>
-<th><ul>
+<td>1</td>
+<td>06/09/2026</td>
+<td><ul>
 <li>
 <p>Lopez Rimachi, Sebastian Leonardo</p>
 </li>
@@ -27,8 +29,8 @@
 <li>
 <p>Vizcarra Mamani, Candy Milagros</p>
 </li>
-</ul></th>
-<th><p><strong>Adición de secciones:</strong></p>
+</ul></td>
+<td><p><strong>Adición de secciones:</strong></p>
 <p>Project Report Collaboration Insights</p>
 <p>Contenido</p>
 <p>Student Outcome</p>
@@ -44,7 +46,8 @@
 <p>1.2.2.3. Lean UX Hypothesis Statements</p>
 <p>1.2.2.4. Lean UX Canvas</p>
 <p>1.3. Segmentos objetivo</p>
-<p><strong>Capítulo II: Requirements Elicitation &amp; Analysis</strong></p>
+<p><strong>Capítulo II: Requirements Elicitation &amp;
+Analysis</strong></p>
 <p>2.1. Competidores</p>
 <p>2.1.1. Análisis competitivo</p>
 <p>2.1.2. Estrategias y tácticas frente a competidores</p>
@@ -91,7 +94,8 @@
 <p>4.7.1. Class Diagrams</p>
 <p>4.8. Database Design</p>
 <p>4.8.1. Database Diagrams</p>
-<p><strong>Capítulo V: Product Implementation, Validation &amp; Deployment</strong></p>
+<p><strong>Capítulo V: Product Implementation, Validation &amp;
+Deployment</strong></p>
 <p>5.1. Software Configuration Management.</p>
 <p>5.1.1. Software Development Environment Configuration</p>
 <p>5.1.2. Source Code Management</p>
@@ -109,12 +113,12 @@
 <p>5.2.1.8. Team Collaboration Insights during Sprint</p>
 <p>Conclusiones</p>
 <p>Bibliografía</p>
-<p>Anexos</p></th>
+<p>Anexos</p></td>
 </tr>
 <tr class="header">
-<th>2</th>
-<th>06/10/2026</th>
-<th><ul>
+<td>2</td>
+<td>06/10/2026</td>
+<td><ul>
 <li>
 <p>Lopez Rimachi, Sebastian Leonardo</p>
 </li>
@@ -130,10 +134,11 @@
 <li>
 <p>Vizcarra Mamani, Candy Milagros</p>
 </li>
-</ul></th>
-<th><strong>Adición de secciones:<br />
+</ul></td>
+<td><strong>Adición de secciones:<br />
 <br />
-Capítulo V: Product Implementation, Validation &amp; Deployment</strong><br />
+Capítulo V: Product Implementation, Validation &amp;
+Deployment</strong><br />
 5.2.2. Sprint 2<br />
 5.2.2.1. Sprint Planning 2<br />
 5.2.2.2. Aspect Leaders and Collaborators<br />
@@ -146,12 +151,12 @@ Capítulo V: Product Implementation, Validation &amp; Deployment</strong><br />
 <br />
 Conclusiones<br />
 Bibliografía<br />
-Anexos</th>
+Anexos</td>
 </tr>
 <tr class="odd">
-<th>3</th>
-<th>11/11/2026</th>
-<th><ul>
+<td>3</td>
+<td>11/11/2026</td>
+<td><ul>
 <li>
 <p>Lopez Rimachi, Sebastian Leonardo</p>
 </li>
@@ -167,19 +172,20 @@ Anexos</th>
 <li>
 <p>Vizcarra Mamani, Candy Milagros</p>
 </li>
-</ul></th>
-<th><p><strong>Adición de secciones:<br />
+</ul></td>
+<td><p><strong>Adición de secciones:<br />
 <br />
-Capítulo V: Product Implementation, Validation &amp; Deployment</strong><br />
+Capítulo V: Product Implementation, Validation &amp;
+Deployment</strong><br />
 5.2.3. Sprint 3</p>
-<p>5.2.3.1. Sprint Planning 3.</p>
+<p>5.2.3.1.Sprint Planning 3.</p>
 <p>5.2.3.2. Aspect Leaders and Collaborators.</p>
 <p>5.2.3.3. Sprint Backlog 3.</p>
-<p>5.2.3.4. Development Evidence for Sprint Review.</p>
-<p>5.2.3.5. Execution Evidence for Sprint Review.</p>
-<p>5.2.3.6. Services Documentation Evidence for Sprint Review.</p>
-<p>5.2.3.7. Software Deployment Evidence for Sprint Review.</p>
-<p>5.2.3.8. Team Collaboration Insights during Sprint.</p>
+<p>5.2.3.4.Development Evidence for Sprint Review.</p>
+<p>5.2.3.5.Execution Evidence for Sprint Review.</p>
+<p>5.2.3.6.Services Documentation Evidence for Sprint Review.</p>
+<p>5.2.3.7.Software Deployment Evidence for Sprint Review.</p>
+<p>5.2.3.8.Team Collaboration Insights during Sprint.</p>
 <p>5.3. Validation Interviews.</p>
 <p>5.3.1. Diseño de Entrevistas.</p>
 <p>5.3.2. Registro de Entrevistas.</p>
@@ -193,14 +199,15 @@ Video About-the-Team</p>
 </strong>Anexo C, Anexo D y Anexo E<br />
 <br />
 <strong>Corrección de secciones:</strong></p>
-<p>2.1.1. Análisis competitivo y 2.1.2. Estrategias y tácticas frente a competidores (M03)</p>
+<p>2.1.1. Análisis competitivo y 2.1.2. Estrategias y tácticas frente a
+competidores (M03)</p>
 <p>3.1. User Stories (M02)</p>
-<p>4.6.4. Software Architecture Components Diagrams y 4.8.1. Database Diagrams (M07, M08 y M17)</p>
-<p>5.1.1. Software Development Environment Configuration, 5.1.2. Source Code Management y 5.1.4. Software Deployment Configuration (M04 a M06)</p>
-<p>README del repositorio de documentación (M01)</p></th>
+<p>4.6.4. Software Architecture Components Diagrams y 4.8.1. Database
+Diagrams (M07, M08 y M17)</p>
+<p>5.1.1. Software Development Environment Configuration, 5.1.2. Source
+Code Management y 5.1.4. Software Deployment Configuration (M04 a
+M06)</p>
+<p>README del repositorio de documentación (M01)</p></td>
 </tr>
-</thead>
-<tbody>
 </tbody>
 </table>
-

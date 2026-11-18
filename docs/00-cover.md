@@ -1,42 +1,42 @@
-<div align="center">
+<div style="text-align:center;">
 
-<img src="../assets/cover/sin-figura_00_001.png" width="170" alt="Logo UPC">
+<br>
 
-Universidad Peruana de Ciencias Aplicadas
+<img src="../assets/cover/cover_img_001.png" width="125"><br><br>
 
-Carrera de Ingeniería de Software
+<p style="font-size:16pt;font-weight:bold;text-align:center;">Universidad Peruana de Ciencias Aplicadas</p>
 
-Ciclo: 5to
+<p style="font-size:14pt;text-align:center;">Carrera de Ingeniería de Software<br>
+Ciclo: 5to<br>
+1ASI0730 - Aplicaciones Web<br>
+NRC: 8168</p>
 
-1ASI0730 - Aplicaciones Web
+<p style="font-size:14pt;text-align:center;">Docente<br>
+Sanchez Ponce, Alex Humberto</p>
 
-NRC: 8168
+<p style="font-size:18pt;font-weight:bold;text-align:center;">Informe de Trabajo Final</p>
 
-Docente
+<p style="font-size:14pt;text-align:center;">Nombre del startup: InventiaStock<br>
+Nombre del producto: SmartStock</p>
 
-Sanchez Ponce, Alex Humberto
+<p style="font-size:14pt;font-weight:bold;text-align:center;">Integrantes</p>
 
-**Informe de Trabajo Final**
-
-Nombre del startup: InventiaStock
-
-Nombre del producto: SmartStock
-
-Integrantes
-
-<table>
-<thead><tr><th>Código</th><th>Apellidos y Nombres</th></tr></thead>
-<tbody>
-<tr><td>U20241F946</td><td>Lopez Rimachi, Sebastian Leonardo</td></tr>
-<tr><td>U202421125</td><td>Montañez Salinas, Lorena Ariana</td></tr>
-<tr><td>U20241C626</td><td>Sanchez Osorio, Ruth Yanira</td></tr>
-<tr><td>U20241C804</td><td>Suarez Chinga, Geraldine</td></tr>
-<tr><td>U20241F205</td><td>Vizcarra Mamani, Candy Milagros</td></tr>
-</tbody>
+<table style="margin:auto;font-size:13pt;">
+<tr><td style="font-size:13pt;padding:6px 12px;"><strong>Código</strong></td><td style="font-size:13pt;padding:6px 12px;"><strong>Apellidos y Nombres</strong></td></tr>
+<tr><td style="font-size:13pt;padding:6px 12px;">U20241F946</td><td style="font-size:13pt;padding:6px 12px;">Lopez Rimachi, Sebastian Leonardo</td></tr>
+<tr><td style="font-size:13pt;padding:6px 12px;">U202421125</td><td style="font-size:13pt;padding:6px 12px;">Montañez Salinas, Lorena Ariana</td></tr>
+<tr><td style="font-size:13pt;padding:6px 12px;">U20241C626</td><td style="font-size:13pt;padding:6px 12px;">Sanchez Osorio, Ruth Yanira</td></tr>
+<tr><td style="font-size:13pt;padding:6px 12px;">U20241C804</td><td style="font-size:13pt;padding:6px 12px;">Suarez Chinga, Geraldine</td></tr>
+<tr><td style="font-size:13pt;padding:6px 12px;">U20241F205</td><td style="font-size:13pt;padding:6px 12px;">Vizcarra Mamani, Candy Milagros</td></tr>
 </table>
 
-Noviembre, 2026
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p style="font-size:14pt;text-align:center;">Noviembre, 2026</p>
 
 </div>
-
-<div style="page-break-after: always;"></div>

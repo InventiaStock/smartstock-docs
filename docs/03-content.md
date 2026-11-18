@@ -1,103 +1,103 @@
-# Contenido
+# Tabla de contenidos
 
-- Capítulo I: Introducción
-  - 1.1. Startup Profile
-    - 1.1.1. Descripción de la Startup
-    - 1.1.2. Perfiles de integrantes del equipo
-  - 1.2. Solution Profile
-    - 1.2.1 Antecedentes y problemática
-    - 1.2.2 Lean UX Process
-      - 1.2.2.1. Lean UX Problem Statements
-      - 1.2.2.2. Lean UX Assumptions
-      - 1.2.2.3. Lean UX Hypothesis Statements
-      - 1.2.2.4. Lean UX Canvas
-  - 1.3. Segmentos objetivo
-- Capítulo II: Requirements Elicitation & Analysis
-  - 2.1. Competidores
-    - 2.1.1. Análisis competitivo
-    - 2.1.2. Estrategias y tácticas frente a competidores
-  - 2.2. Entrevistas
-    - 2.2.1. Diseño de entrevistas
-    - 2.2.2. Registro de entrevistas
-    - 2.2.3. Análisis de entrevistas
-  - 2.3. Needfinding
-    - 2.3.1. User Personas
-    - 2.3.2. User Task Matrix
-    - 2.3.3. User Journey Mapping
-    - 2.3.4. Empathy Mapping
-  - 2.4. Big Picture Event Storming
-  - 2.5. Ubiquitous Language
-- Capítulo III: Requirements Specification
-  - 3.1. User Stories
-  - 3.2. Impact Mapping
-  - 3.3. Product Backlog
-- Capítulo IV: Product Design
-  - 4.1. Style Guidelines
-    - 4.1.1. General Style Guidelines
-    - 4.1.2. Web Style Guidelines
-  - 4.2. Information Architecture
-    - 4.2.1. Organization Systems
-    - 4.2.2. Labeling Systems
-    - 4.2.3. SEO Tags and Meta Tags
-    - 4.2.4. Searching Systems
-    - 4.2.5. Navigation Systems
-  - 4.3. Landing Page UI Design
-    - 4.3.1. Landing Page Wireframe
-    - 4.3.2. Landing Page Mock-up
-  - 4.4. Web Applications UX/UI Design
-    - 4.4.1. Web Applications Wireframes
-    - 4.4.2. Web Applications Wireflow Diagrams
-    - 4.4.3. Web Applications Mock-ups
-    - 4.4.4. Web Applications User Flow Diagrams
-  - 4.5. Web Applications Prototyping
-  - 4.6. Domain-Driven Software Architecture
-    - 4.6.1. Design-Level Event Storming
-    - 4.6.2. Software Architecture Context Diagram
-    - 4.6.3. Software Architecture Container Diagrams
-    - 4.6.4. Software Architecture Components Diagrams
-  - 4.7. Software Object-Oriented Design
-    - 4.7.1. Class Diagrams
-  - 4.8. Database Design
-    - 4.8.1. Database Diagrams
-- Capítulo V: Product Implementation, Validation & Deployment
-  - 5.1. Software Configuration Management
-    - 5.1.1. Software Development Environment Configuration
-    - 5.1.2. Source Code Management
-    - 5.1.3. Source Code Style Guide & Conventions
-    - 5.1.4. Software Deployment Configuration
-  - 5.2. Landing Page, Services & Applications Implementation
-    - 5.2.1. Sprint 1
-      - 5.2.1.1. Sprint Planning 1
-      - 5.2.1.2. Aspect Leaders and Collaborators
-      - 5.2.1.3. Sprint Backlog 1
-      - 5.2.1.4. Development Evidence for Sprint Review
-      - 5.2.1.5. Execution Evidence for Sprint Review
-      - 5.2.1.6. Services Documentation Evidence for Sprint Review
-      - 5.2.1.7. Software Deployment Evidence for Sprint Review
-      - 5.2.1.8. Team Collaboration Insights during Sprint
-    - 5.2.2. Sprint 2
-      - 5.2.2.1. Sprint Planning 2
-      - 5.2.2.2. Aspect Leaders and Collaborators
-      - 5.2.2.3. Sprint Backlog 2
-      - 5.2.2.4. Development Evidence for Sprint Review
-      - 5.2.2.5. Execution Evidence for Sprint Review
-      - 5.2.2.6. Services Documentation Evidence for Sprint Review
-      - 5.2.2.7. Software Deployment Evidence for Sprint Review
-      - 5.2.2.8. Team Collaboration Insights during Sprint
-    - 5.2.3. Sprint 3
-      - 5.2.3.1. Sprint Planning 3
-      - 5.2.3.2. Aspect Leaders and Collaborators
-      - 5.2.3.3. Sprint Backlog 3
-      - 5.2.3.4. Development Evidence for Sprint Review
-      - 5.2.3.5. Execution Evidence for Sprint Review
-      - 5.2.3.6. Services Documentation Evidence for Sprint Review
-      - 5.2.3.7. Software Deployment Evidence for Sprint Review
-      - 5.2.3.8. Team Collaboration Insights during Sprint
-  - 5.3. Validation Interviews
-    - 5.3.1. Diseño de Entrevistas
-    - 5.3.2. Registro de Entrevistas.
-    - 5.3.3. Evaluaciones según heurísticas
-  - 5.4. Video About-the-Product
-- Conclusiones
-- Bibliografía
-- Anexos
+- [Capítulo I: Introducción](../README.md#capítulo-i-introducción)
+  - [1.1. Startup Profile](../README.md#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](../README.md#111-descripción-de-la-startup)
+  - [1.2. Solution Profile](../README.md#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](../README.md#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](../README.md#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](../README.md#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](../README.md#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](../README.md#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](../README.md#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](../README.md#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation & Analysis](../README.md#capítulo-ii-requirements-elicitation-analysis)
+  - [2.1. Competidores](../README.md#21-competidores)
+    - [2.1.1. Análisis competitivo](../README.md#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](../README.md#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](../README.md#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](../README.md#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](../README.md#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](../README.md#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](../README.md#23-needfinding)
+    - [2.3.1. User Personas](../README.md#231-user-personas)
+    - [2.3.2. User Task Matrix](../README.md#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](../README.md#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](../README.md#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](../README.md#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](../README.md#25-ubiquitous-language)
+  - [Capítulo III: Requirements Specification](../README.md#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](../README.md#31-user-stories)
+  - [3.2. Impact Mapping](../README.md#32-impact-mapping)
+  - [3.3. Product Backlog](../README.md#33-product-backlog)
+- [Capítulo IV: Product Design](../README.md#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](../README.md#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](../README.md#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](../README.md#412-web-style-guidelines)
+  - [4.2. Information Architecture](../README.md#42-information-architecture)
+    - [![Figura 23](assets/chapter-4/figura_023.png)](../README.md#figura-23assetschapter-4figura_023png)
+    - [4.2.1. Organization Systems](../README.md#421-organization-systems)
+    - [4.2.2. Labeling Systems](../README.md#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](../README.md#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](../README.md#424-searching-systems)
+    - [4.2.5. Navigation Systems](../README.md#425-navigation-systems)
+  - [4.3. Landing Page UI Design](../README.md#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](../README.md#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](../README.md#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](../README.md#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](../README.md#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](../README.md#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](../README.md#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](../README.md#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](../README.md#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](../README.md#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level Event Storming](../README.md#461-design-level-event-storming)
+    - [4.6.2. Software Architecture Context Diagram](../README.md#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](../README.md#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](../README.md#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](../README.md#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](../README.md#471-class-diagrams)
+  - [4.8. Database Design](../README.md#48-database-design)
+    - [4.8.1. Database Diagrams](../README.md#481-database-diagrams)
+- [Capítulo V: Product Implementation, Validation & Deployment](../README.md#capítulo-v-product-implementation-validation-deployment)
+  - [5.1. Software Configuration Management](../README.md#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](../README.md#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](../README.md#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](../README.md#513-source-code-style-guide-conventions)
+    - [5.1.4. Software Deployment Configuration](../README.md#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](../README.md#52-landing-page-services-applications-implementation)
+    - [5.2.1. Sprint 1](../README.md#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](../README.md#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](../README.md#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](../README.md#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](../README.md#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](../README.md#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](../README.md#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](../README.md#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](../README.md#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](../README.md#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](../README.md#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](../README.md#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](../README.md#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](../README.md#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](../README.md#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](../README.md#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](../README.md#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](../README.md#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](../README.md#523-sprint-3)
+      - [5.2.3.1.Sprint Planning 3](../README.md#5231sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](../README.md#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3.Sprint Backlog 3](../README.md#5233sprint-backlog-3)
+      - [5.2.3.4.Development Evidence for Sprint Review](../README.md#5234development-evidence-for-sprint-review)
+      - [5.2.3.5.Execution Evidence for Sprint Review](../README.md#5235execution-evidence-for-sprint-review)
+      - [5.2.3.6.Services Documentation Evidence for Sprint Review](../README.md#5236services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7.Software Deployment Evidence for Sprint Review](../README.md#5237software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8.Team Collaboration Insights during Sprint](../README.md#5238team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](../README.md#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](../README.md#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas.](../README.md#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](../README.md#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](../README.md#54-video-about-the-product)
+- [Conclusiones](../README.md#conclusiones)
+- [Bibliografía](../README.md#bibliografía)
+- [Anexos](../README.md#anexos)
