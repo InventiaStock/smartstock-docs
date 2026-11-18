@@ -1,30 +1,3 @@
-<style>
-*{font-size:inherit;}
-body{font-family:"Segoe UI",Calibri,Arial,sans-serif;line-height:1.55;font-size:21pt !important;color:#222;}
-h1{font-size:30pt !important;color:#111;font-weight:bold;margin:0 0 14px;border:none !important;padding:0 !important;}
-h2{font-size:25pt !important;color:#111;font-weight:bold;margin:20px 0 8px;border:none !important;padding:0 !important;}
-h3{font-size:23pt !important;color:#111;font-weight:bold;margin:15px 0 6px;border:none !important;}
-h4{font-size:21pt !important;color:#111;font-weight:bold;margin:12px 0 5px;border:none !important;}
-p{text-align:justify;margin:7px 0;font-size:21pt !important;}
-img{max-width:90%;max-height:11cm;height:auto;display:block;margin:10px auto;page-break-inside:avoid;}
-table{border-collapse:collapse;margin:12px auto;width:95%;font-size:15pt !important;}
-th,td{border:1px solid #777;padding:6px 9px;font-size:15pt !important;vertical-align:top;}
-th{background:none !important;color:#111;font-weight:bold;}
-blockquote{border:none !important;background:none !important;margin:7px 0;padding:0 !important;color:#222;font-size:16pt !important;}
-em{color:#333;font-size:inherit !important;}
-ul,ol{margin:6px 0 6px 10px;font-size:16pt !important;}
-li{margin:3px 0;font-size:16pt !important;}
-hr{display:none;}
-tr,td,th{page-break-inside:auto;}
-a{word-break:break-all;font-size:inherit !important;}
-td,th{text-align:left;}
-td p,td li,td ul,td ol{text-align:left;margin:3px 0;font-size:15pt !important;}
-table img{max-height:5cm;max-width:100%;height:auto;margin:4px auto;}
-img{break-before:avoid;}
-h1,h2,h3,h4{break-after:avoid;}
-span,div,strong,em,a,code,pre,b,i,u{font-size:inherit !important;}
-td span,td div,td strong,td em,td a,td code,td b,td i,td u{font-size:15pt !important;}
-</style>
 <div style="text-align:center;">
 
 <br>
@@ -3706,6 +3679,18 @@ control manual. La rentabilidad deberá validarse comparando los ingresos
 por suscripción con los costos operativos y la disposición a pagar de
 los usuarios; todavía no se cuenta con cifras suficientes para
 afirmarla.
+
+**Medición de las metas**
+
+Para BG1, se propone comparar el stock físico y el registrado de los productos monitoreados, expresados en la misma unidad, y calcular el porcentaje que presenta coincidencia al finalizar los primeros tres meses de cada negocio. Para BG2, se aplicará una encuesta al terminar el primer mes de uso y se calculará el porcentaje de usuarios que afirme que las alertas le permiten anticipar la reposición. Para BG3 y BG4, se propone considerar activo a un negocio que registre al menos una compra o venta durante el último mes, diferenciando minimarkets y bodegas.
+
+**Decisiones eficientes**
+
+Se priorizan Compras y Ventas porque permiten registrar las entradas y salidas del inventario y explicar sus cambios. La compra iniciada desde una alerta reutiliza el formulario de Compras y precarga los datos del producto, reduciendo el ingreso repetido de información. Las alertas utilizan el stock del sensor cuando está en línea y el stock registrado cuando no hay sensor o está desconectado, permitiendo operar sin depender permanentemente del dispositivo. En el Sprint 2 se utiliza una Fake API para comprobar los flujos del frontend antes de implementar los Web Services en ASP.NET Core en el Sprint 3.
+
+**Viabilidad económica**
+
+SmartStock plantea un modelo de suscripción cuyo precio dependerá de las funcionalidades y la cantidad de sensores contratados. Para evaluar su viabilidad económica se deberán considerar los costos de alojamiento, mantenimiento, soporte, notificaciones y adquisición e instalación de dispositivos IoT. El uso del inventario registrado permite comenzar sin sensores e incorporarlos posteriormente, reduciendo la inversión inicial del negocio. El beneficio esperado es disminuir faltantes y tiempo de control manual. La rentabilidad deberá validarse comparando los ingresos por suscripción con los costos operativos y la disposición a pagar de los usuarios; todavía no se cuenta con cifras suficientes para afirmarla.
 
 ## 3.3. Product Backlog
 
