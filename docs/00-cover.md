@@ -76,6 +76,6 @@
 
 <br><br>
 
-<p>Noviembre, 2026</p>
+<p>Octubre, 2026</p>
 
 </div>
